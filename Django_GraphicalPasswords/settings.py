@@ -38,6 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'GraphicalPasswords.apps.GraphicalpasswordsConfig',
+
+    #third party
+
+    #own apps
+    'profiles',
 ]
 
 MIDDLEWARE = [
