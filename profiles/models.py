@@ -11,4 +11,4 @@ class Profile(models.Model):
     admin = models.BooleanField()
 
 
-# testing git cause it sucks 
+# testing git cause it sucks
