@@ -9,6 +9,3 @@ class Profile(models.Model):
     dob = models.DateField(auto_now=False, auto_now_add=False, max_length=8)
     summary = models.TextField(blank=True, null=True)
     admin = models.BooleanField()
-
-
-# testing git cause it sucks
