@@ -1,0 +1,19 @@
+{% extends "base.html"%}
+
+{% block content %}
+    <h1>Home Page</h1>
+    {{ request.user }}
+    {{ request.user.is_authenticated }}
+    <p>This is a template</p>
+    <p>{{ title }}, {{ user_list }}</p>
+
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+    </ul>
+<ul>
+    {% for sub_item in user_list %}
+        <li>{{ forloop.counter }} - {{ sub_item }}</li>
+    {% endfor %}
+</ul>
+{%  endblock %}

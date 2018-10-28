@@ -39,9 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'GraphicalPasswords.apps.GraphicalpasswordsConfig',
 
-    #third party
+    # third party
 
-    #own apps
+    # own apps
     'profiles',
     'pages',
 
