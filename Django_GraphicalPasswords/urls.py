@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import path
 
 from pages.views import home_view, contact_view, admin_view, user_view
+from profiles.views import profile_detail_view, profile_create_view
 
 urlpatterns = [
     path('', home_view, name='home'),
@@ -24,4 +25,6 @@ urlpatterns = [
     path('admin/', admin_view),
     path('user/', user_view),
     path('admin/', admin.site.urls),
+    path('profile/', profile_detail_view),
+    path('create', profile_create_view)
 ]

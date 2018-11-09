@@ -13,7 +13,13 @@
     </ul>
 <ul>
     {% for sub_item in user_list %}
-        <li>{{ forloop.counter }} - {{ sub_item }}</li>
+        {% if sub_item == 1 %}
+            <li>{{ forloop.counter }} - {{ sub_item|add:100 }}</li>
+        {% elif sub_item == 3 %}
+            <li>{{ forloop.counter }} - {{ sub_item|add:10 }}</li>
+        {% else %}
+            {{ forloop.counter }} - {{ sub_item}}
+        {% endif %}
     {% endfor %}
 </ul>
 {%  endblock %}
