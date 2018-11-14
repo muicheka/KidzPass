@@ -17,14 +17,18 @@ from django.contrib import admin
 from django.urls import path
 
 from pages.views import home_view, contact_view, admin_view, user_view
-from profiles.views import profile_detail_view, profile_create_view
+from profiles.views import (
+    profile_detail_view,
+    profile_create_view,
+    dynamic_lookup_view
+)
 
 urlpatterns = [
     path('', home_view, name='home'),
     path('contact/', contact_view),
     path('admin/', admin_view),
     path('user/', user_view),
-    path('admin/', admin.site.urls),
-    path('profile/', profile_detail_view),
+    path('admin_panel/', admin.site.urls),
+    path('profile/<int:profile_id>/', dynamic_lookup_view, name='profile'),
     path('create', profile_create_view)
 ]

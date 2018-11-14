@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+
+#nav_bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.nav_options {
+    font-size: 2vw;
+    font-family: Arial;
+
+}
+
+.nav_options a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.nav_options a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.nav_options a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}

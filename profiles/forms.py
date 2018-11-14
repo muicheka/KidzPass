@@ -3,8 +3,6 @@ import datetime
 
 from .models import Profile
 
-BIRTH_YEAR_CHOICES = ("19902010")
-
 
 class ProfileCreateForm(forms.ModelForm):
     f_name = forms.CharField(label='First Name', widget=forms.TextInput(attrs={"placeholder": "First Name"}))
@@ -19,7 +17,9 @@ class ProfileCreateForm(forms.ModelForm):
             'f_name',
             's_name',
             'dob',
-            'password'
+            'password',
+            'admin',
+            'summary'
         ]
 
     def clean_dob(self):

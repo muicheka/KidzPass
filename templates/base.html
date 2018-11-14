@@ -1,11 +1,27 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>KidzPass & SeniorPass</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+
 </head>
+<nav>
+    <ul id="nav_bar">
+  <li class="nav_options"><a href="#">Home</a></li>
+  <li class="nav_options"><a href="#">News</a></li>
+  <li class="nav_options"><a href="#">Contact</a></li>
+  <li class="nav_options"><a href="#">About</a></li>
+</ul>
+</nav>
 <body>
-<h1>This is a navigation bar</h1>
+<div style="margin-left:25%;padding:1px 16px;height:50px;">
+    <h1>KidzPass & SeniorPass</h1>
+</div>
+<div style="margin-left:25%;padding:1px 16px;height:1000px;">
 {%  block content %}
     replace me
 {% endblock %}
@@ -14,5 +30,6 @@
     <p>Mobile: 0000-0000-000</p>
     <p>Email: kidzpass.seniorpass@gmail.com</p>
 {% endblock %}
+</div>
 </body>
 </html>
