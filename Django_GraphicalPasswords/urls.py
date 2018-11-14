@@ -16,19 +16,22 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from pages.views import home_view, contact_view, admin_view, user_view
+from pages.views import home_view, contact_view, admin_view, user_view, about_view
 from profiles.views import (
     profile_detail_view,
     profile_create_view,
-    dynamic_lookup_view
+    dynamic_lookup_view,
+    #login_form_view
 )
 
 urlpatterns = [
     path('', home_view, name='home'),
-    path('contact/', contact_view),
+    path('contact/', contact_view, name='contact'),
+    path('about/', about_view, name='about'),
     path('admin/', admin_view),
     path('user/', user_view),
     path('admin_panel/', admin.site.urls),
     path('profile/<int:profile_id>/', dynamic_lookup_view, name='profile'),
-    path('create', profile_create_view)
+    path('create/', profile_create_view, name='create'),
+    #path('login/', login_form_view, name='login')
 ]

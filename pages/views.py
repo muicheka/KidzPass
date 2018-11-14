@@ -26,3 +26,8 @@ def user_view(request, *args, **kwargs):
 def admin_view(request, *args, **kwargs):
     # return HttpResponse("<h1>Admin page</h1>")  # string of HTML code
     return render(request, "admin.html", {})
+
+
+def about_view(request, *args, **kwargs):
+    # return HttpResponse("<h1>Contact page</h1>")  # string of HTML code
+    return render(request, "about.html", {})

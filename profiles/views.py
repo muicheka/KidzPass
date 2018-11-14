@@ -1,10 +1,10 @@
 from django.shortcuts import render
+from django.contrib import messages
 
 # Create your views here.
 
-from .forms import ProfileCreateForm, RawProfileForm
+from .forms import ProfileCreateForm, RawProfileForm, LoginForm
 from .models import Profile
-
 
 def dynamic_lookup_view(request, profile_id):
     obj = Profile.objects.get(id=profile_id)
@@ -14,26 +14,24 @@ def dynamic_lookup_view(request, profile_id):
     return render(request, "profile_detail.html", context)
 
 
-def profile_create_view(request):
-    form = RawProfileForm()
-    if request.method == "POST":
-        RawProfileForm(request.POST)
-        if form.is_valid():
-            print(form.cleaned_data)
-            # data is good
-            Profile.objects.create(**form.cleaned_data)
-        else:
-            print(form.errors)
-    context = {
-        'form': form
-    }
-    return render(request, "profile_create.html", context)
+
+# def login_form_view(request):
+#     form = LoginForm(request.POST or None)
+#     if form.is_valid():
+#         form.save()
+#     else:
+#         print(form.errors)
+#     context = {
+#         'form': form
+#     }
+#     return render(request, "login_form.html", context)
 
 
 def profile_create_view(request):
     print("I am here")
     form = ProfileCreateForm(request.POST or None)
     if form.is_valid():
+        messages.info(request, 'Successfully registered!')
         print("valid form submission")
         form.save()
     else:
@@ -42,6 +40,22 @@ def profile_create_view(request):
         'form': form
     }
     return render(request, "profile_create.html", context)
+
+
+# def profile_create_view(request):
+#     form = RawProfileForm()
+#     if request.method == "POST":
+#         RawProfileForm(request.POST)
+#         if form.is_valid():
+#             print(form.cleaned_data)
+#             # data is good
+#             Profile.objects.create(**form.cleaned_data)
+#         else:
+#             print(form.errors)
+#     context = {
+#         'form': form
+#     }
+#     return render(request, "profile_create.html", context)
 
 
 def profile_detail_view(request):

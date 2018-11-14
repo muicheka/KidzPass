@@ -15,9 +15,10 @@ body {
 
 .nav_options {
     font-size: 2vw;
-    font-family: Arial;
+    font-family: "Roboto", "Lucida Grande", Verdana, Arial, sans-serif;
 
 }
+
 
 .nav_options a {
     display: block;
@@ -35,3 +36,4 @@ body {
     background-color: #555;
     color: white;
 }
+
