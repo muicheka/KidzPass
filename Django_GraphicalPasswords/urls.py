@@ -21,7 +21,7 @@ from profiles.views import (
     profile_detail_view,
     profile_create_view,
     dynamic_lookup_view,
-    #login_form_view
+    login_form_view
 )
 
 urlpatterns = [
@@ -33,5 +33,5 @@ urlpatterns = [
     path('admin_panel/', admin.site.urls),
     path('profile/<int:profile_id>/', dynamic_lookup_view, name='profile'),
     path('create/', profile_create_view, name='create'),
-    #path('login/', login_form_view, name='login')
+    path('login/', login_form_view, name='login')
 ]
