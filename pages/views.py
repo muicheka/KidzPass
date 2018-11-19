@@ -29,5 +29,5 @@ def admin_view(request, *args, **kwargs):
 
 
 def about_view(request, *args, **kwargs):
-    # return HttpResponse("<h1>Contact page</h1>")  # string of HTML code
+    # return HttpResponse("<h1>About page</h1>")  # string of HTML code
     return render(request, "about.html", {})

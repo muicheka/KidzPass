@@ -3,7 +3,7 @@ from django.contrib import messages
 
 # Create your views here.
 
-from .forms import ProfileCreateForm, RawProfileForm, LoginForm
+from .forms import ProfileCreateForm, RawProfileForm
 from .models import Profile
 
 
@@ -15,8 +15,10 @@ def dynamic_lookup_view(request, profile_id):
     return render(request, "profile_detail.html", context)
 
 
+
+
 def login_form_view(request):
-    form = LoginForm(request.POST or None)
+    form = ProfileCreateForm(request.POST or None)
     if form.is_valid():
         form.save()
     else:
@@ -24,6 +26,7 @@ def login_form_view(request):
     context = {
         'form': form
     }
+    # (TO DO) not working
     return render(request, "login_form.html", context)
 
 
@@ -40,6 +43,14 @@ def profile_create_view(request):
     return render(request, "profile_create.html", context)
 
 
+def profile_detail_view(request):
+    obj = Profile.objects.get(id=1)
+    context = {
+        'object': obj
+    }
+    return render(request, "profile_detail.html", context)
+
+
 # def profile_create_view(request):
 #     form = RawProfileForm()
 #     if request.method == "POST":
@@ -54,11 +65,3 @@ def profile_create_view(request):
 #         'form': form
 #     }
 #     return render(request, "profile_create.html", context)
-
-
-def profile_detail_view(request):
-    obj = Profile.objects.get(id=1)
-    context = {
-        'object': obj
-    }
-    return render(request, "profile_detail.html", context)

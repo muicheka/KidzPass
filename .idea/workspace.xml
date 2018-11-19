@@ -6,11 +6,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13cc11e5-2e34-466f-975a-041503261870" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/static/images/title.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_GraphicalPasswords/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_GraphicalPasswords/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profiles/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,68 +86,68 @@
     <session id="-1135527428">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="6" />
-          <entry key="html" value="39" />
-          <entry key="py" value="44" />
+          <entry key="css" value="7" />
+          <entry key="html" value="42" />
+          <entry key="py" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="6" />
-          <entry key="HTML" value="39" />
-          <entry key="Python" value="44" />
+          <entry key="CSS" value="7" />
+          <entry key="HTML" value="42" />
+          <entry key="Python" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="74" />
-          <entry key="html" value="1502" />
-          <entry key="py" value="3720" />
-          <entry key="py@Django_GraphicalPasswords" value="229" />
-          <entry key="txt" value="639" />
+          <entry key="css" value="105" />
+          <entry key="html" value="1780" />
+          <entry key="py" value="3992" />
+          <entry key="py@Django_GraphicalPasswords" value="241" />
+          <entry key="txt" value="769" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.5" value="2" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.6" value="5" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="74" />
-          <entry key="CommandLine" value="196" />
-          <entry key="HTML" value="1502" />
-          <entry key="PLAIN_TEXT" value="672" />
-          <entry key="Python" value="3720" />
+          <entry key="CSS" value="105" />
+          <entry key="CommandLine" value="208" />
+          <entry key="HTML" value="1780" />
+          <entry key="PLAIN_TEXT" value="802" />
+          <entry key="Python" value="3992" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/profiles/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="37" column="20" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="35" selection-end-column="26" />
+            <state relative-caret-position="442">
+              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-                <marker date="1542229533645" expanded="true" signature="388:390" ph="..." />
+                <marker date="1542642617657" expanded="true" signature="377:381" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/profiles/models.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/profiles/templates/login_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="306">
+              <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -155,24 +155,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/profiles/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="12" column="107" selection-start-line="12" selection-start-column="107" selection-end-line="12" selection-end-column="107" />
+            <state relative-caret-position="782">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
-                <marker date="1542218093715" expanded="true" signature="71:72" ph="..." />
-                <marker date="1542218093715" expanded="true" signature="841:985" ph="..." />
-                <marker date="1542218093715" expanded="true" signature="1295:1300" ph="..." />
-                <marker date="1542218093715" expanded="true" signature="1569:1574" ph="..." />
+                <marker date="1542642067773" expanded="true" signature="71:72" ph="..." />
+                <marker date="1542642067773" expanded="true" signature="914:1094" ph="..." />
+                <marker date="1542642067773" expanded="true" signature="1404:1409" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/profiles/templates/login_form.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -210,22 +200,22 @@
         <option value="$PROJECT_DIR$/profiles/templates/profile_detail.html" />
         <option value="$PROJECT_DIR$/static/css/test.html" />
         <option value="$PROJECT_DIR$/Django_GraphicalPasswords/test.html" />
-        <option value="$PROJECT_DIR$/profiles/templates/login_form.html" />
-        <option value="$PROJECT_DIR$/profiles/forms.py" />
         <option value="$PROJECT_DIR$/pages/templates/extracode.html" />
         <option value="$PROJECT_DIR$/templates/home.html" />
-        <option value="$PROJECT_DIR$/pages/views.py" />
         <option value="$PROJECT_DIR$/templates/about.html" />
         <option value="$PROJECT_DIR$/templates/contact.html" />
         <option value="$PROJECT_DIR$/static/css/profile.css" />
         <option value="$PROJECT_DIR$/Django_GraphicalPasswords/settings.py" />
-        <option value="$PROJECT_DIR$/static/css/base.css" />
         <option value="$PROJECT_DIR$/profiles/static/css/profile.css" />
         <option value="$PROJECT_DIR$/profiles/templates/profile_create.html" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/Django_GraphicalPasswords/urls.py" />
         <option value="$PROJECT_DIR$/profiles/models.py" />
+        <option value="$PROJECT_DIR$/static/css/base.css" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/pages/views.py" />
+        <option value="$PROJECT_DIR$/profiles/forms.py" />
         <option value="$PROJECT_DIR$/profiles/views.py" />
+        <option value="$PROJECT_DIR$/profiles/templates/login_form.html" />
       </list>
     </option>
   </component>
@@ -235,8 +225,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="654" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1273" />
     <option name="height" value="1057" />
   </component>
@@ -273,6 +264,11 @@
             <path>
               <item name="Django_GP" type="b2602c69:ProjectViewProjectNode" />
               <item name="Django_GP" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django_GP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django_GP" type="462c0819:PsiDirectoryNode" />
               <item name="profiles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -304,10 +300,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\micha\PycharmProjects\Django_GP\static\images" />
+      <recent name="C:\Users\micha\PycharmProjects\Django_GP\static" />
       <recent name="C:\Users\micha\PycharmProjects\Django_GP\profiles\static\css" />
       <recent name="C:\Users\micha\PycharmProjects\Django_GP\profiles\static" />
       <recent name="C:\Users\micha\PycharmProjects\Django_GP\static\css" />
-      <recent name="C:\Users\micha\PycharmProjects\Django_GP\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -446,7 +443,28 @@
       <option name="project" value="LOCAL" />
       <updated>1542223871759</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added CSS to templates&#10;Altered model and improved register&#10;attempted to do login but stopped due to questions:-&#10;do I implement a new form for login?&#10;Do I reuse the Profiles form?&#10;How does Users fit into that?&#10;Do templates receive their own CSS or inherit it from the base.html? Online searching would say no but I couldn't get it working.&#10;&#10;Tidied up code for demo with Karen">
+      <created>1542273310990</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1542273310990</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added title image and altered css for demo">
+      <created>1542635960075</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1542635960075</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added title image and altered css for demo&#10;Added Login page form - finally got it working.">
+      <created>1542642822565</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1542642822565</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -459,10 +477,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="654" y="0" width="1273" height="1057" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19455895" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1433902" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -473,12 +491,12 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3287483" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946696" weight="0.32939914" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946696" weight="0.32618025" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.3287483" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.49733475" side_tool="true" weight="0.28540772" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.4978678" side_tool="true" weight="0.32939914" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32827735" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3741403" />
-      <window_info anchor="bottom" id="manage.py@Django_GraphicalPasswords" order="13" sideWeight="0.5026652" visible="true" weight="0.30985916" />
+      <window_info anchor="bottom" id="manage.py@Django_GraphicalPasswords" order="13" sideWeight="0.5021322" visible="true" weight="0.32939914" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -526,7 +544,10 @@
     <MESSAGE value="Working to improve forms using Django's built in error handling" />
     <MESSAGE value="Worked on forms, altered the form to show dates correctly for the DOB field." />
     <MESSAGE value="Added CSS to templates&#10;Altered model and improved register&#10;attempted to do login but stopped due to questions:-&#10;do I implement a new form for login?&#10;Do I reuse the Profiles form?&#10;How does Users fit into that?&#10;Do templates receive their own CSS or inherit it from the base.html? Online searching would say no but I couldn't get it working." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added CSS to templates&#10;Altered model and improved register&#10;attempted to do login but stopped due to questions:-&#10;do I implement a new form for login?&#10;Do I reuse the Profiles form?&#10;How does Users fit into that?&#10;Do templates receive their own CSS or inherit it from the base.html? Online searching would say no but I couldn't get it working." />
+    <MESSAGE value="Added CSS to templates&#10;Altered model and improved register&#10;attempted to do login but stopped due to questions:-&#10;do I implement a new form for login?&#10;Do I reuse the Profiles form?&#10;How does Users fit into that?&#10;Do templates receive their own CSS or inherit it from the base.html? Online searching would say no but I couldn't get it working.&#10;&#10;Tidied up code for demo with Karen" />
+    <MESSAGE value="Added title image and altered css for demo" />
+    <MESSAGE value="Added title image and altered css for demo&#10;Added Login page form - finally got it working." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added title image and altered css for demo&#10;Added Login page form - finally got it working." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -557,13 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/admin.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -579,12 +593,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/profiles/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profiles/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/models.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/django/forms/widgets.py">
@@ -653,13 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Django_GraphicalPasswords/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="813">
@@ -667,37 +668,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profiles/templates/profile_create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#54#123#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/profiles/static/css/profile.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="841">
           <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -711,13 +685,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profiles/views.py">
+    <entry file="file://$PROJECT_DIR$/static/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="37" column="20" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="35" selection-end-column="26" />
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
-            <marker date="1542229533645" expanded="true" signature="388:390" ph="..." />
           </folding>
         </state>
       </provider>
@@ -725,28 +736,45 @@
     <entry file="file://$PROJECT_DIR$/profiles/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/templates/profile_create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1542642617657" expanded="true" signature="377:381" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/profiles/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="107" selection-start-line="12" selection-start-column="107" selection-end-line="12" selection-end-column="107" />
+        <state relative-caret-position="782">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
-            <marker date="1542218093715" expanded="true" signature="71:72" ph="..." />
-            <marker date="1542218093715" expanded="true" signature="841:985" ph="..." />
-            <marker date="1542218093715" expanded="true" signature="1295:1300" ph="..." />
-            <marker date="1542218093715" expanded="true" signature="1569:1574" ph="..." />
+            <marker date="1542642067773" expanded="true" signature="71:72" ph="..." />
+            <marker date="1542642067773" expanded="true" signature="914:1094" ph="..." />
+            <marker date="1542642067773" expanded="true" signature="1404:1409" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/profiles/templates/login_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="306">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
         </state>
       </provider>
     </entry>

@@ -24,10 +24,12 @@ class ProfileCreateForm(forms.ModelForm):
 
         ]
 
+    # hoping to generate usernames from random series of numbers (TO DO)
     def generate_username(self):
         random_number = Profile.objects.make_random_password(length=10, allowed_chars='1234567890')
         self.username = random_number
 
+    # currently not working (TO DO)
     def clean_dob(self):
         dob = self.cleaned_data.get("dob")
         print(dob)
@@ -43,6 +45,3 @@ class RawProfileForm(forms.Form):
     s_name = forms.CharField(label='Last Name')
     dob = forms.DateField(label='Date of Birth', initial=datetime.date.today())
 
-
-class LoginForm(forms.ModelForm):
-    username = forms.CharField(label='Username')
