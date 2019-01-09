@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'GraphicalPasswords.apps.GraphicalpasswordsConfig',
+    'accounts.apps.AccountsConfig',
 
     # third party
 
