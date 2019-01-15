@@ -21,8 +21,9 @@ from profiles.views import (
     profile_detail_view,
     profile_create_view,
     dynamic_lookup_view,
-    login_form_view
+    login_form_view,
 )
+from images.views import dynamic_lookup_view_images
 
 urlpatterns = [
     path('', home_view, name='home'),
@@ -34,6 +35,9 @@ urlpatterns = [
     path('profile/<int:profile_id>/', dynamic_lookup_view, name='profile'),
     path('create/', profile_create_view, name='create'),
     path('login/', login_form_view, name='login'),
+
+    path('image/<str:image_id>/', dynamic_lookup_view_images, name='image'),
+
     path('accounts/', include('django.contrib.auth.urls')),
     path('accounts/', include('accounts.urls')),
 ]

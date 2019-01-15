@@ -1,9 +1,55 @@
 {% extends "base.html"%}
+{% load static %}
+
 
 {% block content %}
     <h1>About Page</h1>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt accumsan velit, id accumsan libero iaculis et. Aenean eleifend lectus posuere leo ultricies interdum. Pellentesque sodales non sem vitae hendrerit. Phasellus metus ex, condimentum vitae consectetur ut, ullamcorper at lorem. Aenean sit amet libero leo. Mauris pulvinar urna ultricies accumsan mollis. Aenean cursus placerat mollis. Phasellus egestas velit eros, tempus tempor ex semper et. Pellentesque mattis nec orci ac vehicula.
 </p>
+
+<script>
+function hash_image(image_id) {
+    alert("Working as intended.");
+    alert(image_id);
+}
+
+function refresh_images() {
+
+
+}
+
+</script>
+    <div style="margin-left:1%;padding:1px 16px; display: block; text-align: center">
+  <div class="row">
+    <div class="col-lg-4">
+       <img class="password_image" src="{% static 'images/1.jpg' %}" alt="1" style="display: block; padding: 2px; width: 100%;">
+        <button onclick="hash_image(1)">1</button>
+    </div>
+    <div class="col-lg-4">
+       <img class="password_image" src="{% static 'images/2.jpg' %}" alt="2" style="display: block; padding: 2px; width: 100%;">
+        <button onclick="hash_image(2)">2</button>
+    </div>
+    <div class="col-lg-4">
+       <img class="password_image" src="{% static 'images/3.jpg' %}" alt="3" style="display: block; padding: 2px; width: 100%;">
+        <button onclick="hash_image(3)">3</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4">
+       <img class="password_image" src="{% static 'images/4.jpg' %}" alt="4" style="display: block; padding: 2px; width: 100%;">
+        <button onclick="hash_image(4)">4</button>
+    </div>
+    <div class="col-lg-4">
+       <img class="password_image" src="{% static 'images/5.jpeg' %}" alt="5" style="display: block; padding: 2px; width: 100%;">
+        <button onclick="hash_image(5)">5</button>
+    </div>
+    <div class="col-lg-4">
+       <img class="password_image" src="{% static 'images/6.gif' %}" alt="6" style="display: block; padding: 2px; width: 100%;">
+        <button onclick="hash_image(6)">6</button>
+    </div>
+  </div>
+    <button onclick="refresh_images()">Refresh</button>
+</div>
 
 {%  endblock %}

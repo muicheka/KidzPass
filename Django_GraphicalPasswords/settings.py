@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     # own apps
     'profiles',
     'pages',
+    'images',
 
 ]
 

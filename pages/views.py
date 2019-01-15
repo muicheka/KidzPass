@@ -31,3 +31,14 @@ def admin_view(request, *args, **kwargs):
 def about_view(request, *args, **kwargs):
     # return HttpResponse("<h1>About page</h1>")  # string of HTML code
     return render(request, "about.html", {})
+
+
+def hash_image(request, *args, **kwargs):
+    import base64
+    with open("1.jpg","rb") as imageFile:
+        str = base64.b64encode(imageFile.read())
+    import _sha3
+    s = _sha3.sha3_256(str.encode('utf-8')).hexdigest()
+    return s
+
+

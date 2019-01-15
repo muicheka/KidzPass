@@ -37,3 +37,9 @@ body {
     color: white;
 }
 
+.password_image {
+    display: block;
+    padding: 2px;
+    width: 30%;
+}
+
