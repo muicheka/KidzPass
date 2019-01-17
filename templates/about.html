@@ -15,15 +15,17 @@ function hash_image(image_id) {
 }
 
 function refresh_images() {
-
-
 }
-
 </script>
+
     <div style="margin-left:1%;padding:1px 16px; display: block; text-align: center">
   <div class="row">
     <div class="col-lg-4">
        <img class="password_image" src="{% static 'images/1.jpg' %}" alt="1" style="display: block; padding: 2px; width: 100%;">
+        <form action="{% url 'hash' %}" method="POST">
+            {% csrf_token %}
+                <input type="submit" value="1">
+        </form>
         <button onclick="hash_image(1)">1</button>
     </div>
     <div class="col-lg-4">

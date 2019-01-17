@@ -32,6 +32,18 @@ def about_view(request, *args, **kwargs):
     # return HttpResponse("<h1>About page</h1>")  # string of HTML code
     return render(request, "about.html", {})
 
+import hashlib
+def hash_test(request):
+    hash_object = hashlib.md5(b'Hello World')
+    print(hash_object.hexdigest())
+    import base64
+    with open("static/images/1.jpg", "rb") as imageFile:
+        str = base64.b64encode(imageFile.read())
+    print(str)
+    hash_base = hashlib.md5(str)
+    print(hash_base.hexdigest())
+    return render(request, "home.html", {})
+
 
 def hash_image(request, *args, **kwargs):
     import base64
