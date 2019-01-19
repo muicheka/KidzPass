@@ -9,11 +9,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt 
 </p>
 
 <script>
-function hash_image(image_id) {
-    alert("Working as intended.");
-    alert(image_id);
-}
-
 function refresh_images() {
 }
 </script>
@@ -24,31 +19,51 @@ function refresh_images() {
        <img class="password_image" src="{% static 'images/1.jpg' %}" alt="1" style="display: block; padding: 2px; width: 100%;">
         <form action="{% url 'hash' %}" method="POST">
             {% csrf_token %}
+                <input type="hidden" id="image_id" value="1.jpg" name="image_id" />
                 <input type="submit" value="1">
         </form>
-        <button onclick="hash_image(1)">1</button>
     </div>
     <div class="col-lg-4">
        <img class="password_image" src="{% static 'images/2.jpg' %}" alt="2" style="display: block; padding: 2px; width: 100%;">
-        <button onclick="hash_image(2)">2</button>
+                <form action="{% url 'hash' %}" method="POST">
+            {% csrf_token %}
+                <input type="hidden" id="image_id" value="2.jpg" name="image_id" />
+                <input type="submit" value="2">
+        </form>
     </div>
     <div class="col-lg-4">
        <img class="password_image" src="{% static 'images/3.jpg' %}" alt="3" style="display: block; padding: 2px; width: 100%;">
-        <button onclick="hash_image(3)">3</button>
+            <form action="{% url 'hash' %}" method="POST">
+            {% csrf_token %}
+                <input type="hidden" id="image_id" value="3.jpg" name="image_id" />
+                <input type="submit" value="3">
+        </form>
     </div>
   </div>
   <div class="row">
     <div class="col-lg-4">
        <img class="password_image" src="{% static 'images/4.jpg' %}" alt="4" style="display: block; padding: 2px; width: 100%;">
-        <button onclick="hash_image(4)">4</button>
+            <form action="{% url 'hash' %}" method="POST">
+            {% csrf_token %}
+                <input type="hidden" id="image_id" value="4.jpg" name="image_id" />
+                <input type="submit" value="4">
+            </form>
     </div>
     <div class="col-lg-4">
        <img class="password_image" src="{% static 'images/5.jpeg' %}" alt="5" style="display: block; padding: 2px; width: 100%;">
-        <button onclick="hash_image(5)">5</button>
+            <form action="{% url 'hash' %}" method="POST">
+            {% csrf_token %}
+                <input type="hidden" id="image_id" value="5.jpeg" name="image_id" />
+                <input type="submit" value="5">
+        </form>
     </div>
     <div class="col-lg-4">
        <img class="password_image" src="{% static 'images/6.gif' %}" alt="6" style="display: block; padding: 2px; width: 100%;">
-        <button onclick="hash_image(6)">6</button>
+            <form action="{% url 'hash' %}" method="POST">
+            {% csrf_token %}
+                <input type="hidden" id="image_id" value="6.gif" name="image_id" />
+                <input type="submit" value="6">
+        </form>
     </div>
   </div>
     <button onclick="refresh_images()">Refresh</button>
