@@ -1,72 +1,138 @@
-{% extends "base.html"%}
+{% extends "base.html" %}
 {% load static %}
 
 
 {% block content %}
     <h1>About Page</h1>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt accumsan velit, id accumsan libero iaculis et. Aenean eleifend lectus posuere leo ultricies interdum. Pellentesque sodales non sem vitae hendrerit. Phasellus metus ex, condimentum vitae consectetur ut, ullamcorper at lorem. Aenean sit amet libero leo. Mauris pulvinar urna ultricies accumsan mollis. Aenean cursus placerat mollis. Phasellus egestas velit eros, tempus tempor ex semper et. Pellentesque mattis nec orci ac vehicula.
-</p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt accumsan velit, id accumsan
+        libero iaculis et. Aenean eleifend lectus posuere leo ultricies interdum. Pellentesque sodales non sem vitae
+        hendrerit. Phasellus metus ex, condimentum vitae consectetur ut, ullamcorper at lorem. Aenean sit amet libero
+        leo. Mauris pulvinar urna ultricies accumsan mollis. Aenean cursus placerat mollis. Phasellus egestas velit
+        eros, tempus tempor ex semper et. Pellentesque mattis nec orci ac vehicula.
+    </p>
 
-<script>
-function refresh_images() {
-}
-</script>
+    <script>
+
+        var arrayImages = ["/static/images/7.jpg", "/static/images/8.jpg", "/static/images/9.jpg", "/static/images/10.jpg","/static/images/11.jpg", "/static/images/12.jpg","/static/images/13.jpg"];
+        var displayed_images = ["/static/images/1.jpg","/static/images/2.jpg","/static/images/3.jpg","/static/images/4.jpg","/static/images/5.jpeg","/static/images/6.gif"];
+
+        function getRandomInt(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        function refresh_images() {
+            var password_image_class = document.getElementsByClassName("password_image");
+            for (var current_image = 0; current_image < password_image_class.length; current_image++)
+            {
+                password_image_class[current_image].src = arrayImages[getRandomInt(0, arrayImages.length - 1)];
+                password_image_class[current_image].src= password_image_class[current_image].src.slice(21);
+                //alert(password_image_class[current_image].src);
+                //alert(password_image_class[current_image].src.slice(21));
+                //alert(displayed_images);
+                //alert(arrayImages);
+                displayed_images.push(password_image_class[current_image].src.slice(21));
+                for (var image = 0; image < arrayImages.length;image++)
+                {
+                    if(arrayImages[image]=== password_image_class[current_image].src.slice(21))
+                    {
+                        arrayImages.splice(image,1);
+                    }
+                }
+                //alert(displayed_images);
+                //alert(arrayImages);
+            }
+            for(var count=0; count <6;count++)
+            {
+                var temp = displayed_images[count];
+                arrayImages.push(temp);
+            }
+            displayed_images.splice(0,6);
+            //alert(document.getElementById("testing_1").src);
+            //document.getElementById("testing_1").src = arrayImages[getRandomInt(0, arrayImages.length - 1)];
+            //document.testing_1.src = arrayImages[getRandomInt(0, arrayImages.length - 1)];
+
+        }
+
+    </script>
+
+    <style>
+        .password_image {
+            padding: 5px;
+            border: 2px solid black;
+            position: relative;
+            float: left;
+            width:  450px;
+            height: 400px;
+            background-position: 50% 50%;
+            background-repeat:   no-repeat;
+            background-size:     cover;
+        }
+
+        .password_image:hover {
+            opacity: 0.5;
+            filter: alpha(opacity=50); /* For IE8 and earlier */
+        }
+    </style>
 
     <div style="margin-left:1%;padding:1px 16px; display: block; text-align: center">
-  <div class="row">
-    <div class="col-lg-4">
-       <img class="password_image" src="{% static 'images/1.jpg' %}" alt="1" style="display: block; padding: 2px; width: 100%;">
-        <form action="{% url 'hash' %}" method="POST">
-            {% csrf_token %}
-                <input type="hidden" id="image_id" value="1.jpg" name="image_id" />
-                <input type="submit" value="1">
-        </form>
-    </div>
-    <div class="col-lg-4">
-       <img class="password_image" src="{% static 'images/2.jpg' %}" alt="2" style="display: block; padding: 2px; width: 100%;">
+        <div class="row">
+            <div class="col-lg-4">
                 <form action="{% url 'hash' %}" method="POST">
-            {% csrf_token %}
-                <input type="hidden" id="image_id" value="2.jpg" name="image_id" />
-                <input type="submit" value="2">
-        </form>
-    </div>
-    <div class="col-lg-4">
-       <img class="password_image" src="{% static 'images/3.jpg' %}" alt="3" style="display: block; padding: 2px; width: 100%;">
-            <form action="{% url 'hash' %}" method="POST">
-            {% csrf_token %}
-                <input type="hidden" id="image_id" value="3.jpg" name="image_id" />
-                <input type="submit" value="3">
-        </form>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-4">
-       <img class="password_image" src="{% static 'images/4.jpg' %}" alt="4" style="display: block; padding: 2px; width: 100%;">
-            <form action="{% url 'hash' %}" method="POST">
-            {% csrf_token %}
-                <input type="hidden" id="image_id" value="4.jpg" name="image_id" />
-                <input type="submit" value="4">
-            </form>
-    </div>
-    <div class="col-lg-4">
-       <img class="password_image" src="{% static 'images/5.jpeg' %}" alt="5" style="display: block; padding: 2px; width: 100%;">
-            <form action="{% url 'hash' %}" method="POST">
-            {% csrf_token %}
-                <input type="hidden" id="image_id" value="5.jpeg" name="image_id" />
-                <input type="submit" value="5">
-        </form>
-    </div>
-    <div class="col-lg-4">
-       <img class="password_image" src="{% static 'images/6.gif' %}" alt="6" style="display: block; padding: 2px; width: 100%;">
-            <form action="{% url 'hash' %}" method="POST">
-            {% csrf_token %}
-                <input type="hidden" id="image_id" value="6.gif" name="image_id" />
-                <input type="submit" value="6">
-        </form>
-    </div>
-  </div>
-    <button onclick="refresh_images()">Refresh</button>
-</div>
+                    {% csrf_token %}
+                    <input type="hidden" id="image_id" value="1.jpg" name="image_id">
+                    <input id="testing_1" class="password_image" name="testing_1" type="image" value="1" src="/static/images/1.jpg">
+                </form>
+            </div>
 
-{%  endblock %}
+            <div class="col-lg-4">
+                <form action="{% url 'hash' %}" method="POST">
+                    {% csrf_token %}
+                    <input type="hidden" id="image_id" value="2.jpg" name="image_id">
+                    <input class="password_image" type="image" value="2" src="/static/images/2.jpg">
+                </form>
+            </div>
+
+            <div class="col-lg-4">
+                <form action="{% url 'hash' %}" method="POST">
+                    {% csrf_token %}
+                    <input type="hidden" id="image_id" value="3.jpg" name="image_id">
+                    <input class="password_image" type="image" value="3" src="/static/images/3.jpg">
+                </form>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-lg-8">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <form action="{% url 'hash' %}" method="POST">
+                    {% csrf_token %}
+                    <input type="hidden" id="image_id" value="4.jpg" name="image_id">
+                    <input class="password_image" type="image" value="4" src="/static/images/4.jpg">
+                </form>
+            </div>
+
+            <div class="col-lg-4">
+                <form action="{% url 'hash' %}" method="POST">
+                    {% csrf_token %}
+                    <input type="hidden" id="image_id" value="5.jpeg" name="image_id">
+                    <input class="password_image" type="image" value="5" src="/static/images/5.jpeg">
+                </form>
+            </div>
+
+            <div class="col-lg-4">
+                <form action="{% url 'hash' %}" method="POST">
+                    {% csrf_token %}
+                    <input type="hidden" id="image_id" value="6.gif" name="image_id">
+                    <input class="password_image" type="image" value="6" src="/static/images/6.gif">
+                </form>
+            </div>
+
+        </div>
+        <button onclick="refresh_images()">Refresh</button>
+    </div>
+
+{% endblock %}
