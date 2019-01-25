@@ -46,12 +46,3 @@ def hash_test(request):
     return render(request, "home.html", {})
 
 
-def hash_image(request, *args, **kwargs):
-    import base64
-    with open("1.jpg","rb") as imageFile:
-        str = base64.b64encode(imageFile.read())
-    import _sha3
-    s = _sha3.sha3_256(str.encode('utf-8')).hexdigest()
-    return s
-
-
