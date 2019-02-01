@@ -35,6 +35,7 @@ def about_view(request, *args, **kwargs):
     return render(request, "about.html", {})
 
 import hashlib
+import requests
 def hash_test(request):
     image_id = request.POST.get('image_id')
     # hash_object = hashlib.md5(b'Hello World')
@@ -43,6 +44,10 @@ def hash_test(request):
     with open("static/images/"+image_id, "rb") as imageFile:
         str = base64.b64encode(imageFile.read())
     print(str)
-    user = authenticate(username='test', password=str)
-    return render(request, "home.html", {})
-    # testing GitHub commit process
+    r = requests.post("http://127.0.0.1:8000/accounts/login/", data={'username': 'test', 'password': str})
+    print(r.status_code, r.reason)
+
+    return render(request, "registration/login.html", {
+        'username': 'test',
+        'password': str
+    })
