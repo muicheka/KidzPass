@@ -1,12 +1,16 @@
-{% extends "base.html"%}
+{% extends "base.html" %}
 
 {% block content %}
     <h1>Login</h1>
+
+    <script>
+
+    </script>
+
+    <h2>{{ username }} and {{ password }}</h2>
 <div style="border-radius: 5px; background-color: #f2f2f2; padding: 20px;">
         <form action="" method="POST"> {% csrf_token %}
-            <label>Username: </label>{{ form.username }}
-            <label>Email: </label>{{ form.email }}
-            <label>Password: </label>{{ form.password }}
+            {{ form.as_table }}
             <input type="submit" value="Login">
         </form>
     </div>

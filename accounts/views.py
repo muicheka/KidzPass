@@ -14,10 +14,7 @@ class Login(generic.CreateView):
     template_name = 'login_form.html'
 
 
-def get(self, request, *args, **kwargs):
-    context = locals()
-    context['username'] =
-
+def login_programmatically(request, username, password):
     from django.contrib.auth import authenticate, login
     user = authenticate(username=username, password=password)
     if user is not None:

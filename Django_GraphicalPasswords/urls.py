@@ -34,7 +34,7 @@ urlpatterns = [
     path('admin_panel/', admin.site.urls),
     path('profile/<int:profile_id>/', dynamic_lookup_view, name='profile'),
     path('create/', profile_create_view, name='create'),
-    path('login/', login_form_view, name='login'),
+    # path('login/', login_form_view, name='login'),
     path('hash/', hash_test, name='hash'),
 
     path('image/<str:image_id>/', dynamic_lookup_view_images, name='image'),

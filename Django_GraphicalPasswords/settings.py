@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'GraphicalPasswords.apps.GraphicalpasswordsConfig',
 
     # third party
+    'rest_framework',
+
 
     # own apps
     'profiles',
