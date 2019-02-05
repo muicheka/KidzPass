@@ -3,9 +3,10 @@
 {% block content %}
     <h1>Login</h1>
 
-    <form action="{% url 'login_prog' %}" method="POST">
+    <form action="{% url 'Login' %}" method="POST">
         {% csrf_token %}
         <input type="hidden" id="username" value={{ username }} name="username">
+        <input type="hidden" id="password" value={{ password }} name="password">
         <input type="submit" value="Click"/>
     </form>
 

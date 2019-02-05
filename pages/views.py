@@ -40,5 +40,6 @@ def hash_test(request):
     request.session['password'] = str
     print(request.session.get('username'))
     print(request.session.get('password'))
-    # return render(request, "registration/login.html", {'username': username,'password': str})
-    return render(request, "login_form.html")
+    return render(request, "registration/login.html", {
+        'username': username,
+        'password': str})

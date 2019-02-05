@@ -12,9 +12,13 @@ def login_programmatically(request):
         user = authenticate(username=username, password=password)
         print(authenticate(username=username, password=password))
         if user is not None:
-            print("logging in")
-            login(request, user)
+            if user.is_active:
+                print("logging in")
+                login(request, user)
+            else:
+                print("Account deleted or disabled")
         else:
+            print("didn't log in")
     return render(request, "home.html")
 
 
