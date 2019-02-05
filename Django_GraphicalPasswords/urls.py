@@ -16,6 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+from accounts.views import login_programmatically
 from pages.views import home_view, contact_view, admin_view, user_view, about_view, hash_test
 from profiles.views import (
     profile_detail_view,
@@ -23,7 +24,6 @@ from profiles.views import (
     dynamic_lookup_view,
     login_form_view,
 )
-from images.views import dynamic_lookup_view_images
 
 urlpatterns = [
     path('', home_view, name='home'),
@@ -36,8 +36,8 @@ urlpatterns = [
     path('create/', profile_create_view, name='create'),
     # path('login/', login_form_view, name='login'),
     path('hash/', hash_test, name='hash'),
+    path('loginprog/', login_programmatically, name='login_prog'),
 
-    path('image/<str:image_id>/', dynamic_lookup_view_images, name='image'),
 
     path('accounts/', include('django.contrib.auth.urls')),
     path('accounts/', include('accounts.urls')),

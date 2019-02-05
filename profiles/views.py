@@ -12,8 +12,6 @@ def dynamic_lookup_view(request, profile_id):
     return render(request, "profile_detail.html", context)
 
 
-
-
 def login_form_view(request):
     form = ProfileCreateForm(request.POST or None)
     if form.is_valid():

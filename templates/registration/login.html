@@ -3,9 +3,11 @@
 {% block content %}
     <h1>Login</h1>
 
-    <script>
-
-    </script>
+    <form action="{% url 'login_prog' %}" method="POST">
+        {% csrf_token %}
+        <input type="hidden" id="username" value={{ username }} name="username">
+        <input id="submit" type="button" value="Click"/>
+    </form>
 
     <h2>{{ username }} and {{ password }}</h2>
 <div style="border-radius: 5px; background-color: #f2f2f2; padding: 20px;">

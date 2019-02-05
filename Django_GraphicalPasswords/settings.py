@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'GraphicalPasswords.apps.GraphicalpasswordsConfig',
+    # 'GraphicalPasswords.apps.GraphicalpasswordsConfig',
+
 
     # third party
     'rest_framework',
@@ -50,6 +51,7 @@ INSTALLED_APPS = [
 
 ]
 
+SESSION_SERIALIZER = 'django.contrib.sessions.serializers.PickleSerializer'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

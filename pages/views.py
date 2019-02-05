@@ -1,7 +1,4 @@
 from django.shortcuts import render
-from django.http import HttpResponse
-from django.contrib.auth import authenticate
-from accounts.models import models
 
 
 def home_view(request, *args, **kwargs):
@@ -35,15 +32,15 @@ def about_view(request, *args, **kwargs):
 
 def hash_test(request):
     image_id = request.POST.get('image_id')
-    # hash_object = hashlib.md5(b'Hello World')
-    # print(hash_object.hexdigest())
     import base64
     with open("static/images/"+image_id, "rb") as imageFile:
         str = base64.b64encode(imageFile.read())
     username = "test"
     print(username)
     print(str)
+    request.session['username'] = username
+    request.session['password'] = str
     return render(request, "registration/login.html", {
-        'username': 'test',
+        'username': username,
         'password': str
     })
