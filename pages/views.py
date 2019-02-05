@@ -25,9 +25,9 @@ def admin_view(request, *args, **kwargs):
     return render(request, "admin.html", {})
 
 
-def about_view(request, *args, **kwargs):
+def graphical_login_view(request, *args, **kwargs):
     # return HttpResponse("<h1>About page</h1>")  # string of HTML code
-    return render(request, "about.html", {})
+    return render(request, "graphical_login.html", {})
 
 
 def hash_test(request):
@@ -43,3 +43,7 @@ def hash_test(request):
     return render(request, "registration/login.html", {
         'username': username,
         'password': str})
+
+
+def username_select_view(request):
+    return render(request, "username_selection.html")

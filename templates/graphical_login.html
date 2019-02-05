@@ -3,7 +3,7 @@
 
 
 {% block content %}
-    <h1>About Page</h1>
+    <h1>Graphical Login</h1>
     <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt accumsan velit, id accumsan
         libero iaculis et. Aenean eleifend lectus posuere leo ultricies interdum. Pellentesque sodales non sem vitae
@@ -27,10 +27,6 @@
             {
                 password_image_class[current_image].src = arrayImages[getRandomInt(0, arrayImages.length - 1)];
                 password_image_class[current_image].src= password_image_class[current_image].src.slice(21);
-                //alert(password_image_class[current_image].src);
-                //alert(password_image_class[current_image].src.slice(21));
-                //alert(displayed_images);
-                //alert(arrayImages);
                 displayed_images.push(password_image_class[current_image].src.slice(21));
                 for (var image = 0; image < arrayImages.length;image++)
                 {
@@ -39,8 +35,6 @@
                         arrayImages.splice(image,1);
                     }
                 }
-                //alert(displayed_images);
-                //alert(arrayImages);
             }
             for(var count=0; count <6;count++)
             {
@@ -48,10 +42,6 @@
                 arrayImages.push(temp);
             }
             displayed_images.splice(0,6);
-            //alert(document.getElementById("testing_1").src);
-            //document.getElementById("testing_1").src = arrayImages[getRandomInt(0, arrayImages.length - 1)];
-            //document.testing_1.src = arrayImages[getRandomInt(0, arrayImages.length - 1)];
-
         }
 
     </script>

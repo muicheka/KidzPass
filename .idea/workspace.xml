@@ -5,11 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13cc11e5-2e34-466f-975a-041503261870" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/static/images/UserImages/1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/UserImages/10.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/UserImages/11.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/UserImages/12.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/UserImages/13.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/UserImages/14.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/UserImages/15.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/UserImages/16.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/UserImages/17.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/UserImages/18.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/UserImages/19.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/UserImages/2.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/UserImages/20.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/UserImages/21.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/UserImages/22.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/UserImages/23.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/UserImages/24.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/UserImages/25.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/UserImages/26.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/UserImages/27.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/UserImages/28.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/UserImages/29.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/UserImages/3.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/UserImages/30.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/UserImages/31.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/UserImages/32.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/UserImages/33.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/UserImages/34.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/UserImages/35.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/UserImages/4.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/UserImages/5.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/UserImages/6.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/UserImages/7.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/UserImages/8.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/UserImages/9.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/username_selection.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_GraphicalPasswords/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_GraphicalPasswords/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/graphical_login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,21 +130,22 @@
     <session id="-1135527428">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="JPG" value="3" />
           <entry key="css" value="9" />
-          <entry key="html" value="71" />
+          <entry key="html" value="74" />
           <entry key="js" value="1" />
           <entry key="multilingual-hello" value="1" />
           <entry key="png" value="1" />
-          <entry key="py" value="146" />
+          <entry key="py" value="149" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="9" />
-          <entry key="HTML" value="71" />
-          <entry key="Image" value="1" />
+          <entry key="HTML" value="74" />
+          <entry key="Image" value="4" />
           <entry key="JavaScript" value="1" />
-          <entry key="Python" value="146" />
+          <entry key="Python" value="149" />
           <entry key="UNKNOWN" value="1" />
         </counts>
       </usages-collector>
@@ -120,10 +158,10 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="165" />
-          <entry key="html" value="4519" />
-          <entry key="py" value="6110" />
-          <entry key="py@Django_GraphicalPasswords" value="826" />
-          <entry key="txt" value="990" />
+          <entry key="html" value="4884" />
+          <entry key="py" value="6308" />
+          <entry key="py@Django_GraphicalPasswords" value="840" />
+          <entry key="txt" value="1070" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -141,69 +179,39 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="165" />
-          <entry key="CommandLine" value="734" />
-          <entry key="HTML" value="4519" />
-          <entry key="PLAIN_TEXT" value="1082" />
-          <entry key="Python" value="6110" />
+          <entry key="CommandLine" value="748" />
+          <entry key="HTML" value="4884" />
+          <entry key="PLAIN_TEXT" value="1162" />
+          <entry key="Python" value="6308" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/accounts/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/username_selection.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-              <folding>
-                <element signature="e#352#421#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+              <caret line="69" column="21" lean-forward="true" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Django_GraphicalPasswords/urls.py">
+        <entry file="file://$PROJECT_DIR$/templates/graphical_login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="125" column="10" selection-start-line="107" selection-start-column="12" selection-end-line="125" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/contact.html">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1950">
-              <caret line="121" column="20" selection-start-line="120" selection-start-column="20" selection-end-line="121" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="119" selection-start-line="23" selection-start-column="119" selection-end-line="23" selection-end-column="119" />
+              <caret selection-end-line="26" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -232,10 +240,12 @@
       <find>console.log</find>
       <find>authentication_ba</find>
       <find>GraphicalPasswords</find>
+      <find>User%20Images</find>
     </findStrings>
     <replaceStrings>
       <replace>console.log</replace>
       <replace>alert</replace>
+      <replace>UserImages</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -274,7 +284,6 @@
         <option value="$PROJECT_DIR$/images/views.py" />
         <option value="$PROJECT_DIR$/templates/registration/hash_test.py" />
         <option value="$PROJECT_DIR$/templates/hash_test.py" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/users/models.py" />
         <option value="$PROJECT_DIR$/users/migrations/forms.py" />
         <option value="$PROJECT_DIR$/users/forms.py" />
@@ -289,10 +298,13 @@
         <option value="$PROJECT_DIR$/profiles/views.py" />
         <option value="$PROJECT_DIR$/templates/about.html" />
         <option value="$PROJECT_DIR$/Django_GraphicalPasswords/settings.py" />
-        <option value="$PROJECT_DIR$/Django_GraphicalPasswords/urls.py" />
         <option value="$PROJECT_DIR$/accounts/views.py" />
         <option value="$PROJECT_DIR$/templates/registration/login.html" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/pages/views.py" />
+        <option value="$PROJECT_DIR$/Django_GraphicalPasswords/urls.py" />
+        <option value="$PROJECT_DIR$/templates/graphical_login.html" />
+        <option value="$PROJECT_DIR$/templates/username_selection.html" />
       </list>
     </option>
   </component>
@@ -307,7 +319,7 @@
       <scroll-view-position x="0" y="0" />
     </layout>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1057" />
@@ -355,17 +367,30 @@
             <path>
               <item name="Django_GP" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="accounts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Django_GP" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="Django_GraphicalPasswords" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="Django_GP" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="pages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Django_GP" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="static" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Django_GP" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="static" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="images" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Django_GP" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="static" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="images" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="UserImages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="Django_GP" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -398,15 +423,16 @@
     <key name="OPEN_URL_DIALOG">
       <recent name="https://github.com/klutz/multilingual-hello" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\micha\PycharmProjects\Django_GP\static\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\micha\PycharmProjects\Django_GP\static\images" />
       <recent name="$PROJECT_DIR$/templates/registration" />
       <recent name="$PROJECT_DIR$/templates" />
-      <recent name="C:\Users\micha\PycharmProjects\Django_GP\static\images" />
       <recent name="C:\Users\micha\PycharmProjects\Django_GP\users" />
       <recent name="C:\Users\micha\PycharmProjects\Django_GP\templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\micha\PycharmProjects\Django_GP\static\images\UserImages" />
+      <recent name="C:\Users\micha\PycharmProjects\Django_GP\static\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -657,7 +683,14 @@
       <option name="project" value="LOCAL" />
       <updated>1549400641741</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Able to login in using an Image.">
+      <created>1549402859777</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1549402859777</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TodoView">
@@ -670,10 +703,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1057" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29102844" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14179105" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -689,7 +722,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.3969957" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32655826" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.37339056" />
-      <window_info anchor="bottom" id="manage.py@Django_GraphicalPasswords" order="13" sideWeight="0.49946696" visible="true" weight="0.37053087" />
+      <window_info active="true" anchor="bottom" id="manage.py@Django_GraphicalPasswords" order="13" sideWeight="0.49946696" visible="true" weight="0.36695278" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32936078" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -750,7 +783,8 @@
     <MESSAGE value="Have creds on Login page but no form ??? &#10;Attempting to use the Django authenticate method to login user&#10;Need to move creds to a view function ???" />
     <MESSAGE value="PyCharm is being awful and causing error - No module named GraphicalPasswords." />
     <MESSAGE value="Authenticating user and user is ALWAYS none. I have no idea why." />
-    <option name="LAST_COMMIT_MESSAGE" value="Authenticating user and user is ALWAYS none. I have no idea why." />
+    <MESSAGE value="Able to login in using an Image." />
+    <option name="LAST_COMMIT_MESSAGE" value="Able to login in using an Image." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -766,7 +800,7 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/templates/about.html</url>
+          <url>file://$PROJECT_DIR$/templates/graphical_login.html</url>
           <line>17</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -774,14 +808,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/profiles/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/apps.py" />
-    <entry file="file://$PROJECT_DIR$/profiles/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/admin.py" />
     <entry file="file://$PROJECT_DIR$/images/templates/image_page.html" />
     <entry file="file://$PROJECT_DIR$/profiles/templates/profile_detail.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -797,13 +823,6 @@
     <entry file="file://$PROJECT_DIR$/users/forms.py" />
     <entry file="file://$PROJECT_DIR$/users/urls.py" />
     <entry file="file://$PROJECT_DIR$/users/views.py" />
-    <entry file="file://$PROJECT_DIR$/templates/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -878,16 +897,6 @@
     <entry file="file://$PROJECT_DIR$/accounts/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Django_GraphicalPasswords/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -921,13 +930,6 @@
     <entry file="file://$PROJECT_DIR$/static/images/title.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="119" selection-start-line="23" selection-start-column="119" selection-end-line="23" selection-end-column="119" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/profiles/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-153">
@@ -940,10 +942,23 @@
     <entry file="file://$PROJECT_DIR$/accounts/forms.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Django_GraphicalPasswords/urls.py">
+    <entry file="file://$PROJECT_DIR$/profiles/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        <state relative-caret-position="408">
+          <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -957,19 +972,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/about.html">
+    <entry file="file://$PROJECT_DIR$/static/images/UserImages/1.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1950">
-          <caret line="121" column="20" selection-start-line="120" selection-start-column="20" selection-end-line="121" selection-end-column="20" />
+        <state relative-caret-position="474">
+          <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+          <folding>
+            <marker date="1549408031785" expanded="true" signature="1481:1486" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profiles/views.py">
+    <entry file="file://$PROJECT_DIR$/Django_GraphicalPasswords/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+          <caret line="39" column="68" lean-forward="true" selection-start-line="39" selection-start-column="68" selection-end-line="39" selection-end-column="68" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#649#681#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="85" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -981,10 +1012,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/views.py">
+    <entry file="file://$PROJECT_DIR$/templates/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state>
+          <caret selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/graphical_login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="125" column="10" selection-start-line="107" selection-start-column="12" selection-end-line="125" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/UserImages/9.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/UserImages/30.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/username_selection.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="69" column="21" lean-forward="true" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
         </state>
       </provider>
     </entry>

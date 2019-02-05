@@ -1,0 +1,159 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Username Selection Page</h1>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt accumsan velit, id accumsan
+        libero iaculis et. Aenean eleifend lectus posuere leo ultricies interdum. Pellentesque sodales non sem vitae
+        hendrerit. Phasellus metus ex, condimentum vitae consectetur ut, ullamcorper at lorem. Aenean sit amet libero
+        leo. Mauris pulvinar urna ultricies accumsan mollis. Aenean cursus placerat mollis. Phasellus egestas velit
+        eros, tempus tempor ex semper et. Pellentesque mattis nec orci ac vehicula.
+    </p>
+
+    <script>
+
+        var arrayImages = [
+            "static/images/UserImages/7.JPG",
+            "static/images/UserImages/8.JPG",
+            "static/images/UserImages/9.JPG",
+            "static/images/UserImages/10.JPG",
+            "static/images/UserImages/11.JPG",
+            "static/images/UserImages/12.JPG",
+            "static/images/UserImages/13.JPG",
+            "static/images/UserImages/14.JPG",
+            "static/images/UserImages/15.JPG",
+            "static/images/UserImages/16.JPG",
+            "static/images/UserImages/17.JPG",
+            "static/images/UserImages/18.JPG",
+            "static/images/UserImages/19.JPG",
+            "static/images/UserImages/20.JPG",
+            "static/images/UserImages/21.JPG",
+            "static/images/UserImages/22.JPG",
+            "static/images/UserImages/23.JPG",
+            "static/images/UserImages/24.JPG",
+            "static/images/UserImages/25.JPG",
+            "static/images/UserImages/26.JPG",
+            "static/images/UserImages/27.JPG",
+            "static/images/UserImages/28.JPG",
+            "static/images/UserImages/29.JPG",
+            "static/images/UserImages/30.JPG",
+            "static/images/UserImages/31.JPG",
+            "static/images/UserImages/32.JPG",
+            "static/images/UserImages/33.JPG",
+            "static/images/UserImages/34.JPG",
+            "static/images/UserImages/35.JPG",
+        ];
+        var displayed_images = [
+            "static/images/UserImages/1.JPG",
+            "static/images/UserImages/2.JPG",
+            "static/images/UserImages/3.JPG",
+            "static/images/UserImages/4.JPG",
+            "static/images/UserImages/5.JPG",
+            "static/images/UserImages/6.JPG",
+        ];
+
+        function getRandomInt(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        function refresh_images() {
+            var password_image_class = document.getElementsByClassName("password_image");
+            for (var current_image = 0; current_image < password_image_class.length; current_image++) {
+                password_image_class[current_image].src = arrayImages[getRandomInt(0, arrayImages.length - 1)];
+                password_image_class[current_image].src = password_image_class[current_image].src.replace("http://127.0.0.1:8000/username", "");
+                // http://127.0.0.1:8000
+                displayed_images.push(password_image_class[current_image].src.replace("http://127.0.0.1:8000", ""));
+                for (var image = 0; image < arrayImages.length; image++) {
+                    if (arrayImages[image] === password_image_class[current_image].src.replace("http://127.0.0.1:8000", "")) {
+                        arrayImages.splice(image, 1);
+                    }
+                }
+            }
+            for (var count = 0; count < 6; count++) {
+                var temp = displayed_images[count];
+                arrayImages.push(temp);
+            }
+            displayed_images.splice(0, 6);
+        }
+
+    </script>
+
+    <style>
+        .password_image {
+            padding: 5px;
+            border: 2px solid black;
+            position: relative;
+            float: left;
+            width: 135px;
+            height: 126px;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .password_image:hover {
+            opacity: 0.5;
+            filter: alpha(opacity=50); /* For IE8 and earlier */
+        }
+    </style>
+
+    <div style="margin-left:1%;padding:1px 16px; display: block; text-align: center">
+        <div class="row">
+            <div class="col-lg-4">
+                <form action="" method="POST">
+                    {% csrf_token %}
+                    <input type="hidden" id="image_id" value="1.jpg" name="image_id">
+                    <input class="password_image" type="image" value="1" src="/static/images/UserImages/1.JPG">
+                </form>
+            </div>
+
+            <div class="col-lg-4">
+                <form action="" method="POST">
+                    {% csrf_token %}
+                    <input type="hidden" id="image_id" value="2.jpg" name="image_id">
+                    <input class="password_image" type="image" value="2" src="/static/images/UserImages/2.JPG">
+                </form>
+            </div>
+
+            <div class="col-lg-4">
+                <form action="" method="POST">
+                    {% csrf_token %}
+                    <input type="hidden" id="image_id" value="3.jpg" name="image_id">
+                    <input class="password_image" type="image" value="3" src="/static/images/UserImages/3.JPG">
+                </form>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-lg-8">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <form action="" method="POST">
+                    {% csrf_token %}
+                    <input type="hidden" id="image_id" value="4.jpg" name="image_id">
+                    <input class="password_image" type="image" value="4" src="/static/images/UserImages/4.JPG">
+                </form>
+            </div>
+
+            <div class="col-lg-4">
+                <form action="" method="POST">
+                    {% csrf_token %}
+                    <input type="hidden" id="image_id" value="5.jpeg" name="image_id">
+                    <input class="password_image" type="image" value="5" src="/static/images/UserImages/5.JPG">
+                </form>
+            </div>
+
+            <div class="col-lg-4">
+                <form action="" method="POST">
+                    {% csrf_token %}
+                    <input type="hidden" id="image_id" value="6.gif" name="image_id">
+                    <input class="password_image" type="image" value="6" src="/static/images/UserImages/6.JPG">
+                </form>
+            </div>
+
+        </div>
+        <button onclick="refresh_images()">Refresh</button>
+    </div>
+{% endblock %}
