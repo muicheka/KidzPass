@@ -41,7 +41,6 @@ INSTALLED_APPS = [
 
 
     # third party
-    'rest_framework',
 
 
     # own apps

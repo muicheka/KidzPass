@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import redirect, render
 
 
 def home_view(request, *args, **kwargs):
@@ -36,11 +36,9 @@ def hash_test(request):
     with open("static/images/"+image_id, "rb") as imageFile:
         str = base64.b64encode(imageFile.read())
     username = "test"
-    print(username)
-    print(str)
     request.session['username'] = username
     request.session['password'] = str
-    return render(request, "registration/login.html", {
-        'username': username,
-        'password': str
-    })
+    print(request.session.get('username'))
+    print(request.session.get('password'))
+    # return render(request, "registration/login.html", {'username': username,'password': str})
+    return render(request, "login_form.html")

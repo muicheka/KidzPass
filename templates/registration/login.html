@@ -6,7 +6,7 @@
     <form action="{% url 'login_prog' %}" method="POST">
         {% csrf_token %}
         <input type="hidden" id="username" value={{ username }} name="username">
-        <input id="submit" type="button" value="Click"/>
+        <input type="submit" value="Click"/>
     </form>
 
     <h2>{{ username }} and {{ password }}</h2>

@@ -5,14 +5,17 @@ from django.views import generic
 
 
 def login_programmatically(request):
-    print("here friend")
     username = request.session.get('username')
     password = request.session.get('password')
-    print(username, password)
     from django.contrib.auth import authenticate, login
-    user = authenticate(username=username, password=password)
-    if user is not None:
-        login(request, user)
+    if username and password:
+        user = authenticate(username=username, password=password)
+        print(authenticate(username=username, password=password))
+        if user is not None:
+            print("logging in")
+            login(request, user)
+        else:
+    return render(request, "home.html")
 
 
 class SignUp(generic.CreateView):
