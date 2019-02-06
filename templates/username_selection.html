@@ -57,14 +57,17 @@
         }
 
         function refresh_images() {
-            var password_image_class = document.getElementsByClassName("password_image");
-            for (var current_image = 0; current_image < password_image_class.length; current_image++) {
-                password_image_class[current_image].src = arrayImages[getRandomInt(0, arrayImages.length - 1)];
-                password_image_class[current_image].src = password_image_class[current_image].src.replace("http://127.0.0.1:8000/username", "");
+            var username_image_class = document.getElementsByClassName("username_image");
+            var username_image_value = document.getElementsByClassName("username_image_value");
+            for (var current_image = 0; current_image < username_image_class.length; current_image++) {
+                username_image_class[current_image].src = arrayImages[getRandomInt(0, arrayImages.length - 1)];
+                username_image_value[current_image].value = username_image_class[current_image].src.replace("http://127.0.0.1:8000/username/static/images/UserImages/", "");
+                username_image_class[current_image].src = username_image_class[current_image].src.replace("http://127.0.0.1:8000/username", "");
+
                 // http://127.0.0.1:8000
-                displayed_images.push(password_image_class[current_image].src.replace("http://127.0.0.1:8000", ""));
+                displayed_images.push(username_image_class[current_image].src.replace("http://127.0.0.1:8000", ""));
                 for (var image = 0; image < arrayImages.length; image++) {
-                    if (arrayImages[image] === password_image_class[current_image].src.replace("http://127.0.0.1:8000", "")) {
+                    if (arrayImages[image] === username_image_class[current_image].src.replace("http://127.0.0.1:8000", "")) {
                         arrayImages.splice(image, 1);
                     }
                 }
@@ -79,7 +82,7 @@
     </script>
 
     <style>
-        .password_image {
+        .username_image {
             padding: 5px;
             border: 2px solid black;
             position: relative;
@@ -91,7 +94,7 @@
             background-size: cover;
         }
 
-        .password_image:hover {
+        .username_image:hover {
             opacity: 0.5;
             filter: alpha(opacity=50); /* For IE8 and earlier */
         }
@@ -102,24 +105,24 @@
             <div class="col-lg-4">
                 <form action="" method="POST">
                     {% csrf_token %}
-                    <input type="hidden" id="image_id" value="1.jpg" name="image_id">
-                    <input class="password_image" type="image" value="1" src="/static/images/UserImages/1.JPG">
+                    <input class="username_image_value" type="hidden" id="image_id" value="1.jpg" name="image_id">
+                    <input class="username_image" type="image" value="1" src="/static/images/UserImages/1.JPG">
                 </form>
             </div>
 
             <div class="col-lg-4">
                 <form action="" method="POST">
                     {% csrf_token %}
-                    <input type="hidden" id="image_id" value="2.jpg" name="image_id">
-                    <input class="password_image" type="image" value="2" src="/static/images/UserImages/2.JPG">
+                    <input class="username_image_value" type="hidden" id="image_id" value="2.jpg" name="image_id">
+                    <input class="username_image" type="image" value="2" src="/static/images/UserImages/2.JPG">
                 </form>
             </div>
 
             <div class="col-lg-4">
                 <form action="" method="POST">
                     {% csrf_token %}
-                    <input type="hidden" id="image_id" value="3.jpg" name="image_id">
-                    <input class="password_image" type="image" value="3" src="/static/images/UserImages/3.JPG">
+                    <input class="username_image_value" type="hidden" id="image_id" value="3.jpg" name="image_id">
+                    <input class="username_image" type="image" value="3" src="/static/images/UserImages/3.JPG">
                 </form>
             </div>
 
@@ -132,24 +135,24 @@
             <div class="col-lg-4">
                 <form action="" method="POST">
                     {% csrf_token %}
-                    <input type="hidden" id="image_id" value="4.jpg" name="image_id">
-                    <input class="password_image" type="image" value="4" src="/static/images/UserImages/4.JPG">
+                    <input class="username_image_value" type="hidden" id="image_id" value="4.jpg" name="image_id">
+                    <input class="username_image" type="image" value="4" src="/static/images/UserImages/4.JPG">
                 </form>
             </div>
 
             <div class="col-lg-4">
                 <form action="" method="POST">
                     {% csrf_token %}
-                    <input type="hidden" id="image_id" value="5.jpeg" name="image_id">
-                    <input class="password_image" type="image" value="5" src="/static/images/UserImages/5.JPG">
+                    <input class="username_image_value" type="hidden" id="image_id" value="5.jpeg" name="image_id">
+                    <input class="username_image" type="image" value="5" src="/static/images/UserImages/5.JPG">
                 </form>
             </div>
 
             <div class="col-lg-4">
                 <form action="" method="POST">
                     {% csrf_token %}
-                    <input type="hidden" id="image_id" value="6.gif" name="image_id">
-                    <input class="password_image" type="image" value="6" src="/static/images/UserImages/6.JPG">
+                    <input class="username_image_value" type="hidden" id="image_id" value="6.gif" name="image_id">
+                    <input class="username_image" type="image" value="6" src="/static/images/UserImages/6.JPG">
                 </form>
             </div>
 

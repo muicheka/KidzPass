@@ -22,7 +22,7 @@
         }
 
         function refresh_images() {
-            var password_image_class = document.getElementsByClassName("password_image");
+            var password_image_class = document.getElementsByClassName("username_image");
             for (var current_image = 0; current_image < password_image_class.length; current_image++)
             {
                 password_image_class[current_image].src = arrayImages[getRandomInt(0, arrayImages.length - 1)];
@@ -47,7 +47,7 @@
     </script>
 
     <style>
-        .password_image {
+        .username_image {
             padding: 5px;
             border: 2px solid black;
             position: relative;
@@ -59,7 +59,7 @@
             background-size:     cover;
         }
 
-        .password_image:hover {
+        .username_image:hover {
             opacity: 0.5;
             filter: alpha(opacity=50); /* For IE8 and earlier */
         }
