@@ -17,8 +17,15 @@ from django.contrib import admin
 from django.urls import path, include
 
 from accounts.views import login_programmatically, Login
-from pages.views import home_view, contact_view, admin_view, user_view, graphical_login_view, hash_test, \
-    username_select_view
+from pages.views import (
+    home_view,
+    contact_view,
+    admin_view, user_view,
+    graphical_login_view,
+    hash_test,
+    username_select_view,
+    selected_user_image_view,
+)
 from profiles.views import (
     profile_detail_view,
     profile_create_view,
@@ -37,8 +44,10 @@ urlpatterns = [
     path('create/', profile_create_view, name='create'),
     # path('login/', login_form_view, name='login'),
     path('hash/', hash_test, name='hash'),
+
     path('loginprog/', login_programmatically, name='login_prog'),
     path('username/', username_select_view, name='username_select'),
+    path('selected_user/', selected_user_image_view, name='selected_user_image'),
 
     path('accounts/', include('django.contrib.auth.urls')),
     path('accounts/', include('accounts.urls')),
