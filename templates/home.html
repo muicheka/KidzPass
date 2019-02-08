@@ -84,6 +84,18 @@
                     document.getElementById("user_icon").src = location;
                 }
             }
+            {% if user.is_authenticated %}
+                var currentTime = new Date();
+                var hours = currentTime.getHours();
+                var minutes = currentTime.getMinutes();
+                var seconds = currentTime.getSeconds();
+                var milliseconds = currentTime.getMilliseconds();
+                if (minutes < 10) {
+                    minutes = "0" + minutes
+                }
+                alert(hours + ":" + minutes + ":" + seconds + ":" + milliseconds);
+            {% endif %}
         };
+
     </script>
 {% endblock %}
