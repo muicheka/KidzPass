@@ -170,4 +170,18 @@
         </div>
         <button onclick="refresh_images()">Refresh</button>
     </div>
+
+    <script>
+        window.onload = function start_clock() {
+            var currentTime = new Date();
+            var hours = currentTime.getHours();
+            var minutes = currentTime.getMinutes();
+            var seconds = currentTime.getSeconds();
+            var milliseconds = currentTime.getMilliseconds();
+            if (minutes < 10) {
+                minutes = "0" + minutes
+            }
+            alert(hours + ":" + minutes + ":" + seconds + ":" + milliseconds);
+        }
+    </script>
 {% endblock %}
