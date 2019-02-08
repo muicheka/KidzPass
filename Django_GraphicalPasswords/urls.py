@@ -25,6 +25,9 @@ from pages.views import (
     hash_test,
     username_select_view,
     selected_user_image_view,
+    get_user_image,
+    testcall,
+    reguser,
 )
 from profiles.views import (
     profile_detail_view,
@@ -44,12 +47,16 @@ urlpatterns = [
     path('create/', profile_create_view, name='create'),
     # path('login/', login_form_view, name='login'),
     path('hash/', hash_test, name='hash'),
+    path('get_user_image', get_user_image, name='get_user_image'),
 
+    path('reguser/testcall/', testcall, name="testcall"),
+    path('reguser/', reguser, name='reguser'),
     path('loginprog/', login_programmatically, name='login_prog'),
     path('username/', username_select_view, name='username_select'),
     path('selected_user/', selected_user_image_view, name='selected_user_image'),
 
     path('accounts/', include('django.contrib.auth.urls')),
     path('accounts/', include('accounts.urls')),
-    path('accounts/login/', Login, name='Login')
+    path('accounts/login/', Login, name='Login'),
+
 ]

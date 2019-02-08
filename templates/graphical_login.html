@@ -22,7 +22,8 @@
         }
 
         function refresh_images() {
-            var password_image_class = document.getElementsByClassName("username_image");
+            var password_image_class = document.getElementsByClassName("password_image");
+            var password_image_value = document.getElementsByClassName("password_image_value");
             for (var current_image = 0; current_image < password_image_class.length; current_image++)
             {
                 password_image_class[current_image].src = arrayImages[getRandomInt(0, arrayImages.length - 1)];
@@ -47,7 +48,7 @@
     </script>
 
     <style>
-        .username_image {
+        .password_image {
             padding: 5px;
             border: 2px solid black;
             position: relative;
@@ -59,7 +60,7 @@
             background-size:     cover;
         }
 
-        .username_image:hover {
+        .password_image:hover {
             opacity: 0.5;
             filter: alpha(opacity=50); /* For IE8 and earlier */
         }
@@ -71,6 +72,8 @@
                 <form action="{% url 'hash' %}" method="POST">
                     {% csrf_token %}
                     <input type="hidden" id="image_id" value="1.jpg" name="image_id">
+                    <input class="password_image_value" type="hidden" id="password_image_id" value="1.jpg"
+                           name="password_image_id">
                     <input class="password_image" type="image" value="1" src="/static/images/1.jpg">
                 </form>
             </div>

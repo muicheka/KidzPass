@@ -1,5 +1,5 @@
 from django.shortcuts import redirect, render
-
+from django.http import HttpResponse
 
 def home_view(request, *args, **kwargs):
     print(request.user)
@@ -28,6 +28,10 @@ def admin_view(request, *args, **kwargs):
 def graphical_login_view(request, *args, **kwargs):
     # return HttpResponse("<h1>About page</h1>")  # string of HTML code
     return render(request, "graphical_login.html", {})
+
+
+def reguser(request, *args, **kwargs):
+    return render(request, "reg_select_user.html", {})
 
 
 def hash_test(request):
@@ -112,6 +116,19 @@ def get_user_image(request):
     if image_location != 0:
         string = "/static/images/UserImages/" + str(image_location) + ".JPG"
         return string
+
+
+def testcall(request):
+    from django.contrib.auth.models import User
+
+    users = User.objects.all()
+    list_users = [entry for entry in users]
+    print(users)
+
+    for x in range(len(list_users)):
+        current_user = list_users[x]
+        print(current_user)
+    return HttpResponse(request.POST["text"])
 
 
 class Image:

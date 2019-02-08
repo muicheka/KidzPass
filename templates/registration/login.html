@@ -10,11 +10,11 @@
         <input type="submit" value="Click"/>
     </form>
 
-    <h2>{{ username }} and {{ password }}</h2>
+    {% comment %}  <h2>{{ username }} and {{ password }}</h2>
 <div style="border-radius: 5px; background-color: #f2f2f2; padding: 20px;">
         <form action="" method="POST"> {% csrf_token %}
             {{ form.as_table }}
             <input type="submit" value="Login">
         </form>
-    </div>
+    </div>{% endcomment %}
 {%  endblock %}

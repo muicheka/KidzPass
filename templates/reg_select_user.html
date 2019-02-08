@@ -56,6 +56,19 @@
             return Math.floor(Math.random() * (max - min + 1)) + min;
         }
 
+        window.onload = function check_for_allocated_images() {
+            $.ajax({
+                type: "POST",
+                url: "{{ 'testcall/' }}",
+                data: {csrfmiddlewaretoken: '{{ csrf_token }}', text: "testing"},
+                success: function callback(response) {
+                    alert(response);
+                }
+            });
+
+
+        }
+
         function refresh_images() {
             var username_image_class = document.getElementsByClassName("username_image");
             var username_image_value = document.getElementsByClassName("username_image_value");
@@ -79,6 +92,7 @@
                 arrayImages.push(temp);
             }
             displayed_images.splice(0, 6);
+            check_for_allocated_images()
         }
 
 
