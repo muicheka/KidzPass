@@ -118,17 +118,19 @@ def get_user_image(request):
         return string
 
 
+from django.shortcuts import render_to_response
+import json
+from django.core import serializers
+
+
 def testcall(request):
     from django.contrib.auth.models import User
 
     users = User.objects.all()
     list_users = [entry for entry in users]
-    print(users)
-
-    for x in range(len(list_users)):
-        current_user = list_users[x]
-        print(current_user)
-    return HttpResponse(request.POST["text"])
+    print(list_users)
+    data = serializers.serialize('json', list_users)
+    return HttpResponse(data)
 
 
 class Image:
