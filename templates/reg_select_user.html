@@ -64,9 +64,7 @@
                 url: "{{ 'testcall/' }}",
                 data: {csrfmiddlewaretoken: '{{ csrf_token }}'},
                 success: function callback(response) {
-                    var string = JSON.stringify(response);
                     var objects = JSON.parse(response);
-                    var x = 1;
                     for (var model in objects) {
                         //alert(label)
                         alert((objects[model].fields.password));
