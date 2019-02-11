@@ -12,6 +12,52 @@
 
     <script>
 
+        class Image {
+            constructor(id, source, username, allocated) {
+                this.id = id;
+                this.source = source;
+                this.username = username;
+                this.allocated = allocated;
+            }
+
+            get id() {
+                return this._id;
+
+            }
+
+            get source() {
+                return this._source;
+            }
+
+            get username() {
+                return this._username;
+            }
+
+            get allocated() {
+                return this._allocated;
+            }
+
+            set id(value) {
+                this._id = value;
+
+            }
+
+            set source(value) {
+                this._source = value;
+            }
+
+            set username(value) {
+                this._username = value;
+            }
+
+            set allocated(value) {
+                this._allocated = value
+
+
+            }
+        }
+
+
         var arrayImages = [
             "static/images/UserImages/7.JPG",
             "static/images/UserImages/8.JPG",
@@ -56,6 +102,7 @@
             return Math.floor(Math.random() * (max - min + 1)) + min;
         }
 
+        var allocated_users = [];
         window.onload = function check_for_allocated_images() {
             list_users = [];
             $.ajax({
@@ -66,12 +113,9 @@
                 success: function callback(response) {
                     var objects = JSON.parse(response);
                     for (var model in objects) {
-                        //alert(label)
-                        alert((objects[model].fields.password));
+                        allocated_users.push((objects[model].fields.username))
                     }
-
-
-                    filter_images(list_users)
+                    filter_images()
 
                 }
             });
@@ -79,11 +123,24 @@
 
         };
 
-        function filter_images(list_users) {
-            //alert(list_users.length);
+        function filter_images() {
+            const image_1 = new Image(1, "static/images/UserImages/1.JPG", "elephant", false);
+            const image_2 = new Image(2, "static/images/UserImages/2.JPG", "rhino", false);
+            const images = [
+                new Image(3, "static/images/UserImages/3.JPG", "bunny", false),
+                new Image(4, "static/images/UserImages/4.JPG", "bear", false),
+            ];
+            for (var image in images) {
+                alert(images[image].username)
+            }
+            alert(Object.entries(images));
             let user;
-            for (user = 0; user < list_users.length; user++) {
-
+            for (user = 0; user < allocated_users.length; user++) {
+                alert(allocated_users[user]);
+                const keys = Object.keys(Image);
+                for (const key of keys) {
+                    alert(key);
+                }
             }
 
         }
