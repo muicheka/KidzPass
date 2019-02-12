@@ -58,42 +58,6 @@
         }
 
 
-        var arrayImages = [
-            "static/images/UserImages/7.JPG",
-            "static/images/UserImages/8.JPG",
-            "static/images/UserImages/9.JPG",
-            "static/images/UserImages/10.JPG",
-            "static/images/UserImages/11.JPG",
-            "static/images/UserImages/12.JPG",
-            "static/images/UserImages/13.JPG",
-            "static/images/UserImages/14.JPG",
-            "static/images/UserImages/15.JPG",
-            "static/images/UserImages/16.JPG",
-            "static/images/UserImages/17.JPG",
-            "static/images/UserImages/18.JPG",
-            "static/images/UserImages/19.JPG",
-            "static/images/UserImages/20.JPG",
-            "static/images/UserImages/21.JPG",
-            "static/images/UserImages/22.JPG",
-            "static/images/UserImages/23.JPG",
-            "static/images/UserImages/24.JPG",
-            "static/images/UserImages/25.JPG",
-            "static/images/UserImages/26.JPG",
-            "static/images/UserImages/27.JPG",
-            "static/images/UserImages/28.JPG",
-            "static/images/UserImages/29.JPG",
-            "static/images/UserImages/30.JPG",
-            "static/images/UserImages/31.JPG",
-            "static/images/UserImages/32.JPG",
-            "static/images/UserImages/33.JPG",
-            "static/images/UserImages/34.JPG",
-            "static/images/UserImages/35.JPG",
-        ];
-
-        function getRandomInt(min, max) {
-            return Math.floor(Math.random() * (max - min + 1)) + min;
-        }
-
         var allocated_users = [];
         window.onload = function check_for_allocated_images() {
             list_users = [];
@@ -128,6 +92,30 @@
             new Image(11, "static/images/UserImages/11.JPG", "whale", false),
             new Image(12, "static/images/UserImages/12.JPG", "dolphin", false),
             new Image(13, "static/images/UserImages/13.JPG", "shark", false),
+            new Image(14, "static/images/UserImages/14.JPG", "octopus", false),
+            new Image(15, "static/images/UserImages/15.JPG", "butterfly", false),
+            new Image(16, "static/images/UserImages/16.JPG", "ladybird", false),
+            new Image(17, "static/images/UserImages/17.JPG", "spider", false),
+            new Image(18, "static/images/UserImages/18.JPG", "bee", false),
+            new Image(19, "static/images/UserImages/19.JPG", "monkey", false),
+            new Image(20, "static/images/UserImages/20.JPG", "dog", false),
+            new Image(21, "static/images/UserImages/21.JPG", "fox", false),
+            new Image(22, "static/images/UserImages/22.JPG", "cat", false),
+            new Image(23, "static/images/UserImages/23.JPG", "lion", false),
+            new Image(24, "static/images/UserImages/24.JPG", "tiger", false),
+            new Image(25, "static/images/UserImages/25.JPG", "horse", false),
+            new Image(26, "static/images/UserImages/26.JPG", "zebra", false),
+            new Image(27, "static/images/UserImages/27.JPG", "cow", false),
+            new Image(28, "static/images/UserImages/28.JPG", "pig", false),
+            new Image(29, "static/images/UserImages/29.JPG", "giraffe", false),
+            new Image(30, "static/images/UserImages/30.JPG", "fish", false),
+            new Image(31, "static/images/UserImages/31.JPG", "turtle", false),
+            new Image(32, "static/images/UserImages/32.JPG", "crocodile", false),
+            new Image(33, "static/images/UserImages/33.JPG", "owl", false),
+            new Image(34, "static/images/UserImages/34.JPG", "bird", false),
+            new Image(35, "static/images/UserImages/35.JPG", "gorilla", false),
+
+
         ];
 
 
@@ -153,6 +141,7 @@
                     for (var image in images) {
                         if (allocated_users[user] === images[image].username) {
                             images[image].allocated = true;
+                            //alert(images[image].username + " is allocated");
                         }
                     }
                 }

@@ -119,10 +119,10 @@
         <counts>
           <entry key="Django Console" value="45" />
           <entry key="css" value="165" />
-          <entry key="html" value="12646" />
+          <entry key="html" value="12781" />
           <entry key="py" value="9262" />
           <entry key="py@Django_GraphicalPasswords" value="912" />
-          <entry key="txt" value="1515" />
+          <entry key="txt" value="1550" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -141,8 +141,8 @@
         <counts>
           <entry key="CSS" value="165" />
           <entry key="CommandLine" value="815" />
-          <entry key="HTML" value="12646" />
-          <entry key="PLAIN_TEXT" value="1612" />
+          <entry key="HTML" value="12781" />
+          <entry key="PLAIN_TEXT" value="1647" />
           <entry key="Python" value="9307" />
         </counts>
       </usages-collector>
@@ -171,8 +171,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/reg_select_user.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="197" lean-forward="true" selection-start-line="197" selection-end-line="197" />
+            <state relative-caret-position="446">
+              <caret line="115" column="54" selection-start-line="115" selection-start-column="54" selection-end-line="115" selection-end-column="54" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -778,7 +778,14 @@
       <option name="project" value="LOCAL" />
       <updated>1549994879808</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Reworked refresh functionality">
+      <created>1549998439718</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1549998439718</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TodoView">
@@ -878,7 +885,8 @@
     <MESSAGE value="Implemented functionality to select user-animal and login with username and password(if the account exists)" />
     <MESSAGE value="Implementing Image class using JS for register" />
     <MESSAGE value="Implemented image class - about to rework the refresh functionality to factor in allocated images." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented image class - about to rework the refresh functionality to factor in allocated images." />
+    <MESSAGE value="Reworked refresh functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reworked refresh functionality" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1129,8 +1137,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/reg_select_user.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="197" lean-forward="true" selection-start-line="197" selection-end-line="197" />
+        <state relative-caret-position="446">
+          <caret line="115" column="54" selection-start-line="115" selection-start-column="54" selection-end-line="115" selection-end-column="54" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
