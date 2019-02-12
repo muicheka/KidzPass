@@ -122,28 +122,49 @@
 
 
         };
+        const images = [
+            new Image(1, "static/images/UserImages/1.JPG", "elephant", false),
+            new Image(2, "static/images/UserImages/2.JPG", "rhino", false),
+            new Image(3, "static/images/UserImages/3.JPG", "bunny", false),
+            new Image(4, "static/images/UserImages/4.JPG", "bear", false),
+            new Image(5, "static/images/UserImages/5.JPG", "koala", false),
+            new Image(6, "static/images/UserImages/6.JPG", "panda", false),
+            new Image(7, "static/images/UserImages/7.JPG", "chicken", false),
+            new Image(8, "static/images/UserImages/8.JPG", "penguin", false),
+            new Image(9, "static/images/UserImages/9.JPG", "frog", false),
+            new Image(10, "static/images/UserImages/10.JPG", "snake", false),
+            new Image(11, "static/images/UserImages/11.JPG", "whale", false),
+            new Image(12, "static/images/UserImages/12.JPG", "dolphin", false),
+        ];
 
         function filter_images() {
-            const image_1 = new Image(1, "static/images/UserImages/1.JPG", "elephant", false);
-            const image_2 = new Image(2, "static/images/UserImages/2.JPG", "rhino", false);
-            const images = [
-                new Image(3, "static/images/UserImages/3.JPG", "bunny", false),
-                new Image(4, "static/images/UserImages/4.JPG", "bear", false),
-            ];
-            for (var image in images) {
-                alert(images[image].username)
-            }
-            alert(Object.entries(images));
             let user;
             for (user = 0; user < allocated_users.length; user++) {
                 alert(allocated_users[user]);
-                const keys = Object.keys(Image);
-                for (const key of keys) {
-                    alert(key);
+                if (allocated_users[user] === "admin") {
+                    alert("user is admin");
+                }
+                else {
+                    for (var image in images) {
+                        alert("Username: " + images[image].username + " Allocated: " + images[image].allocated);
+                        if (allocated_users[user] === images[image].username) {
+                            images[image].allocated = true;
+                        }
+                        alert("Username: " + images[image].username + " Allocated: " + images[image].allocated);
+                    }
                 }
             }
-
+            sort_images()
         }
+
+        function sort_image() {
+            for (var image in images) {
+                if (images[image].allocated === true) {
+
+                }
+            }
+        }
+
 
         function refresh_images() {
             var username_image_class = document.getElementsByClassName("username_image");
