@@ -212,7 +212,7 @@
     <div style="margin-left:1%;padding:1px 16px; display: block; text-align: center">
         <div class="row">
             <div class="col-lg-4">
-                <form action="{% url 'selected_user_image' %}" method="POST">
+                <form action="{% url 'selected_user_image_reg' %}" method="POST">
                     {% csrf_token %}
                     <input class="username_image_value" type="hidden" id="user_image_id" value="1.JPG"
                            name="user_image_id">

@@ -1,5 +1,7 @@
 from django.shortcuts import redirect, render
 from django.http import HttpResponse
+import base64
+
 
 def home_view(request, *args, **kwargs):
     print(request.user)
@@ -48,6 +50,22 @@ def hash_test(request):
         'password': str})
 
 
+def reg_hash(request):
+    image_id = request.POST.get('image_id')
+    print(image_id)
+    path = "static/images/UserImages/" + image_id
+    with open(path, "rb") as imageFile:
+        str = base64.b64encode(imageFile.read())
+    request.session['password'] = str
+    username = request.session.get('username')
+    print(request.session.get('username'))
+    print(request.session.get('password'))
+
+    return render(request, "registration/signup.html", {
+        'username': username,
+        'password': str})
+
+
 def username_select_view(request):
     return render(request, "username_selection.html")
 
@@ -64,7 +82,7 @@ usernames = {
     9: "frog",
     10: "snake",
     11: "whale",
-    12: "dophin",
+    12: "dolphin",
     13: "shark",
     14: "octopus",
     15: "butterfly",
@@ -91,13 +109,24 @@ usernames = {
 }
 
 
+def selected_user_image_reg_view(request):
+    user_image_id = request.POST.get('user_image_id')
+    user_image_id = user_image_id.replace(".JPG", "")
+    user_image_id = int(user_image_id)
+
+    current_username = usernames[user_image_id]
+    request.session['username'] = current_username
+    return render(request, "select_graphical_password.html", {
+        'username': current_username,
+    })
+
+
 def selected_user_image_view(request):
     user_image_id = request.POST.get('user_image_id')
     user_image_id = user_image_id.replace(".JPG", "")
     user_image_id = int(user_image_id)
 
     current_username = usernames[user_image_id]
-    print(current_username)
     request.session['username'] = current_username
     return render(request, "graphical_login.html", {
         'username': current_username,
@@ -131,18 +160,3 @@ def testcall(request):
     print(list_users)
     data = serializers.serialize('json', list_users)
     return HttpResponse(data)
-
-
-class Image:
-    def __init__(self, image_id, source, username, allocated):
-        self.image_id = image_id
-        self.source = source
-        self.username = username
-        self.allocated = allocated
-
-    def check_allocation(self):
-        return self.allocated
-
-
-one = Image(1, "/static/images/UserImages/1.JPG", "elephant", True)
-two = Image(2, "/static/images/UserImages/2.JPG", "rhino", False)

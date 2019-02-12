@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}Sign Up{% endblock %}
+
+{% block content %}
+    <h2>Sign up</h2>
+
+    <h2>{{ username }} and {{ password }}</h2>
+
+    <form action="{% url 'Signup' %}" method="post">
+        {% csrf_token %}
+
+        <input type="text" id="username" value={{ username }} name="username">
+        <input type="password" id="password1" value={{ password }} name="password1">
+        <input type="password" id="password2" value={{ password }} name="password2">
+        <button type="submit">Sign up</button>
+    </form>
+
+
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Sign up</button>
+    </form>
+{% endblock %}

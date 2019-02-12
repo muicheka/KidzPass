@@ -16,18 +16,21 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-from accounts.views import login_programmatically, Login
+from accounts.views import login_programmatically, Login, Signup
 from pages.views import (
     home_view,
     contact_view,
     admin_view, user_view,
     graphical_login_view,
     hash_test,
+    reg_hash,
     username_select_view,
     selected_user_image_view,
     get_user_image,
     testcall,
     reguser,
+    selected_user_image_reg_view,
+
 )
 from profiles.views import (
     profile_detail_view,
@@ -47,6 +50,7 @@ urlpatterns = [
     path('create/', profile_create_view, name='create'),
     # path('login/', login_form_view, name='login'),
     path('hash/', hash_test, name='hash'),
+    path('reg_hash/', reg_hash, name='reg_hash'),
     path('get_user_image', get_user_image, name='get_user_image'),
 
     path('reguser/testcall/', testcall, name="testcall"),
@@ -54,9 +58,11 @@ urlpatterns = [
     path('loginprog/', login_programmatically, name='login_prog'),
     path('username/', username_select_view, name='username_select'),
     path('selected_user/', selected_user_image_view, name='selected_user_image'),
+    path('selected_user_reg/', selected_user_image_reg_view, name='selected_user_image_reg'),
 
     path('accounts/', include('django.contrib.auth.urls')),
     path('accounts/', include('accounts.urls')),
     path('accounts/login/', Login, name='Login'),
+    path('accounts/signup/', Signup, name='Signup'),
 
 ]
