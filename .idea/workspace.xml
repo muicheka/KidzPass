@@ -90,7 +90,7 @@
     <session id="-1135527428">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="JPG" value="5" />
+          <entry key="JPG" value="6" />
           <entry key="css" value="9" />
           <entry key="html" value="93" />
           <entry key="js" value="1" />
@@ -103,7 +103,7 @@
         <counts>
           <entry key="CSS" value="9" />
           <entry key="HTML" value="93" />
-          <entry key="Image" value="6" />
+          <entry key="Image" value="7" />
           <entry key="JavaScript" value="1" />
           <entry key="Python" value="163" />
           <entry key="UNKNOWN" value="1" />
@@ -119,10 +119,10 @@
         <counts>
           <entry key="Django Console" value="45" />
           <entry key="css" value="165" />
-          <entry key="html" value="11527" />
+          <entry key="html" value="12646" />
           <entry key="py" value="9262" />
-          <entry key="py@Django_GraphicalPasswords" value="910" />
-          <entry key="txt" value="1398" />
+          <entry key="py@Django_GraphicalPasswords" value="912" />
+          <entry key="txt" value="1515" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -140,9 +140,9 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="165" />
-          <entry key="CommandLine" value="813" />
-          <entry key="HTML" value="11527" />
-          <entry key="PLAIN_TEXT" value="1495" />
+          <entry key="CommandLine" value="815" />
+          <entry key="HTML" value="12646" />
+          <entry key="PLAIN_TEXT" value="1612" />
           <entry key="Python" value="9307" />
         </counts>
       </usages-collector>
@@ -171,8 +171,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/reg_select_user.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="158" column="9" lean-forward="true" selection-start-line="158" selection-start-column="9" selection-end-line="158" selection-end-column="9" />
+            <state relative-caret-position="330">
+              <caret line="197" lean-forward="true" selection-start-line="197" selection-end-line="197" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -234,6 +234,7 @@
       <find>GraphicalPasswords</find>
       <find>User%20Images</find>
       <find>image_id</find>
+      <find>alert</find>
     </findStrings>
     <replaceStrings>
       <replace>console.log</replace>
@@ -763,7 +764,21 @@
       <option name="project" value="LOCAL" />
       <updated>1549926699758</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Implemented image class - about to rework the refresh functionality to factor in allocated images.">
+      <created>1549993073017</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1549993073017</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Implemented image class - about to rework the refresh functionality to factor in allocated images.">
+      <created>1549994879808</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1549994879808</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TodoView">
@@ -779,7 +794,7 @@
     <frame x="654" y="0" width="1273" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2560175" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25556472" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -862,7 +877,8 @@
     <MESSAGE value="Able to login in using an Image. Added Username selection page - sorted an issue with values - password will have the same bug. Still some dups" />
     <MESSAGE value="Implemented functionality to select user-animal and login with username and password(if the account exists)" />
     <MESSAGE value="Implementing Image class using JS for register" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementing Image class using JS for register" />
+    <MESSAGE value="Implemented image class - about to rework the refresh functionality to factor in allocated images." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented image class - about to rework the refresh functionality to factor in allocated images." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -886,7 +902,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/__init__.py" />
     <entry file="file://$PROJECT_DIR$/templates/hash_test.py" />
     <entry file="file://$PROJECT_DIR$/users/admin.py" />
     <entry file="file://$PROJECT_DIR$/users/models.py" />
@@ -1109,10 +1124,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/UserImages/13.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/reg_select_user.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="158" column="9" lean-forward="true" selection-start-line="158" selection-start-column="9" selection-end-line="158" selection-end-column="9" />
+        <state relative-caret-position="330">
+          <caret line="197" lean-forward="true" selection-start-line="197" selection-end-line="197" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>

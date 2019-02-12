@@ -89,14 +89,6 @@
             "static/images/UserImages/34.JPG",
             "static/images/UserImages/35.JPG",
         ];
-        var displayed_images = [
-            "static/images/UserImages/1.JPG",
-            "static/images/UserImages/2.JPG",
-            "static/images/UserImages/3.JPG",
-            "static/images/UserImages/4.JPG",
-            "static/images/UserImages/5.JPG",
-            "static/images/UserImages/6.JPG",
-        ];
 
         function getRandomInt(min, max) {
             return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -135,10 +127,12 @@
             new Image(10, "static/images/UserImages/10.JPG", "snake", false),
             new Image(11, "static/images/UserImages/11.JPG", "whale", false),
             new Image(12, "static/images/UserImages/12.JPG", "dolphin", false),
+            new Image(13, "static/images/UserImages/13.JPG", "shark", false),
         ];
 
 
         var unallocated_images = [];
+        var displayed_images = [];
 
         function sort_images() {
             for (var image in images) {
@@ -152,17 +146,14 @@
         function filter_images() {
             let user;
             for (user = 0; user < allocated_users.length; user++) {
-                //alert(allocated_users[user]);
                 if (allocated_users[user] === "admin") {
                     //alert("user is admin");
                 }
                 else {
                     for (var image in images) {
-                        //alert("Username: " + images[image].username + " Allocated: " + images[image].allocated);
                         if (allocated_users[user] === images[image].username) {
                             images[image].allocated = true;
                         }
-                        //alert("Username: " + images[image].username + " Allocated: " + images[image].allocated);
                     }
                 }
             }
@@ -174,37 +165,35 @@
             var username_image_class = document.getElementsByClassName("username_image");
             var username_image_value = document.getElementsByClassName("username_image_value");
             for (var current_image = 0; current_image < username_image_class.length; current_image++) {
+                if (username_image_class[current_image].type === "hidden") {
+                    username_image_class[current_image].type = "image";
+                }
                 username_image_class[current_image].src = unallocated_images[current_image].source;
-                alert(unallocated_images[current_image].id);
                 username_image_value[current_image].value = unallocated_images[current_image].id + ".JPG";
                 username_image_class[current_image].src = username_image_class[current_image].src.replace("http://127.0.0.1:8000/reguser", "");
+                displayed_images.push(unallocated_images[current_image]);
             }
+            unallocated_images.splice(0, 6);
         }
 
         function refresh_images() {
             var username_image_class = document.getElementsByClassName("username_image");
             var username_image_value = document.getElementsByClassName("username_image_value");
             for (var current_image = 0; current_image < username_image_class.length; current_image++) {
-                username_image_class[current_image].src = arrayImages[getRandomInt(0, arrayImages.length - 1)];
-                username_image_value[current_image].value = username_image_class[current_image].src.replace("http://127.0.0.1:8000/username/static/images/UserImages/", "");
-                username_image_class[current_image].src = username_image_class[current_image].src.replace("http://127.0.0.1:8000/username", "");
-
-                // http://127.0.0.1:8000
-                displayed_images.push(username_image_class[current_image].src.replace("http://127.0.0.1:8000/", ""));
-                for (var image = 0; image < arrayImages.length; image++) {
-                    //alert(arrayImages[image]);
-                    //alert(username_image_class[current_image].src.replace("http://127.0.0.1:8000/", ""));
-                    if (arrayImages[image] === username_image_class[current_image].src.replace("http://127.0.0.1:8000/", "")) {
-                        arrayImages.splice(image, 1);
-                    }
-                }
+                username_image_class[current_image].src = unallocated_images[current_image].source;
+                username_image_value[current_image].value = unallocated_images[current_image].id + ".JPG";
+                username_image_class[current_image].src = username_image_class[current_image].src.replace("http://127.0.0.1:8000/reguser", "");
+                displayed_images.push(unallocated_images[current_image]);
             }
+
             for (var count = 0; count < 6; count++) {
                 var temp = displayed_images[count];
-                arrayImages.push(temp);
+                unallocated_images.push(temp);
             }
             displayed_images.splice(0, 6);
-            check_for_allocated_images()
+            unallocated_images.splice(0, 6);
+            console.log(unallocated_images);
+
         }
 
 
@@ -238,7 +227,7 @@
                     {% csrf_token %}
                     <input class="username_image_value" type="hidden" id="user_image_id" value="1.JPG"
                            name="user_image_id">
-                    <input class="username_image" type="image" value="1" src="/static/images/UserImages/1.JPG">
+                    <input class="username_image" type="hidden" value="1" src="/static/images/UserImages/1.JPG">
                 </form>
             </div>
 
@@ -247,7 +236,7 @@
                     {% csrf_token %}
                     <input class="username_image_value" type="hidden" id="user_image_id" value="2.JPG"
                            name="user_image_id">
-                    <input class="username_image" type="image" value="2" src="/static/images/UserImages/2.JPG">
+                    <input class="username_image" type="hidden" value="2" src="/static/images/UserImages/2.JPG">
                 </form>
             </div>
 
@@ -256,7 +245,7 @@
                     {% csrf_token %}
                     <input class="username_image_value" type="hidden" id="user_image_id" value="3.JPG"
                            name="user_image_id">
-                    <input class="username_image" type="image" value="3" src="/static/images/UserImages/3.JPG">
+                    <input class="username_image" type="hidden" value="3" src="/static/images/UserImages/3.JPG">
                 </form>
             </div>
 
@@ -271,7 +260,7 @@
                     {% csrf_token %}
                     <input class="username_image_value" type="hidden" id="user_image_id" value="4.JPG"
                            name="user_image_id">
-                    <input class="username_image" type="image" value="4" src="/static/images/UserImages/4.JPG">
+                    <input class="username_image" type="hidden" value="4" src="/static/images/UserImages/4.JPG">
                 </form>
             </div>
 
@@ -280,7 +269,7 @@
                     {% csrf_token %}
                     <input class="username_image_value" type="hidden" id="user_image_id" value="5.JPG"
                            name="user_image_id">
-                    <input class="username_image" type="image" value="5" src="/static/images/UserImages/5.JPG">
+                    <input class="username_image" type="hidden" value="5" src="/static/images/UserImages/5.JPG">
                 </form>
             </div>
 
@@ -289,7 +278,7 @@
                     {% csrf_token %}
                     <input class="username_image_value" type="hidden" id="user_image_id" value="6.JPG"
                            name="user_image_id">
-                    <input class="username_image" type="image" value="6" src="/static/images/UserImages/6.JPG">
+                    <input class="username_image" type="hidden" value="6" src="/static/images/UserImages/6.JPG">
                 </form>
             </div>
 
