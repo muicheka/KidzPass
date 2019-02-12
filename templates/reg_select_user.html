@@ -137,34 +137,49 @@
             new Image(12, "static/images/UserImages/12.JPG", "dolphin", false),
         ];
 
+
+        var unallocated_images = [];
+
+        function sort_images() {
+            for (var image in images) {
+                if (images[image].allocated === false) {
+                    unallocated_images.push(images[image]);
+                }
+            }
+            display_images()
+        }
+
         function filter_images() {
             let user;
             for (user = 0; user < allocated_users.length; user++) {
-                alert(allocated_users[user]);
+                //alert(allocated_users[user]);
                 if (allocated_users[user] === "admin") {
-                    alert("user is admin");
+                    //alert("user is admin");
                 }
                 else {
                     for (var image in images) {
-                        alert("Username: " + images[image].username + " Allocated: " + images[image].allocated);
+                        //alert("Username: " + images[image].username + " Allocated: " + images[image].allocated);
                         if (allocated_users[user] === images[image].username) {
                             images[image].allocated = true;
                         }
-                        alert("Username: " + images[image].username + " Allocated: " + images[image].allocated);
+                        //alert("Username: " + images[image].username + " Allocated: " + images[image].allocated);
                     }
                 }
             }
             sort_images()
         }
 
-        function sort_image() {
-            for (var image in images) {
-                if (images[image].allocated === true) {
 
-                }
+        function display_images() {
+            var username_image_class = document.getElementsByClassName("username_image");
+            var username_image_value = document.getElementsByClassName("username_image_value");
+            for (var current_image = 0; current_image < username_image_class.length; current_image++) {
+                username_image_class[current_image].src = unallocated_images[current_image].source;
+                alert(unallocated_images[current_image].id);
+                username_image_value[current_image].value = unallocated_images[current_image].id + ".JPG";
+                username_image_class[current_image].src = username_image_class[current_image].src.replace("http://127.0.0.1:8000/reguser", "");
             }
         }
-
 
         function refresh_images() {
             var username_image_class = document.getElementsByClassName("username_image");
