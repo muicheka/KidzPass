@@ -2,6 +2,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Insert this code before your </body> tag -->
+    <script src="//static.miniclipcdn.com/js/game-embed.js"></script>
+
     <meta charset="UTF-8">
     <title>KidzPass & SeniorPass</title>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -19,6 +22,8 @@
         <li class="nav_options"><a href="{% url 'username_select' %}">Login</a></li>
     </ul>
 </nav>
+
+
 <body>
 <div style="margin-left:25%;padding:1px 16px; display: block; text-align: center">
     <img id="title_image" src="{% static 'images/title.png' %}" alt="KidzPass & SeniorPass" style="width:80%;height:auto;padding: 10px;min-width: 50%">

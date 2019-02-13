@@ -2,13 +2,6 @@
 
 {% block content %}
     <h1>Home Page</h1>
-    {% if messages %}
-        <ul class="messages">
-            {% for message in messages %}
-                <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
-            {% endfor %}
-        </ul>
-    {% endif %}
     {% if user.is_authenticated %}
         <p style="display: inline">Logged in as <p style="display: inline" id="user_id">{{ user.username }}</p></p>
         <img id="user_icon" src="#"/>
@@ -18,30 +11,17 @@
         <p>You are not logged in</p>
         <a href="{% url 'login' %}">Click here to Login</a>
     {% endif %}
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt accumsan velit, id accumsan
-        libero iaculis et. Aenean eleifend lectus posuere leo ultricies interdum. Pellentesque sodales non sem vitae
-        hendrerit. Phasellus metus ex, condimentum vitae consectetur ut, ullamcorper at lorem. Aenean sit amet libero
-        leo. Mauris pulvinar urna ultricies accumsan mollis. Aenean cursus placerat mollis. Phasellus egestas velit
-        eros, tempus tempor ex semper et. Pellentesque mattis nec orci ac vehicula.
-    </p>
-    <p>
-        Ut hendrerit dolor sit amet augue convallis pretium. Donec quis est condimentum, consectetur nibh et, ultricies
-        lectus. Nam odio purus, ornare eget dui imperdiet, accumsan scelerisque est. Donec lacinia eu risus a feugiat.
-        Suspendisse maximus massa eget dui convallis, vitae mollis tellus pretium. Sed feugiat molestie ex, ac vehicula
-        est volutpat at. Maecenas ullamcorper lectus ex, non ultrices dolor porta bibendum. Duis fermentum feugiat
-        pellentesque. Aenean elementum placerat lorem, et euismod metus rutrum id. Aliquam erat volutpat. Nullam
-        porttitor augue nec arcu eleifend gravida.
-    </p>
-    <p>
-        Sed euismod tempor urna vitae hendrerit. Etiam accumsan sit amet leo non viverra. Vivamus consectetur ante in
-        orci ornare, id egestas neque bibendum. Etiam sed tellus finibus, ultricies ligula quis, viverra nisi. Nullam
-        facilisis dignissim lectus a mollis. Donec eget sapien faucibus, feugiat leo et, ornare urna. In bibendum
-        aliquam velit, et feugiat orci pellentesque in. Pellentesque dapibus volutpat nibh, eget ultricies magna gravida
-        vitae. Etiam ligula nibh, viverra vitae metus at, consequat blandit arcu. Ut venenatis neque id elit accumsan
-        tincidunt. Donec sit amet facilisis mi. Sed in semper mauris, sed porta felis. In porta justo ac nibh consequat
-        consectetur.
-    </p>
+
+    <!-- Place this code where you'd like the game to appear -->
+    <div class="miniclip-game-embed" data-game-name="cut-the-rope-time-travel" data-theme="0" data-width="1024"
+         data-height="576" data-language="en"><a href="http://www.miniclip.com/games/cut-the-rope-time-travel/">Play Cut
+        the Rope Time Travel</a></div>
+    <p style="text-align:center;"><a href="http://www.miniclip.com/games/cut-the-rope-time-travel/" target="_blank">Play
+        Cut the Rope Time Travel</a> / More <a href="http://www.miniclip.com/games/genre-1/" target="_blank">Puzzle
+        games</a></p>
+
+
+
 
     <script>
         var usernames = {

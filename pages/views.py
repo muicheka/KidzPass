@@ -160,3 +160,14 @@ def testcall(request):
     print(list_users)
     data = serializers.serialize('json', list_users)
     return HttpResponse(data)
+
+
+from django.contrib import messages
+
+
+def game_view(request):
+    if request.user.is_authenticated:
+        return render(request, "game.html")
+    else:
+        messages.info(request, "You are not authenticated yet")
+        return render(request, "home.html")
