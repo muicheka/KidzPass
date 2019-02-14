@@ -2,6 +2,9 @@ from django.shortcuts import render
 from django.contrib.auth.forms import UserCreationForm
 from django.urls import reverse_lazy
 from django.views import generic
+from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth.decorators import login_required
+from django.http import HttpResponseRedirect
 
 
 def login_programmatically(request):
@@ -30,4 +33,3 @@ class Signup(generic.CreateView):
 
 class Login(generic.CreateView):
     template_name = 'login_form.html'
-
