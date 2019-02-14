@@ -5,32 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13cc11e5-2e34-466f-975a-041503261870" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/images/PasswordImages/41.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_GraphicalPasswords/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_GraphicalPasswords/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/templates/extracode.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/5.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/6.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/game.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/graphical_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/graphical_login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/reg_select_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/reg_select_user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/select_graphical_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/select_graphical_password.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +95,7 @@
           <entry key="js" value="1" />
           <entry key="multilingual-hello" value="1" />
           <entry key="png" value="1" />
-          <entry key="py" value="192" />
+          <entry key="py" value="195" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -129,7 +104,7 @@
           <entry key="HTML" value="135" />
           <entry key="Image" value="7" />
           <entry key="JavaScript" value="1" />
-          <entry key="Python" value="192" />
+          <entry key="Python" value="195" />
           <entry key="UNKNOWN" value="1" />
         </counts>
       </usages-collector>
@@ -146,7 +121,7 @@
           <entry key="html" value="14344" />
           <entry key="py" value="9899" />
           <entry key="py@Django_GraphicalPasswords" value="923" />
-          <entry key="txt" value="1712" />
+          <entry key="txt" value="1770" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -166,7 +141,7 @@
           <entry key="CSS" value="203" />
           <entry key="CommandLine" value="826" />
           <entry key="HTML" value="14344" />
-          <entry key="PLAIN_TEXT" value="1809" />
+          <entry key="PLAIN_TEXT" value="1867" />
           <entry key="Python" value="9944" />
         </counts>
       </usages-collector>
@@ -175,46 +150,36 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/home.html">
+        <entry file="file://$PROJECT_DIR$/Django_GraphicalPasswords/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Django_GraphicalPasswords/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="817">
-              <caret line="140" column="24" selection-start-line="140" selection-start-column="24" selection-end-line="140" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="163" column="35" selection-start-line="163" selection-start-column="35" selection-end-line="163" selection-end-column="35" />
+            <state relative-caret-position="559">
+              <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
               <folding>
-                <element signature="e#0#45#0" expanded="true" />
-                <marker date="1550177155636" expanded="true" signature="1037:1095" ph="..." />
-                <marker date="1550177155636" expanded="true" signature="2140:2145" ph="..." />
-                <marker date="1550177155636" expanded="true" signature="2854:3212" ph="..." />
-                <marker date="1550177155636" expanded="true" signature="3250:3255" ph="..." />
+                <element signature="e#649#681#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/accounts/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Django_GraphicalPasswords/urls.py">
+        <entry file="file://$PROJECT_DIR$/accounts/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="61" column="93" lean-forward="true" selection-start-line="61" selection-start-column="93" selection-end-line="61" selection-end-column="93" />
+            <state relative-caret-position="372">
+              <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
               <folding>
-                <element signature="e#649#681#0" expanded="true" />
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -336,7 +301,7 @@
       <scroll-view-position x="0" y="0" />
     </layout>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1057" />
@@ -373,12 +338,7 @@
             <path>
               <item name="Django_GP" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Django_GraphicalPasswords" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Django_GP" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="pages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="accounts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="Django_GP" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -822,7 +782,14 @@
       <option name="project" value="LOCAL" />
       <updated>1550170682348</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Changed home page to contain game (only on authenticate)">
+      <created>1550177173342</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1550177173342</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TodoView">
@@ -835,14 +802,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12846482" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26367614" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32725322" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.33044422" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.32655826" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -901,7 +868,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Working on templates for Profiles app" />
     <MESSAGE value="Working to improve forms using Django's built in error handling" />
     <MESSAGE value="Worked on forms, altered the form to show dates correctly for the DOB field." />
     <MESSAGE value="Added CSS to templates&#10;Altered model and improved register&#10;attempted to do login but stopped due to questions:-&#10;do I implement a new form for login?&#10;Do I reuse the Profiles form?&#10;How does Users fit into that?&#10;Do templates receive their own CSS or inherit it from the base.html? Online searching would say no but I couldn't get it working." />
@@ -926,7 +892,8 @@
     <MESSAGE value="Reworked refresh functionality - added more images" />
     <MESSAGE value="Got Registration process working." />
     <MESSAGE value="Small changes concerning login-logout flow. bigger bolder buttons for little fingers." />
-    <option name="LAST_COMMIT_MESSAGE" value="Small changes concerning login-logout flow. bigger bolder buttons for little fingers." />
+    <MESSAGE value="Changed home page to contain game (only on authenticate)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed home page to contain game (only on authenticate)" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1143,6 +1110,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/game.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="163" column="35" selection-start-line="163" selection-start-column="35" selection-end-line="163" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+            <marker date="1550177172503" expanded="true" signature="1037:1095" ph="..." />
+            <marker date="1550177172503" expanded="true" signature="2142:2147" ph="..." />
+            <marker date="1550177172503" expanded="true" signature="2856:3214" ph="..." />
+            <marker date="1550177172503" expanded="true" signature="3252:3257" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django_GraphicalPasswords/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="140" column="24" selection-start-line="140" selection-start-column="24" selection-end-line="140" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django_GraphicalPasswords/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
+          <folding>
+            <element signature="e#649#681#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/accounts/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1155,55 +1167,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/accounts/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
+        <state relative-caret-position="372">
           <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/game.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="163" column="35" selection-start-line="163" selection-start-column="35" selection-end-line="163" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-            <marker date="1550177155636" expanded="true" signature="1037:1095" ph="..." />
-            <marker date="1550177155636" expanded="true" signature="2140:2145" ph="..." />
-            <marker date="1550177155636" expanded="true" signature="2854:3212" ph="..." />
-            <marker date="1550177155636" expanded="true" signature="3250:3255" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django_GraphicalPasswords/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="140" column="24" selection-start-line="140" selection-start-column="24" selection-end-line="140" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django_GraphicalPasswords/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="61" column="93" lean-forward="true" selection-start-line="61" selection-start-column="93" selection-end-line="61" selection-end-column="93" />
-          <folding>
-            <element signature="e#649#681#0" expanded="true" />
           </folding>
         </state>
       </provider>
