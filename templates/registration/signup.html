@@ -1,13 +1,11 @@
 {% extends 'base.html' %}
 
-{% block title %}Sign Up{% endblock %}
+{% block title %}Signing you up...{% endblock %}
 
 {% block content %}
     <h2>Sign up</h2>
-
-    <h2>{{ username }} and {{ password }}</h2>
-
-    <form action="{% url 'Signup' %}" method="post">
+    <div style="display: none">
+        <form id="signupform" action="{% url 'Signup' %}" method="post">
         {% csrf_token %}
 
         <input type="text" id="username" value={{ username }} name="username">
@@ -15,11 +13,18 @@
         <input type="password" id="password2" value={{ password }} name="password2">
         <button type="submit">Sign up</button>
     </form>
+    </div>
 
-
-    <form method="post">
+    {% comment %}    <form method="post">
         {% csrf_token %}
         {{ form.as_p }}
         <button type="submit">Sign up</button>
-    </form>
+    </form>{% endcomment %}
+
+    <script>
+        window.onload = function submit_form() {
+
+            document.getElementById("signupform").submit();
+        }
+    </script>
 {% endblock %}

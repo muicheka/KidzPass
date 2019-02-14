@@ -13,6 +13,7 @@
         <p class="greeting" style="display: inline">Logged in as
         <p class="greeting" style="display: inline" id="user_id">{{ user.username }}</p></p>
         <img id="user_icon" src="#"/>
+        <h1>Well done! You logged in!</h1>
         <div>
             <button id="logout_btn" class="button"> Logout</button>
         </div>
@@ -26,65 +27,65 @@
 
     <script>
         {% if user.is_authenticated %}
-        var usernames = {
-            1: "elephant",
-            2: "rhino",
-            3: "rabbit",
-            4: "bear",
-            5: "koala",
-            6: "panda",
-            7: "chicken",
-            8: "penguin",
-            9: "frog",
-            10: "snake",
-            11: "whale",
-            12: "dophin",
-            13: "shark",
-            14: "octopus",
-            15: "butterfly",
-            16: "ladybird",
-            17: "spider",
-            18: "bee",
-            19: "monkey",
-            20: "dog",
-            21: "fox",
-            22: "cat",
-            23: "lion",
-            24: "tiger",
-            25: "horse",
-            26: "zebra",
-            27: "cow",
-            28: "pig",
-            29: "giraffe",
-            30: "fish",
-            31: "turtle",
-            32: "crocodile",
-            33: "owl",
-            34: "bird",
-            35: "gorilla",
-        };
-        window.onload = function get_user_image() {
-            var location = "";
-            var current_username = document.getElementById("user_id").textContent;
-            let x;
-            for (x = 0; x < Object.keys(usernames).length; x++) {
-                if (usernames[x] === current_username) {
-                    location = "/static/images/UserImages/" + x + ".JPG";
-                    document.getElementById("user_icon").src = location;
+            var usernames = {
+                1: "elephant",
+                2: "rhino",
+                3: "rabbit",
+                4: "bear",
+                5: "koala",
+                6: "panda",
+                7: "chicken",
+                8: "penguin",
+                9: "frog",
+                10: "snake",
+                11: "whale",
+                12: "dophin",
+                13: "shark",
+                14: "octopus",
+                15: "butterfly",
+                16: "ladybird",
+                17: "spider",
+                18: "bee",
+                19: "monkey",
+                20: "dog",
+                21: "fox",
+                22: "cat",
+                23: "lion",
+                24: "tiger",
+                25: "horse",
+                26: "zebra",
+                27: "cow",
+                28: "pig",
+                29: "giraffe",
+                30: "fish",
+                31: "turtle",
+                32: "crocodile",
+                33: "owl",
+                34: "bird",
+                35: "gorilla",
+            };
+            window.onload = function get_user_image() {
+                var location = "";
+                var current_username = document.getElementById("user_id").textContent;
+                let x;
+                for (x = 0; x < Object.keys(usernames).length; x++) {
+                    if (usernames[x] === current_username) {
+                        location = "/static/images/UserImages/" + x + ".JPG";
+                        document.getElementById("user_icon").src = location;
+                    }
                 }
-            }
-            {% if user.is_authenticated %}
-                var currentTime = new Date();
-                var hours = currentTime.getHours();
-                var minutes = currentTime.getMinutes();
-                var seconds = currentTime.getSeconds();
-                var milliseconds = currentTime.getMilliseconds();
-                if (minutes < 10) {
-                    minutes = "0" + minutes
-                }
-                alert("End Time: " + hours + ":" + minutes + ":" + seconds + ":" + milliseconds);
-            {% endif %}
-        };
+                {% if user.is_authenticated %}
+                    var currentTime = new Date();
+                    var hours = currentTime.getHours();
+                    var minutes = currentTime.getMinutes();
+                    var seconds = currentTime.getSeconds();
+                    var milliseconds = currentTime.getMilliseconds();
+                    if (minutes < 10) {
+                        minutes = "0" + minutes
+                    }
+                    alert("End Time: " + hours + ":" + minutes + ":" + seconds + ":" + milliseconds);
+                {% endif %}
+            };
 
             document.getElementById("logout_btn").onclick = function () {
                 location.href = "{% url 'logout' %}";
@@ -99,4 +100,11 @@
             };
         {% endif %}
     </script>
+    {% if user.is_authenticated %}
+        <div>
+            <iframe src="//www.miniclip.com/games/flip-master/en/webgame.php?bodybg=5&amp;width=488&amp;height=670&amp;forcecredits=null"
+                    width="488" height="670" frameborder="0" scrolling="no" style="border:none;"
+                    allowfullscreen=""></iframe>
+        </div>
+    {% endif %}
 {% endblock %}

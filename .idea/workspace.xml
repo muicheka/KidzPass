@@ -5,18 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13cc11e5-2e34-466f-975a-041503261870" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/css/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/reglogin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/PasswordImages/41.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Django_GraphicalPasswords/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_GraphicalPasswords/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/game.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/game.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/templates/extracode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/5.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/game.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/graphical_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/graphical_login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/reg_select_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/reg_select_user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration/logged_out.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/logged_out.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/username_selection.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/username_selection.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/registration/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/select_graphical_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/select_graphical_password.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,20 +116,20 @@
         <counts>
           <entry key="JPG" value="6" />
           <entry key="css" value="13" />
-          <entry key="html" value="112" />
+          <entry key="html" value="135" />
           <entry key="js" value="1" />
           <entry key="multilingual-hello" value="1" />
           <entry key="png" value="1" />
-          <entry key="py" value="181" />
+          <entry key="py" value="192" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="13" />
-          <entry key="HTML" value="112" />
+          <entry key="HTML" value="135" />
           <entry key="Image" value="7" />
           <entry key="JavaScript" value="1" />
-          <entry key="Python" value="181" />
+          <entry key="Python" value="192" />
           <entry key="UNKNOWN" value="1" />
         </counts>
       </usages-collector>
@@ -129,10 +143,10 @@
         <counts>
           <entry key="Django Console" value="45" />
           <entry key="css" value="203" />
-          <entry key="html" value="13897" />
-          <entry key="py" value="9823" />
-          <entry key="py@Django_GraphicalPasswords" value="921" />
-          <entry key="txt" value="1603" />
+          <entry key="html" value="14344" />
+          <entry key="py" value="9899" />
+          <entry key="py@Django_GraphicalPasswords" value="923" />
+          <entry key="txt" value="1712" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -150,61 +164,21 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="203" />
-          <entry key="CommandLine" value="824" />
-          <entry key="HTML" value="13897" />
-          <entry key="PLAIN_TEXT" value="1700" />
-          <entry key="Python" value="9868" />
+          <entry key="CommandLine" value="826" />
+          <entry key="HTML" value="14344" />
+          <entry key="PLAIN_TEXT" value="1809" />
+          <entry key="Python" value="9944" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="34" />
-              <folding>
-                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#1;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/reg_select_user.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/reglogin.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/username_selection.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+            <state relative-caret-position="238">
+              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -212,8 +186,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Django_GraphicalPasswords/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="136" column="37" selection-start-line="136" selection-start-column="37" selection-end-line="136" selection-end-column="37" />
+            <state relative-caret-position="817">
+              <caret line="140" column="24" selection-start-line="140" selection-start-column="24" selection-end-line="140" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="477">
+              <caret line="163" column="35" selection-start-line="163" selection-start-column="35" selection-end-line="163" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+                <marker date="1550177155636" expanded="true" signature="1037:1095" ph="..." />
+                <marker date="1550177155636" expanded="true" signature="2140:2145" ph="..." />
+                <marker date="1550177155636" expanded="true" signature="2854:3212" ph="..." />
+                <marker date="1550177155636" expanded="true" signature="3250:3255" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Django_GraphicalPasswords/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="61" column="93" lean-forward="true" selection-start-line="61" selection-start-column="93" selection-end-line="61" selection-end-column="93" />
+              <folding>
+                <element signature="e#649#681#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -301,25 +303,25 @@
         <option value="$PROJECT_DIR$/pages/serializers.py" />
         <option value="$PROJECT_DIR$/profiles/views.py" />
         <option value="$PROJECT_DIR$/templates/about.html" />
-        <option value="$PROJECT_DIR$/templates/graphical_login.html" />
-        <option value="$PROJECT_DIR$/templates/registration/login.html" />
         <option value="$PROJECT_DIR$/templates/registration/reg_select_user.html" />
-        <option value="$PROJECT_DIR$/templates/select_graphical_password.html" />
         <option value="$PROJECT_DIR$/accounts/urls.py" />
-        <option value="$PROJECT_DIR$/templates/registration/signup.html" />
         <option value="$PROJECT_DIR$/accounts/views.py" />
-        <option value="$PROJECT_DIR$/pages/views.py" />
-        <option value="$PROJECT_DIR$/templates/game.html" />
-        <option value="$PROJECT_DIR$/Django_GraphicalPasswords/urls.py" />
-        <option value="$PROJECT_DIR$/Django_GraphicalPasswords/settings.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/static/css/base.css" />
         <option value="$PROJECT_DIR$/static/css/home.css" />
-        <option value="$PROJECT_DIR$/templates/home.html" />
         <option value="$PROJECT_DIR$/templates/registration/logged_out.html" />
-        <option value="$PROJECT_DIR$/templates/username_selection.html" />
         <option value="$PROJECT_DIR$/static/css/reglogin.css" />
+        <option value="$PROJECT_DIR$/templates/username_selection.html" />
         <option value="$PROJECT_DIR$/templates/reg_select_user.html" />
+        <option value="$PROJECT_DIR$/templates/graphical_login.html" />
+        <option value="$PROJECT_DIR$/templates/select_graphical_password.html" />
+        <option value="$PROJECT_DIR$/templates/registration/signup.html" />
+        <option value="$PROJECT_DIR$/templates/registration/login.html" />
+        <option value="$PROJECT_DIR$/templates/game.html" />
+        <option value="$PROJECT_DIR$/Django_GraphicalPasswords/settings.py" />
+        <option value="$PROJECT_DIR$/templates/home.html" />
+        <option value="$PROJECT_DIR$/pages/views.py" />
+        <option value="$PROJECT_DIR$/Django_GraphicalPasswords/urls.py" />
       </list>
     </option>
   </component>
@@ -334,7 +336,7 @@
       <scroll-view-position x="0" y="0" />
     </layout>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1057" />
@@ -377,17 +379,6 @@
               <item name="Django_GP" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="pages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Django_GP" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="static" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Django_GP" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="static" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="Django_GP" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -437,17 +428,17 @@
     <key name="OPEN_URL_DIALOG">
       <recent name="https://github.com/klutz/multilingual-hello" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\micha\PycharmProjects\Django_GP\static\images\PasswordImages" />
+      <recent name="C:\Users\micha\PycharmProjects\Django_GP\static\images\UserImages" />
+      <recent name="C:\Users\micha\PycharmProjects\Django_GP\static\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\micha\PycharmProjects\Django_GP\templates\registration" />
       <recent name="C:\Users\micha\PycharmProjects\Django_GP\static\images" />
       <recent name="C:\Users\micha\PycharmProjects\Django_GP\templates" />
       <recent name="$PROJECT_DIR$/templates/registration" />
       <recent name="$PROJECT_DIR$/templates" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\micha\PycharmProjects\Django_GP\static\images\PasswordImages" />
-      <recent name="C:\Users\micha\PycharmProjects\Django_GP\static\images\UserImages" />
-      <recent name="C:\Users\micha\PycharmProjects\Django_GP\static\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -824,7 +815,14 @@
       <option name="project" value="LOCAL" />
       <updated>1550017825698</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Small changes concerning login-logout flow. bigger bolder buttons for little fingers.">
+      <created>1550170682347</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1550170682348</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TodoView">
@@ -837,14 +835,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1057" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26477024" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12846482" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32827735" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32725322" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.32655826" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -856,7 +854,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.3969957" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32618025" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.37231758" />
-      <window_info anchor="bottom" id="manage.py@Django_GraphicalPasswords" order="13" sideWeight="0.49946696" visible="true" weight="0.37919825" />
+      <window_info anchor="bottom" id="manage.py@Django_GraphicalPasswords" order="13" sideWeight="0.49946696" weight="0.37553647" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32936078" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="15" weight="0.32936078" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -903,7 +901,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Started profile app for users" />
     <MESSAGE value="Working on templates for Profiles app" />
     <MESSAGE value="Working to improve forms using Django's built in error handling" />
     <MESSAGE value="Worked on forms, altered the form to show dates correctly for the DOB field." />
@@ -928,7 +925,8 @@
     <MESSAGE value="Reworked refresh functionality" />
     <MESSAGE value="Reworked refresh functionality - added more images" />
     <MESSAGE value="Got Registration process working." />
-    <option name="LAST_COMMIT_MESSAGE" value="Got Registration process working." />
+    <MESSAGE value="Small changes concerning login-logout flow. bigger bolder buttons for little fingers." />
+    <option name="LAST_COMMIT_MESSAGE" value="Small changes concerning login-logout flow. bigger bolder buttons for little fingers." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -937,11 +935,6 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/pages/views.py</url>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/templates/graphical_login.html</url>
-          <line>17</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1001,9 +994,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/images/title.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1051,55 +1041,10 @@
     <entry file="file://$PROJECT_DIR$/static/images/UserImages/13.JPG">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/graphical_login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="69" column="25" lean-forward="true" selection-end-line="130" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/accounts/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/registration/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/select_graphical_password.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
-          <caret line="84" column="11" lean-forward="true" selection-start-line="84" selection-start-column="11" selection-end-line="84" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2890">
-          <caret line="172" column="43" selection-start-line="172" selection-start-column="43" selection-end-line="172" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-            <marker date="1550017824968" expanded="true" signature="1037:1095" ph="..." />
-            <marker date="1550017824968" expanded="true" signature="2123:2128" ph="..." />
-            <marker date="1550017824968" expanded="true" signature="2837:3195" ph="..." />
-            <marker date="1550017824968" expanded="true" signature="3233:3238" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1111,51 +1056,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/accounts/admin.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/game.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django_GraphicalPasswords/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="136" column="37" selection-start-line="136" selection-start-column="37" selection-end-line="136" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django_GraphicalPasswords/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-          <folding>
-            <element signature="e#649#681#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -1178,13 +1078,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/username_selection.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/registration/logged_out.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1192,28 +1085,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="34" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/reglogin.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/username_selection.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="67" column="53" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/reg_select_user.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="715">
+          <caret line="260" column="61" selection-start-line="260" selection-start-column="61" selection-end-line="260" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/registration/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="27" />
+          <folding>
+            <element signature="e#113#134#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+          <folding>
+            <element signature="e#71#92#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/select_graphical_password.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/graphical_login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="146" column="47" selection-start-line="146" selection-start-column="47" selection-end-line="146" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/game.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="163" column="35" selection-start-line="163" selection-start-column="35" selection-end-line="163" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+            <marker date="1550177155636" expanded="true" signature="1037:1095" ph="..." />
+            <marker date="1550177155636" expanded="true" signature="2140:2145" ph="..." />
+            <marker date="1550177155636" expanded="true" signature="2854:3212" ph="..." />
+            <marker date="1550177155636" expanded="true" signature="3250:3255" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django_GraphicalPasswords/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="140" column="24" selection-start-line="140" selection-start-column="24" selection-end-line="140" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django_GraphicalPasswords/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="61" column="93" lean-forward="true" selection-start-line="61" selection-start-column="93" selection-end-line="61" selection-end-column="93" />
+          <folding>
+            <element signature="e#649#681#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

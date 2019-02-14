@@ -1,21 +1,61 @@
 {% extends "base.html" %}
 {% load static %}
+{% load static from staticfiles %}
 
 
 {% block content %}
-    <h1>Graphical Login</h1>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt accumsan velit, id accumsan
-        libero iaculis et. Aenean eleifend lectus posuere leo ultricies interdum. Pellentesque sodales non sem vitae
-        hendrerit. Phasellus metus ex, condimentum vitae consectetur ut, ullamcorper at lorem. Aenean sit amet libero
-        leo. Mauris pulvinar urna ultricies accumsan mollis. Aenean cursus placerat mollis. Phasellus egestas velit
-        eros, tempus tempor ex semper et. Pellentesque mattis nec orci ac vehicula.
-    </p>
-
+    <link rel="stylesheet" type="text/css" media="all" href="{% static 'css/reglogin.css' %}">
+    <h1>Login - Select Password Image</h1>
     <script>
 
-        var arrayImages = ["/static/images/7.jpg", "/static/images/8.jpg", "/static/images/9.jpg", "/static/images/10.jpg","/static/images/11.jpg", "/static/images/12.jpg","/static/images/13.jpg"];
-        var displayed_images = ["/static/images/1.jpg","/static/images/2.jpg","/static/images/3.jpg","/static/images/4.jpg","/static/images/5.jpeg","/static/images/6.gif"];
+        var arrayImages = [
+            "/static/images/PasswordImages/7.jpg",
+            "/static/images/PasswordImages/8.jpg",
+            "/static/images/PasswordImages/9.jpg",
+            "/static/images/PasswordImages/10.jpg",
+            "/static/images/PasswordImages/11.jpg",
+            "/static/images/PasswordImages/12.jpg",
+            "/static/images/PasswordImages/13.jpg",
+            "/static/images/PasswordImages/14.jpg",
+            "/static/images/PasswordImages/15.jpg",
+            "/static/images/PasswordImages/16.jpg",
+            "/static/images/PasswordImages/17.jpg",
+            "/static/images/PasswordImages/18.jpg",
+            "/static/images/PasswordImages/19.jpg",
+            "/static/images/PasswordImages/20.jpg",
+            "/static/images/PasswordImages/21.jpg",
+            "/static/images/PasswordImages/22.jpg",
+            "/static/images/PasswordImages/23.jpg",
+            "/static/images/PasswordImages/24.jpg",
+            "/static/images/PasswordImages/25.jpg",
+            "/static/images/PasswordImages/26.jpg",
+            "/static/images/PasswordImages/27.jpg",
+            "/static/images/PasswordImages/28.jpg",
+            "/static/images/PasswordImages/29.jpg",
+            "/static/images/PasswordImages/30.jpg",
+            "/static/images/PasswordImages/31.jpg",
+            "/static/images/PasswordImages/32.jpg",
+            "/static/images/PasswordImages/33.jpg",
+            "/static/images/PasswordImages/34.jpg",
+            "/static/images/PasswordImages/35.jpg",
+            "/static/images/PasswordImages/36.jpg",
+            "/static/images/PasswordImages/37.jpg",
+            "/static/images/PasswordImages/38.jpg",
+            "/static/images/PasswordImages/39.jpg",
+            "/static/images/PasswordImages/40.jpg",
+            "/static/images/PasswordImages/41.jpg",
+
+
+        ];
+
+        var displayed_images = [
+            "/static/images/PasswordImages/1.jpg",
+            "/static/images/PasswordImages/2.jpg",
+            "/static/images/PasswordImages/3.jpg",
+            "/static/images/PasswordImages/4.jpg",
+            "/static/images/PasswordImages/5.jpg",
+            "/static/images/PasswordImages/6.jpg"
+        ];
 
         function getRandomInt(min, max) {
             return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -24,25 +64,25 @@
         function refresh_images() {
             var password_image_class = document.getElementsByClassName("password_image");
             var password_image_value = document.getElementsByClassName("password_image_value");
-            for (var current_image = 0; current_image < password_image_class.length; current_image++)
-            {
+            for (var current_image = 0; current_image < password_image_class.length; current_image++) {
                 password_image_class[current_image].src = arrayImages[getRandomInt(0, arrayImages.length - 1)];
-                password_image_class[current_image].src= password_image_class[current_image].src.slice(21);
-                displayed_images.push(password_image_class[current_image].src.slice(21));
-                for (var image = 0; image < arrayImages.length;image++)
-                {
-                    if(arrayImages[image]=== password_image_class[current_image].src.slice(21))
-                    {
-                        arrayImages.splice(image,1);
+                password_image_value[current_image].value = password_image_class[current_image].src.replace("http://127.0.0.1:8000/static/images/PasswordImages/", "");
+                password_image_class[current_image].src = password_image_class[current_image].src.replace("http://127.0.0.1:8000/selected_user", "");
+
+                displayed_images.push(password_image_class[current_image].src.replace("http://127.0.0.1:8000/selected_user", ""));
+                for (var image = 0; image < arrayImages.length; image++) {
+                    if (arrayImages[image] === password_image_class[current_image].src.replace("http://127.0.0.1:8000/selected_user", "")) {
+                        arrayImages.splice(image, 1);
                     }
                 }
             }
-            for(var count=0; count <6;count++)
-            {
+            for (var count = 0; count < 6; count++) {
                 var temp = displayed_images[count];
                 arrayImages.push(temp);
             }
-            displayed_images.splice(0,6);
+            console.log(arrayImages);
+
+            displayed_images.splice(0, 6);
         }
 
     </script>
@@ -53,11 +93,9 @@
             border: 2px solid black;
             position: relative;
             float: left;
-            width:  450px;
-            height: 400px;
             background-position: 50% 50%;
-            background-repeat:   no-repeat;
-            background-size:     cover;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
 
         .password_image:hover {
@@ -71,26 +109,27 @@
             <div class="col-lg-4">
                 <form action="{% url 'hash' %}" method="POST">
                     {% csrf_token %}
-                    <input type="hidden" id="image_id" value="1.jpg" name="image_id">
                     <input class="password_image_value" type="hidden" id="password_image_id" value="1.jpg"
                            name="password_image_id">
-                    <input class="password_image" type="image" value="1" src="/static/images/1.jpg">
+                    <input class="password_image" type="image" value="1" src="/static/images/PasswordImages/1.jpg">
                 </form>
             </div>
 
             <div class="col-lg-4">
                 <form action="{% url 'hash' %}" method="POST">
                     {% csrf_token %}
-                    <input type="hidden" id="image_id" value="2.jpg" name="image_id">
-                    <input class="password_image" type="image" value="2" src="/static/images/2.jpg">
+                    <input class="password_image_value" type="hidden" id="password_image_id" value="2.jpg"
+                           name="password_image_id">
+                    <input class="password_image" type="image" value="2" src="/static/images/PasswordImages/2.jpg">
                 </form>
             </div>
 
             <div class="col-lg-4">
                 <form action="{% url 'hash' %}" method="POST">
                     {% csrf_token %}
-                    <input type="hidden" id="image_id" value="3.jpg" name="image_id">
-                    <input class="password_image" type="image" value="3" src="/static/images/3.jpg">
+                    <input class="password_image_value" type="hidden" id="password_image_id" value="3.jpg"
+                           name="password_image_id">
+                    <input class="password_image" type="image" value="3" src="/static/images/PasswordImages/3.jpg">
                 </form>
             </div>
 
@@ -103,29 +142,32 @@
             <div class="col-lg-4">
                 <form action="{% url 'hash' %}" method="POST">
                     {% csrf_token %}
-                    <input type="hidden" id="image_id" value="4.jpg" name="image_id">
-                    <input class="password_image" type="image" value="4" src="/static/images/4.jpg">
+                    <input class="password_image_value" type="hidden" id="password_image_id" value="4.jpg"
+                           name="password_image_id">
+                    <input class="password_image" type="image" value="4" src="/static/images/PasswordImages/4.jpg">
                 </form>
             </div>
 
             <div class="col-lg-4">
                 <form action="{% url 'hash' %}" method="POST">
                     {% csrf_token %}
-                    <input type="hidden" id="image_id" value="5.jpeg" name="image_id">
-                    <input class="password_image" type="image" value="5" src="/static/images/5.jpeg">
+                    <input class="password_image_value" type="hidden" id="password_image_id" value="5.jpg"
+                           name="password_image_id">
+                    <input class="password_image" type="image" value="5" src="/static/images/PasswordImages/5.jpg">
                 </form>
             </div>
 
             <div class="col-lg-4">
                 <form action="{% url 'hash' %}" method="POST">
                     {% csrf_token %}
-                    <input type="hidden" id="image_id" value="6.gif" name="image_id">
-                    <input class="password_image" type="image" value="6" src="/static/images/6.gif">
+                    <input class="password_image_value" type="hidden" id="password_image_id" value="6.jpg"
+                           name="password_image_id">
+                    <input class="password_image" type="image" value="6" src="/static/images/PasswordImages/6.jpg">
                 </form>
             </div>
 
         </div>
-        <button onclick="refresh_images()">Refresh</button>
+        <button class="button" onclick="refresh_images()">Refresh</button>
     </div>
 
 {% endblock %}

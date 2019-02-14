@@ -1,15 +1,15 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <h1>Login</h1>
-
-    <form action="{% url 'Login' %}" method="POST">
+    <h1>Logging you in...</h1>
+    <div style="display: none">
+        <form id="loginform" action="{% url 'Login' %}" method="POST">
         {% csrf_token %}
         <input type="hidden" id="username" value={{ username }} name="username">
         <input type="hidden" id="password" value={{ password }} name="password">
         <input type="submit" value="Click"/>
     </form>
-
+    </div>
     {% comment %}  <h2>{{ username }} and {{ password }}</h2>
 <div style="border-radius: 5px; background-color: #f2f2f2; padding: 20px;">
         <form action="" method="POST"> {% csrf_token %}
@@ -17,4 +17,11 @@
             <input type="submit" value="Login">
         </form>
     </div>{% endcomment %}
-{%  endblock %}
+
+    <script>
+        window.onload = function submit_form() {
+
+            document.getElementById("loginform").submit();
+        }
+    </script>
+{% endblock %}

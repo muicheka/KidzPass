@@ -37,9 +37,9 @@ def reguser(request, *args, **kwargs):
 
 
 def hash_test(request):
-    image_id = request.POST.get('image_id')
+    image_id = request.POST.get('password_image_id')
     import base64
-    with open("static/images/"+image_id, "rb") as imageFile:
+    with open("static/images/PasswordImages/" + image_id, "rb") as imageFile:
         str = base64.b64encode(imageFile.read())
     request.session['password'] = str
     username = request.session.get('username')
@@ -51,9 +51,8 @@ def hash_test(request):
 
 
 def reg_hash(request):
-    image_id = request.POST.get('image_id')
-    print(image_id)
-    path = "static/images/UserImages/" + image_id
+    image_id = request.POST.get('password_image_id')
+    path = "static/images/PasswordImages/" + image_id
     with open(path, "rb") as imageFile:
         str = base64.b64encode(imageFile.read())
     request.session['password'] = str
@@ -163,11 +162,3 @@ def testcall(request):
 
 
 from django.contrib import messages
-
-
-def game_view(request):
-    if request.user.is_authenticated:
-        return render(request, "game.html")
-    else:
-        messages.info(request, "You are not authenticated yet")
-        return render(request, "home.html")

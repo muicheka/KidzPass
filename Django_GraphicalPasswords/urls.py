@@ -31,7 +31,6 @@ from pages.views import (
     testcall,
     reguser,
     selected_user_image_reg_view,
-    game_view
 
 )
 from profiles.views import (
@@ -66,9 +65,6 @@ urlpatterns = [
     path('accounts/', include('accounts.urls')),
     path('accounts/login/', Login, name='Login'),
     path('accounts/signup/', Signup, name='Signup'),
-
-    path('game/', game_view, name='game'),
-
 ]
 
 urlpatterns += staticfiles_urlpatterns()
