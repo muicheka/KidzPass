@@ -15,6 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 from accounts.views import login_programmatically, Login, Signup
 from pages.views import (
@@ -69,3 +70,5 @@ urlpatterns = [
     path('game/', game_view, name='game'),
 
 ]
+
+urlpatterns += staticfiles_urlpatterns()

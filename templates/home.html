@@ -1,7 +1,7 @@
 {% extends "base.html" %}
-
+{% load static from staticfiles %}
 {% block content %}
-    <h1>Home Page</h1>
+    <link rel="stylesheet" type="text/css" media="all" href="{% static 'css/home.css' %}">
     {% if messages %}
         <ul class="messages">
             {% for message in messages %}
@@ -10,40 +10,22 @@
         </ul>
     {% endif %}
     {% if user.is_authenticated %}
-        <p style="display: inline">Logged in as <p style="display: inline" id="user_id">{{ user.username }}</p></p>
+        <p class="greeting" style="display: inline">Logged in as
+        <p class="greeting" style="display: inline" id="user_id">{{ user.username }}</p></p>
         <img id="user_icon" src="#"/>
-        <p><a href="{% url 'logout' %}">Logout</a></p>
-
+        <div>
+            <button id="logout_btn" class="button"> Logout</button>
+        </div>
     {% else %}
-        <p>You are not logged in</p>
-        <a href="{% url 'login' %}">Click here to Login</a>
+        <p class="greeting">You are not logged in</p>
+        <div>
+            <button id="login_btn" class="button"> Login</button>
+            <button id="reg_btn" class="button"> Register</button>
+        </div>
     {% endif %}
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt accumsan velit, id accumsan
-        libero iaculis et. Aenean eleifend lectus posuere leo ultricies interdum. Pellentesque sodales non sem vitae
-        hendrerit. Phasellus metus ex, condimentum vitae consectetur ut, ullamcorper at lorem. Aenean sit amet libero
-        leo. Mauris pulvinar urna ultricies accumsan mollis. Aenean cursus placerat mollis. Phasellus egestas velit
-        eros, tempus tempor ex semper et. Pellentesque mattis nec orci ac vehicula.
-    </p>
-    <p>
-        Ut hendrerit dolor sit amet augue convallis pretium. Donec quis est condimentum, consectetur nibh et, ultricies
-        lectus. Nam odio purus, ornare eget dui imperdiet, accumsan scelerisque est. Donec lacinia eu risus a feugiat.
-        Suspendisse maximus massa eget dui convallis, vitae mollis tellus pretium. Sed feugiat molestie ex, ac vehicula
-        est volutpat at. Maecenas ullamcorper lectus ex, non ultrices dolor porta bibendum. Duis fermentum feugiat
-        pellentesque. Aenean elementum placerat lorem, et euismod metus rutrum id. Aliquam erat volutpat. Nullam
-        porttitor augue nec arcu eleifend gravida.
-    </p>
-    <p>
-        Sed euismod tempor urna vitae hendrerit. Etiam accumsan sit amet leo non viverra. Vivamus consectetur ante in
-        orci ornare, id egestas neque bibendum. Etiam sed tellus finibus, ultricies ligula quis, viverra nisi. Nullam
-        facilisis dignissim lectus a mollis. Donec eget sapien faucibus, feugiat leo et, ornare urna. In bibendum
-        aliquam velit, et feugiat orci pellentesque in. Pellentesque dapibus volutpat nibh, eget ultricies magna gravida
-        vitae. Etiam ligula nibh, viverra vitae metus at, consequat blandit arcu. Ut venenatis neque id elit accumsan
-        tincidunt. Donec sit amet facilisis mi. Sed in semper mauris, sed porta felis. In porta justo ac nibh consequat
-        consectetur.
-    </p>
 
     <script>
+        {% if user.is_authenticated %}
         var usernames = {
             1: "elephant",
             2: "rhino",
@@ -104,5 +86,17 @@
             {% endif %}
         };
 
+            document.getElementById("logout_btn").onclick = function () {
+                location.href = "{% url 'logout' %}";
+            };
+        {% else %}
+            document.getElementById("login_btn").onclick = function () {
+                location.href = "{% url 'username_select' %}";
+            };
+
+            document.getElementById("reg_btn").onclick = function () {
+                location.href = "{% url 'reguser' %}";
+            };
+        {% endif %}
     </script>
 {% endblock %}

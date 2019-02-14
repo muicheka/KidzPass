@@ -1,14 +1,9 @@
 {% extends "base.html" %}
+{% load static from staticfiles %}
 
 {% block content %}
-    <h1>Username Selection Page</h1>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt accumsan velit, id accumsan
-        libero iaculis et. Aenean eleifend lectus posuere leo ultricies interdum. Pellentesque sodales non sem vitae
-        hendrerit. Phasellus metus ex, condimentum vitae consectetur ut, ullamcorper at lorem. Aenean sit amet libero
-        leo. Mauris pulvinar urna ultricies accumsan mollis. Aenean cursus placerat mollis. Phasellus egestas velit
-        eros, tempus tempor ex semper et. Pellentesque mattis nec orci ac vehicula.
-    </p>
+    <link rel="stylesheet" type="text/css" media="all" href="{% static 'css/reglogin.css' %}">
+    <h1>Login - Select user image</h1>
 
     <script>
 
@@ -168,7 +163,7 @@
             </div>
 
         </div>
-        <button onclick="refresh_images()">Refresh</button>
+        <button class="button" onclick="refresh_images()">Refresh</button>
     </div>
 
     <script>

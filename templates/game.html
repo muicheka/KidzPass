@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <h1>Home Page</h1>
+    <h1>Well done! You logged in!</h1>
     {% if user.is_authenticated %}
         <p style="display: inline">Logged in as <p style="display: inline" id="user_id">{{ user.username }}</p></p>
         <img id="user_icon" src="#"/>
@@ -9,19 +9,13 @@
 
     {% else %}
         <p>You are not logged in</p>
-        <a href="{% url 'login' %}">Click here to Login</a>
+        <a href="{% url 'home' %}">Click here to Login</a>
     {% endif %}
-
-    <!-- Place this code where you'd like the game to appear -->
-    <div class="miniclip-game-embed" data-game-name="cut-the-rope-time-travel" data-theme="0" data-width="1024"
-         data-height="576" data-language="en"><a href="http://www.miniclip.com/games/cut-the-rope-time-travel/">Play Cut
-        the Rope Time Travel</a></div>
-    <p style="text-align:center;"><a href="http://www.miniclip.com/games/cut-the-rope-time-travel/" target="_blank">Play
-        Cut the Rope Time Travel</a> / More <a href="http://www.miniclip.com/games/genre-1/" target="_blank">Puzzle
-        games</a></p>
-
-
-
+    <div>
+        <iframe src="//www.miniclip.com/games/flip-master/en/webgame.php?bodybg=5&amp;width=488&amp;height=670&amp;forcecredits=null"
+                width="488" height="670" frameborder="0" scrolling="no" style="border:none;"
+                allowfullscreen=""></iframe>
+    </div>
 
     <script>
         var usernames = {
