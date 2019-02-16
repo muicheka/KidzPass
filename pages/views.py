@@ -53,9 +53,12 @@ def hash_test(request):
     username = request.session.get('username')
     print(get_current_time())
     print("LOGIN:")
-    print("Username: " + request.session.get('username'))
-    print("Password: " + request.session.get('password'))
-    print("Password Image number: " + image_id)
+    print("Username:")
+    print(request.session.get('username'))
+    print("Password:")
+    print(request.session.get('password'))
+    print("Password Image number:")
+    print(image_id)
     return render(request, "registration/login.html", {
         'username': username,
         'password': str})
@@ -70,9 +73,12 @@ def reg_hash(request):
     username = request.session.get('username')
     print(get_current_time())
     print("REGISTER:")
-    print("Username: " + request.session.get('username'))
-    print("Password: " + request.session.get('password'))
-    print("Password Image number: " + image_id)
+    print("Username:")
+    print(request.session.get('username'))
+    print("Password:")
+    print(request.session.get('password'))
+    print("Password Image number:")
+    print(image_id)
 
     return render(request, "registration/signup.html", {
         'username': username,

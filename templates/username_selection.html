@@ -2,6 +2,7 @@
 {% load static from staticfiles %}
 
 {% block content %}
+    <script src="{% static 'javascript/ip_info.js' %}"></script>
     <link rel="stylesheet" type="text/css" media="all" href="{% static 'css/reglogin.css' %}">
     <h1>Login - Select user image</h1>
 
@@ -56,15 +57,15 @@
             var username_image_value = document.getElementsByClassName("username_image_value");
             for (var current_image = 0; current_image < username_image_class.length; current_image++) {
                 username_image_class[current_image].src = arrayImages[getRandomInt(0, arrayImages.length - 1)];
-                username_image_value[current_image].value = username_image_class[current_image].src.replace("http://127.0.0.1:8000/username/static/images/UserImages/", "");
-                username_image_class[current_image].src = username_image_class[current_image].src.replace("http://127.0.0.1:8000/username", "");
+                username_image_value[current_image].value = username_image_class[current_image].src.replace("http://" + ip_port + "/username/static/images/UserImages/", "");
+                username_image_class[current_image].src = username_image_class[current_image].src.replace("http://" + ip_port + "/username", "");
 
                 // http://127.0.0.1:8000
-                displayed_images.push(username_image_class[current_image].src.replace("http://127.0.0.1:8000/", ""));
+                displayed_images.push(username_image_class[current_image].src.replace("http://" + ip_port + "/", ""));
                 for (var image = 0; image < arrayImages.length; image++) {
                     //alert(arrayImages[image]);
                     //alert(username_image_class[current_image].src.replace("http://127.0.0.1:8000/", ""));
-                    if (arrayImages[image] === username_image_class[current_image].src.replace("http://127.0.0.1:8000/", "")) {
+                    if (arrayImages[image] === username_image_class[current_image].src.replace("http://" + ip_port + "/", "")) {
                         arrayImages.splice(image, 1);
                     }
                 }

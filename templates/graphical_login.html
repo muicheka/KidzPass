@@ -4,6 +4,7 @@
 
 
 {% block content %}
+    <script src="{% static 'javascript/ip_info.js' %}"></script>
     <link rel="stylesheet" type="text/css" media="all" href="{% static 'css/reglogin.css' %}">
     <h1>Login - Select Password Image</h1>
     <script>
@@ -66,12 +67,12 @@
             var password_image_value = document.getElementsByClassName("password_image_value");
             for (var current_image = 0; current_image < password_image_class.length; current_image++) {
                 password_image_class[current_image].src = arrayImages[getRandomInt(0, arrayImages.length - 1)];
-                password_image_value[current_image].value = password_image_class[current_image].src.replace("http://127.0.0.1:8000/static/images/PasswordImages/", "");
-                password_image_class[current_image].src = password_image_class[current_image].src.replace("http://127.0.0.1:8000/selected_user", "");
+                password_image_value[current_image].value = password_image_class[current_image].src.replace("http://" + ip_port + "/static/images/PasswordImages/", "");
+                password_image_class[current_image].src = password_image_class[current_image].src.replace("http://" + ip_port + "/selected_user", "");
 
-                displayed_images.push(password_image_class[current_image].src.replace("http://127.0.0.1:8000/selected_user", ""));
+                displayed_images.push(password_image_class[current_image].src.replace("http://" + ip_port + "/selected_user", ""));
                 for (var image = 0; image < arrayImages.length; image++) {
-                    if (arrayImages[image] === password_image_class[current_image].src.replace("http://127.0.0.1:8000/selected_user", "")) {
+                    if (arrayImages[image] === password_image_class[current_image].src.replace("http://" + ip_port + "/selected_user", "")) {
                         arrayImages.splice(image, 1);
                     }
                 }

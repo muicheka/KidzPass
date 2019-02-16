@@ -2,6 +2,7 @@
 {% load static from staticfiles %}
 
 {% block content %}
+    <script src="{% static 'javascript/ip_info.js' %}"></script>
     <link rel="stylesheet" type="text/css" media="all" href="{% static 'css/reglogin.css' %}">
     <h1>Register - Select desired user image</h1>
 
@@ -165,7 +166,7 @@
                 }
                 username_image_class[current_image].src = unallocated_images[current_image].source;
                 username_image_value[current_image].value = unallocated_images[current_image].id + ".JPG";
-                username_image_class[current_image].src = username_image_class[current_image].src.replace("http://127.0.0.1:8000/reguser", "");
+                username_image_class[current_image].src = username_image_class[current_image].src.replace("http://" + ip_port + "/reguser", "");
                 displayed_images.push(unallocated_images[current_image]);
             }
             unallocated_images.splice(0, 6);
@@ -177,7 +178,7 @@
             for (var current_image = 0; current_image < username_image_class.length; current_image++) {
                 username_image_class[current_image].src = unallocated_images[current_image].source;
                 username_image_value[current_image].value = unallocated_images[current_image].id + ".JPG";
-                username_image_class[current_image].src = username_image_class[current_image].src.replace("http://127.0.0.1:8000/reguser", "");
+                username_image_class[current_image].src = username_image_class[current_image].src.replace("http://" + ip_port + "/reguser", "");
                 displayed_images.push(unallocated_images[current_image]);
             }
 
