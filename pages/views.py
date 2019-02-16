@@ -1,9 +1,17 @@
 from django.shortcuts import redirect, render
 from django.http import HttpResponse
 import base64
+import datetime
+
+
+def get_current_time():
+    currentDT = datetime.datetime.now()
+    return currentDT
 
 
 def home_view(request, *args, **kwargs):
+    print(get_current_time())
+    print("LOGGED IN AS: ")
     print(request.user)
     my_context = {
         "title": "Welcome to the home page",
@@ -43,8 +51,11 @@ def hash_test(request):
         str = base64.b64encode(imageFile.read())
     request.session['password'] = str
     username = request.session.get('username')
-    print(request.session.get('username'))
-    print(request.session.get('password'))
+    print(get_current_time())
+    print("LOGIN:")
+    print("Username: " + request.session.get('username'))
+    print("Password: " + request.session.get('password'))
+    print("Password Image number: " + image_id)
     return render(request, "registration/login.html", {
         'username': username,
         'password': str})
@@ -57,8 +68,11 @@ def reg_hash(request):
         str = base64.b64encode(imageFile.read())
     request.session['password'] = str
     username = request.session.get('username')
-    print(request.session.get('username'))
-    print(request.session.get('password'))
+    print(get_current_time())
+    print("REGISTER:")
+    print("Username: " + request.session.get('username'))
+    print("Password: " + request.session.get('password'))
+    print("Password Image number: " + image_id)
 
     return render(request, "registration/signup.html", {
         'username': username,
@@ -133,7 +147,6 @@ def selected_user_image_view(request):
 
 
 def get_user_image(request):
-    print("running")
     target_user = request.session.get('username')
     image_location = 0
     for x in usernames:
@@ -154,9 +167,10 @@ from django.core import serializers
 def testcall(request):
     from django.contrib.auth.models import User
 
+    print(get_current_time())
+    print("STARTED REGISTRATION")
     users = User.objects.all()
     list_users = [entry for entry in users]
-    print(list_users)
     data = serializers.serialize('json', list_users)
     return HttpResponse(data)
 
