@@ -1,18 +1,20 @@
 {% extends 'base.html' %}
+{% load static from staticfiles %}
 
 {% block title %}Signing you up...{% endblock %}
 
 {% block content %}
-    <h2>Sign up</h2>
+    <h1 id="greeting">Signing you up...</h1>
+    <h1 id="error_message" style="display: none; color: red">Error completing Signup.</h1>
     <div style="display: none">
         <form id="signupform" action="{% url 'Signup' %}" method="post">
-        {% csrf_token %}
+            {% csrf_token %}
 
-        <input type="text" id="username" value={{ username }} name="username">
-        <input type="password" id="password1" value={{ password }} name="password1">
-        <input type="password" id="password2" value={{ password }} name="password2">
-        <button type="submit">Sign up</button>
-    </form>
+            <input type="text" id="username" value={{ username }} name="username">
+            <input type="password" id="password1" value={{ password }} name="password1">
+            <input type="password" id="password2" value={{ password }} name="password2">
+            <button type="submit">Sign up</button>
+        </form>
     </div>
 
     {% comment %}    <form method="post">
@@ -23,8 +25,29 @@
 
     <script>
         window.onload = function submit_form() {
-
-            document.getElementById("signupform").submit();
+            let username = document.getElementById("username");
+            let username_value = username.value;
+            if (username_value === 'name="username"') {
+                document.getElementById("greeting").style.display = "none";
+                document.getElementById("error_message").style.display = "block";
+                window.setTimeout(function () {
+                    window.location.replace('http://127.0.0.1:8000/reguser/');
+                }, 1000);
+            }
+            else {
+                var currentTime = new Date();
+                var hours = currentTime.getHours();
+                var minutes = currentTime.getMinutes();
+                var seconds = currentTime.getSeconds();
+                var milliseconds = currentTime.getMilliseconds();
+                if (minutes < 10) {
+                    minutes = "0" + minutes
+                }
+                if (seconds < 10) {
+                    seconds = "0" + seconds
+                }
+                document.getElementById("signupform").submit();
+            }
         }
     </script>
 {% endblock %}

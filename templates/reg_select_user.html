@@ -55,6 +55,17 @@
 
         var allocated_users = [];
         window.onload = function check_for_allocated_images() {
+            var currentTime = new Date();
+            var hours = currentTime.getHours();
+            var minutes = currentTime.getMinutes();
+            var seconds = currentTime.getSeconds();
+            var milliseconds = currentTime.getMilliseconds();
+            if (minutes < 10) {
+                minutes = "0" + minutes
+            }
+            if (seconds < 10) {
+                seconds = "0" + seconds
+            }
             list_users = [];
             $.ajax({
                 type: "POST",
@@ -76,7 +87,7 @@
         const images = [
             new Image(1, "static/images/UserImages/1.JPG", "elephant", false),
             new Image(2, "static/images/UserImages/2.JPG", "rhino", false),
-            new Image(3, "static/images/UserImages/3.JPG", "bunny", false),
+            new Image(3, "static/images/UserImages/3.JPG", "rabbit", false),
             new Image(4, "static/images/UserImages/4.JPG", "bear", false),
             new Image(5, "static/images/UserImages/5.JPG", "koala", false),
             new Image(6, "static/images/UserImages/6.JPG", "panda", false),
