@@ -4,7 +4,7 @@
 {% block content %}
     <script src="{% static 'javascript/ip_info.js' %}"></script>
     <link rel="stylesheet" type="text/css" media="all" href="{% static 'css/reglogin.css' %}">
-    <h1>Register - Select desired user image</h1>
+    <h1 align="center">Register - Select desired user image</h1>
 
     <script>
 
@@ -198,12 +198,11 @@
     <style>
         .username_image {
             border-radius: 4px;
-            padding: 5px;
             border: 2px solid black;
-            position: relative;
-            float: left;
             width: 135px;
             height: 126px;
+            margin: 5px;
+
             background-position: 50% 50%;
             background-repeat: no-repeat;
             background-size: cover;
@@ -216,9 +215,9 @@
 
     </style>
 
-    <div style="margin-left:1%;padding:1px 16px; display: block; text-align: center">
-        <div class="row">
-            <div class="col-lg-4">
+    <div align="center">
+        <div class="row" align="center">
+            <div class="col-sm-4">
                 <form action="{% url 'selected_user_image_reg' %}" method="POST">
                     {% csrf_token %}
                     <input class="username_image_value" type="hidden" id="user_image_id" value="1.JPG"
@@ -227,7 +226,7 @@
                 </form>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-sm-4">
                 <form action="{% url 'selected_user_image_reg' %}" method="POST">
                     {% csrf_token %}
                     <input class="username_image_value" type="hidden" id="user_image_id" value="2.JPG"
@@ -236,7 +235,7 @@
                 </form>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-sm-4">
                 <form action="{% url 'selected_user_image_reg' %}" method="POST">
                     {% csrf_token %}
                     <input class="username_image_value" type="hidden" id="user_image_id" value="3.JPG"
@@ -246,12 +245,8 @@
             </div>
 
         </div>
-        <div class="row">
-            <div class="col-lg-8">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4">
+        <div class="row" align="center">
+            <div class="col-sm-4">
                 <form action="{% url 'selected_user_image_reg' %}" method="POST">
                     {% csrf_token %}
                     <input class="username_image_value" type="hidden" id="user_image_id" value="4.JPG"
@@ -260,7 +255,7 @@
                 </form>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-sm-4">
                 <form action="{% url 'selected_user_image_reg' %}" method="POST">
                     {% csrf_token %}
                     <input class="username_image_value" type="hidden" id="user_image_id" value="5.JPG"
@@ -269,7 +264,7 @@
                 </form>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-sm-4">
                 <form action="{% url 'selected_user_image_reg' %}" method="POST">
                     {% csrf_token %}
                     <input class="username_image_value" type="hidden" id="user_image_id" value="6.JPG"
@@ -279,6 +274,15 @@
             </div>
 
         </div>
-        <button class="button" onclick="refresh_images()">Refresh</button>
+        <div align="center">
+            <button id="back_btn" class="button" onclick="">Back to Home</button>
+            <button class="button" onclick="refresh_images()">Refresh</button>
+        </div>
     </div>
+
+    <script>
+        document.getElementById("back_btn").onclick = function () {
+            location.href = "{% url 'home' %}";
+        };
+    </script>
 {% endblock %}
