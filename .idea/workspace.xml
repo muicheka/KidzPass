@@ -6,14 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="13cc11e5-2e34-466f-975a-041503261870" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/reglogin.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/reglogin.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/javascript/ip_info.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/javascript/ip_info.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/graphical_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/graphical_login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/reg_select_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/reg_select_user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/select_graphical_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/select_graphical_password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/username_selection.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/username_selection.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,21 +99,21 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="JPG" value="6" />
-          <entry key="css" value="19" />
-          <entry key="html" value="183" />
-          <entry key="js" value="6" />
+          <entry key="css" value="20" />
+          <entry key="html" value="191" />
+          <entry key="js" value="7" />
           <entry key="multilingual-hello" value="1" />
           <entry key="png" value="1" />
-          <entry key="py" value="213" />
+          <entry key="py" value="214" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="19" />
-          <entry key="HTML" value="183" />
+          <entry key="CSS" value="20" />
+          <entry key="HTML" value="191" />
           <entry key="Image" value="7" />
-          <entry key="JavaScript" value="6" />
-          <entry key="Python" value="213" />
+          <entry key="JavaScript" value="7" />
+          <entry key="Python" value="214" />
           <entry key="UNKNOWN" value="1" />
         </counts>
       </usages-collector>
@@ -125,12 +126,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Django Console" value="45" />
-          <entry key="css" value="212" />
-          <entry key="html" value="16404" />
-          <entry key="js" value="1225" />
+          <entry key="css" value="214" />
+          <entry key="html" value="16619" />
+          <entry key="js" value="1237" />
           <entry key="py" value="10473" />
-          <entry key="py@Django_GraphicalPasswords" value="962" />
-          <entry key="txt" value="2015" />
+          <entry key="py@Django_GraphicalPasswords" value="981" />
+          <entry key="txt" value="2045" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -147,54 +148,37 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="212" />
-          <entry key="CommandLine" value="865" />
-          <entry key="HTML" value="16404" />
-          <entry key="JavaScript" value="1225" />
-          <entry key="PLAIN_TEXT" value="2112" />
+          <entry key="CSS" value="214" />
+          <entry key="CommandLine" value="884" />
+          <entry key="HTML" value="16619" />
+          <entry key="JavaScript" value="1237" />
+          <entry key="PLAIN_TEXT" value="2142" />
           <entry key="Python" value="10518" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/templates/reg_select_user.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="198" selection-start-line="198" selection-end-line="198" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/static/css/reglogin.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="493">
-                  <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/templates/graphical_login.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/graphical_login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="150" column="63" lean-forward="true" selection-start-line="150" selection-start-column="63" selection-end-line="150" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/select_graphical_password.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="150" column="23" lean-forward="true" selection-start-line="150" selection-start-column="23" selection-end-line="150" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -288,17 +272,17 @@
         <option value="$PROJECT_DIR$/static/javascript/records.js" />
         <option value="$PROJECT_DIR$/templates/registration/signup.html" />
         <option value="$PROJECT_DIR$/Django_GraphicalPasswords/settings.py" />
-        <option value="$PROJECT_DIR$/templates/select_graphical_password.html" />
-        <option value="$PROJECT_DIR$/templates/username_selection.html" />
         <option value="$PROJECT_DIR$/pages/views.py" />
         <option value="$PROJECT_DIR$/static/css/home.css" />
-        <option value="$PROJECT_DIR$/templates/home.html" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/static/css/reglogin.css" />
+        <option value="$PROJECT_DIR$/templates/reg_select_user.html" />
+        <option value="$PROJECT_DIR$/templates/username_selection.html" />
         <option value="$PROJECT_DIR$/static/javascript/ip_info.js" />
         <option value="$PROJECT_DIR$/static/css/base.css" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/home.html" />
         <option value="$PROJECT_DIR$/templates/graphical_login.html" />
-        <option value="$PROJECT_DIR$/templates/reg_select_user.html" />
-        <option value="$PROJECT_DIR$/static/css/reglogin.css" />
+        <option value="$PROJECT_DIR$/templates/select_graphical_password.html" />
       </list>
     </option>
   </component>
@@ -350,7 +334,7 @@
             <path>
               <item name="Django_GP" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="pages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Django_GraphicalPasswords" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="Django_GP" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -503,13 +487,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540053338407</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Started profile app for users">
-      <created>1540067207105</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1540067207105</updated>
     </task>
     <task id="LOCAL-00002" summary="Started profile app for users">
       <created>1540128573326</created>
@@ -847,7 +824,14 @@
       <option name="project" value="LOCAL" />
       <updated>1550339241905</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="- edited divs on reg and login">
+      <created>1550612700451</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1550612700452</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TodoView">
@@ -860,10 +844,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="711" y="0" width="1216" height="1057" extended-state="0" />
+    <frame x="953" y="0" width="974" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3529412" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31947485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -926,7 +910,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added CSS to templates&#10;Altered model and improved register&#10;attempted to do login but stopped due to questions:-&#10;do I implement a new form for login?&#10;Do I reuse the Profiles form?&#10;How does Users fit into that?&#10;Do templates receive their own CSS or inherit it from the base.html? Online searching would say no but I couldn't get it working.&#10;&#10;Tidied up code for demo with Karen" />
     <MESSAGE value="Added title image and altered css for demo" />
     <MESSAGE value="Added title image and altered css for demo&#10;Added Login page form - finally got it working." />
     <MESSAGE value="Working login system" />
@@ -951,7 +934,8 @@
     <MESSAGE value="Added &quot;Incorrect username or password&quot; messages and redirects" />
     <MESSAGE value="Working on recording user information while using application." />
     <MESSAGE value="Working on recording user information while using application.&#10;- Fixed bug with IP addresses &#10;- Fixed bug with user information output" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on recording user information while using application.&#10;- Fixed bug with IP addresses &#10;- Fixed bug with user information output" />
+    <MESSAGE value="- edited divs on reg and login" />
+    <option name="LAST_COMMIT_MESSAGE" value="- edited divs on reg and login" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1115,13 +1099,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Django_GraphicalPasswords/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1055">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
@@ -1151,69 +1128,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/base.css">
+    <entry file="file://$PROJECT_DIR$/templates/reg_select_user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="288" selection-start-line="288" selection-end-line="288" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/reglogin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/username_selection.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
-          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          <caret line="183" column="10" selection-start-line="183" selection-start-column="10" selection-end-line="183" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/javascript/ip_info.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/select_graphical_password.html">
+    <entry file="file://$PROJECT_DIR$/Django_GraphicalPasswords/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1054">
-          <caret line="27" column="51" lean-forward="true" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+        <state relative-caret-position="17">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/username_selection.html">
+    <entry file="file://$PROJECT_DIR$/static/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="97" selection-start-line="97" selection-end-line="99" selection-end-column="14" />
+        <state relative-caret-position="408">
+          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
-          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="101" column="14" selection-start-line="101" selection-start-column="14" selection-end-line="101" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/graphical_login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="306">
+          <caret line="150" column="63" lean-forward="true" selection-start-line="150" selection-start-column="63" selection-end-line="150" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/reg_select_user.html">
+    <entry file="file://$PROJECT_DIR$/templates/select_graphical_password.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="198" selection-start-line="198" selection-end-line="198" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/reglogin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        <state relative-caret-position="311">
+          <caret line="150" column="23" lean-forward="true" selection-start-line="150" selection-start-column="23" selection-end-line="150" selection-end-column="23" />
         </state>
       </provider>
     </entry>
