@@ -181,4 +181,10 @@ def testcall(request):
     return HttpResponse(data)
 
 
+def startlogin(request):
+    print(get_current_time())
+    print("STARTED LOGIN")
+    data = "started login"
+    return HttpResponse(data)
+
 from django.contrib import messages

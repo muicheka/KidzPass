@@ -4,8 +4,8 @@
 {% block title %}Signing you up...{% endblock %}
 
 {% block content %}
-    <h1 id="greeting">Signing you up...</h1>
-    <h1 id="error_message" style="display: none; color: red">Error completing Signup.</h1>
+    <h1 align="center" id="greeting">Signing you up...</h1>
+    <h1 align="center" id="error_message" style="display: none; color: red">Error completing Signup.</h1>
     <div style="display: none">
         <form id="signupform" action="{% url 'Signup' %}" method="post">
             {% csrf_token %}

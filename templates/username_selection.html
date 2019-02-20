@@ -166,7 +166,7 @@
     </div>
 
     <script>
-        window.onload = function start_clock() {
+        window.onload = function check_for_allocated_images() {
             var currentTime = new Date();
             var hours = currentTime.getHours();
             var minutes = currentTime.getMinutes();
@@ -175,10 +175,19 @@
             if (minutes < 10) {
                 minutes = "0" + minutes
             }
-            //alert("Start time: " + hours + ":" + minutes + ":" + seconds + ":" + milliseconds);
-        }
-
-
+            if (seconds < 10) {
+                seconds = "0" + seconds
+            }
+            list_users = [];
+            $.ajax({
+                type: "POST",
+                datatype: "json",
+                url: "{{ 'startlogin/' }}",
+                data: {csrfmiddlewaretoken: '{{ csrf_token }}'},
+                success: function callback(response) {
+                }
+            });
+        };
         document.getElementById("back_btn").onclick = function () {
             location.href = "{% url 'home' %}";
         };

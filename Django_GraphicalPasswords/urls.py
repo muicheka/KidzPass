@@ -29,6 +29,7 @@ from pages.views import (
     selected_user_image_view,
     get_user_image,
     testcall,
+    startlogin,
     reguser,
     selected_user_image_reg_view,
 
@@ -54,6 +55,7 @@ urlpatterns = [
     path('reg_hash/', reg_hash, name='reg_hash'),
     path('get_user_image', get_user_image, name='get_user_image'),
 
+    path('username/startlogin/', startlogin, name="startlogin"),
     path('reguser/testcall/', testcall, name="testcall"),
     path('reguser/', reguser, name='reguser'),
     path('loginprog/', login_programmatically, name='login_prog'),
