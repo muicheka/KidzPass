@@ -5,7 +5,7 @@
 
 {% block content %}
     <script src="{% static 'javascript/ip_info.js' %}"></script>
-    <link rel="stylesheet" type="text/css" media="all" href="{% static 'css/reglogin.css' %}">
+    <link rel="stylesheet" type="text/css" media="all" href="{% static 'css/style_reglogin.css' %}">
     <h1 align="center">Login - Select Password Image</h1>
     <script>
 
@@ -90,7 +90,7 @@
 
     <style>
         .password_image {
-            padding: 5px;
+            padding: 10px;
             border: 2px solid black;
             background-position: 50% 50%;
             background-repeat: no-repeat;
@@ -101,9 +101,14 @@
             opacity: 0.5;
             filter: alpha(opacity=50); /* For IE8 and earlier */
         }
+
+        .container {
+            max-width: 625px;
+            padding-bottom: 20px;
+        }
     </style>
 
-    <div>
+    <div class="container">
         <div class="row" align="center">
             <div class="col-sm-4">
                 <form action="{% url 'hash' %}" method="POST">
@@ -162,11 +167,12 @@
             </div>
 
         </div>
+    </div>
         <div align="center">
             <button id="back_btn" class="button" onclick="">Back to Home</button>
             <button class="button" onclick="refresh_images()">Refresh</button>
         </div>
-    </div>
+
 
     <script>
         document.getElementById("back_btn").onclick = function () {

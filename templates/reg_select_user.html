@@ -3,7 +3,7 @@
 
 {% block content %}
     <script src="{% static 'javascript/ip_info.js' %}"></script>
-    <link rel="stylesheet" type="text/css" media="all" href="{% static 'css/reglogin.css' %}">
+    <link rel="stylesheet" type="text/css" media="all" href="{% static 'css/style_reglogin.css' %}">
     <h1 align="center">Register - Select desired user image</h1>
 
     <script>
@@ -201,7 +201,6 @@
             border: 2px solid black;
             width: 135px;
             height: 126px;
-            margin: 5px;
 
             background-position: 50% 50%;
             background-repeat: no-repeat;
@@ -213,9 +212,13 @@
             filter: alpha(opacity=50); /* For IE8 and earlier */
         }
 
+        .container {
+            max-width: 450px;
+            padding-bottom: 20px;
+        }
     </style>
 
-    <div>
+    <div class="container">
         <div class="row" align="center">
             <div class="col-sm-4">
                 <form action="{% url 'selected_user_image_reg' %}" method="POST">
@@ -274,11 +277,12 @@
             </div>
 
         </div>
-        <div align="center">
-            <button id="back_btn" class="button" onclick="">Back to Home</button>
-            <button class="button" onclick="refresh_images()">Refresh</button>
-        </div>
     </div>
+    <div align="center">
+        <button id="back_btn" class="button" onclick="">Back to Home</button>
+        <button class="button" onclick="refresh_images()">Refresh</button>
+    </div>
+
 
     <script>
         document.getElementById("back_btn").onclick = function () {
