@@ -44,7 +44,6 @@
             "/static/images/PasswordImages/38.jpg",
             "/static/images/PasswordImages/39.jpg",
             "/static/images/PasswordImages/40.jpg",
-            "/static/images/PasswordImages/41.jpg",
 
 
         ];
@@ -70,9 +69,9 @@
                 password_image_value[current_image].value = password_image_class[current_image].src.replace("http://" + ip_port + "/static/images/PasswordImages/", "");
                 password_image_class[current_image].src = password_image_class[current_image].src.replace("http://" + ip_port + "/selected_user", "");
 
-                displayed_images.push(password_image_class[current_image].src.replace("http://" + ip_port + "/selected_user", ""));
+                displayed_images.push(password_image_class[current_image].src.replace("http://" + ip_port, ""));
                 for (var image = 0; image < arrayImages.length; image++) {
-                    if (arrayImages[image] === password_image_class[current_image].src.replace("http://" + ip_port + "/selected_user", "")) {
+                    if (arrayImages[image] === password_image_class[current_image].src.replace("http://" + ip_port, "")) {
                         arrayImages.splice(image, 1);
                     }
                 }
@@ -81,7 +80,6 @@
                 var temp = displayed_images[count];
                 arrayImages.push(temp);
             }
-            console.log(arrayImages);
 
             displayed_images.splice(0, 6);
         }
@@ -90,7 +88,7 @@
 
     <style>
         .password_image {
-            padding: 10px;
+            padding: 5px;
             border: 2px solid black;
             background-position: 50% 50%;
             background-repeat: no-repeat;
@@ -168,10 +166,10 @@
 
         </div>
     </div>
-        <div align="center">
-            <button id="back_btn" class="button" onclick="">Back to Home</button>
-            <button class="button" onclick="refresh_images()">Refresh</button>
-        </div>
+    <div align="center">
+        <button id="back_btn" class="button" onclick="">Back to Home</button>
+        <button class="button" onclick="refresh_images()">Refresh</button>
+    </div>
 
 
     <script>
