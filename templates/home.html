@@ -1,7 +1,8 @@
 {% extends "base.html" %}
 {% load static from staticfiles %}
 {% block content %}
-    <link rel="stylesheet" type="text/css" media="all" href="{% static 'css/style_home.css' %}">
+    <link rel="stylesheet" type="text/css" media="all" href="{% static 'css/home_style.css' %}">
+
     {% if messages %}
         <ul class="messages">
             {% for message in messages %}
@@ -16,14 +17,22 @@
             <h1>Well done! You logged in!</h1>
             <img id="user_icon" src="#"/>
             <div>
-                <button id="logout_btn" class="button"> Logout</button>
+                <button id="logout_btn" class="button"><i class="fa fa-sign-out"></i> Logout</button>
             </div>
         </div>
     {% else %}
         <p class="greeting" align="center">You are not logged in</p>
         <div align="center">
-            <button id="login_btn" class="button"> Login</button>
-            <button id="reg_btn" class="button"> Register</button>
+            <button id="login_btn" class="button"><i class="fa fa-lock"></i> Login</button>
+            <button id="reg_btn" class="button"><i class="fa fa-user"></i> Register</button>
+        </div>
+
+        <div align="center" style="padding-top: 10px">
+            <button id="help_msg"><i class="fa fa-info-circle"></i> Hint</button>
+        </div>
+        <div align="center" style="padding-top: 10px">
+            <img class="hint_image" src="{% static 'images/Hints/1.JPG' %}">
+            <img class="hint_image" src="{% static 'images/Hints/2.JPG' %}">
         </div>
     {% endif %}
 
@@ -100,9 +109,20 @@
             document.getElementById("reg_btn").onclick = function () {
                 location.href = "{% url 'reguser' %}";
             };
-
-
+            document.getElementById("help_msg").onclick = function () {
+                var hints = document.getElementsByClassName("hint_image");
+                for (var hint in hints) {
+                    if (hints[hint].style.display === "block") {
+                        hints[hint].style.display = "none";
+                    }
+                    else {
+                        hints[hint].style.display = "block";
+                    }
+                }
+            };
         {% endif %}
+
+
     </script>
     {% if user.is_authenticated %}
         <div align="center" style="padding:10px;">

@@ -3,8 +3,8 @@
 
 {% block content %}
     <script src="{% static 'javascript/ip_info.js' %}"></script>
-    <link rel="stylesheet" type="text/css" media="all" href="{% static 'css/style_reglogin.css' %}">
-    <h1 align="center">Register - Select desired user image</h1>
+    <link rel="stylesheet" type="text/css" media="all" href="{% static 'css/reg_login.css' %}">
+    <h1 align="center">Register - Find your animal</h1>
 
     <script>
 
@@ -248,7 +248,7 @@
             </div>
 
         </div>
-        <div class="row" align="center">
+        <div class="row" align="center" style="padding-top: 10px">
             <div class="col-sm-4">
                 <form action="{% url 'selected_user_image_reg' %}" method="POST">
                     {% csrf_token %}
@@ -279,8 +279,8 @@
         </div>
     </div>
     <div align="center">
-        <button id="back_btn" class="button" onclick="">Back to Home</button>
-        <button class="button" onclick="refresh_images()">Refresh</button>
+        <button id="back_btn" class="button" onclick=""><i class="left"></i>Back</button>
+        <button class="button" onclick="refresh_images()">New Images <i class="fa fa-refresh fa-spin"></i></button>
     </div>
 
 

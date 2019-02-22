@@ -6,7 +6,7 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 40px;
+    font-size: 24px;
     margin: 4px 10px;
     cursor: pointer;
     border-radius: 2px;
@@ -17,6 +17,17 @@
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-.greeting {
-    font-size: xx-large;
+i {
+
+    display: inline-block;
+    padding: 3px;
+    margin-bottom: 3px;
 }
+
+.left {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+

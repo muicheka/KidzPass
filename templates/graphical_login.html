@@ -5,8 +5,8 @@
 
 {% block content %}
     <script src="{% static 'javascript/ip_info.js' %}"></script>
-    <link rel="stylesheet" type="text/css" media="all" href="{% static 'css/style_reglogin.css' %}">
-    <h1 align="center">Login - Select Password Image</h1>
+    <link rel="stylesheet" type="text/css" media="all" href="{% static 'css/reg_login.css' %}">
+    <h1 align="center">Login - Find a face you know</h1>
     <script>
 
         var arrayImages = [
@@ -44,6 +44,31 @@
             "/static/images/PasswordImages/38.jpg",
             "/static/images/PasswordImages/39.jpg",
             "/static/images/PasswordImages/40.jpg",
+            "/static/images/PasswordImages/41.jpg",
+            "/static/images/PasswordImages/42.jpg",
+            "/static/images/PasswordImages/43.jpg",
+            "/static/images/PasswordImages/44.jpg",
+            "/static/images/PasswordImages/45.jpg",
+            "/static/images/PasswordImages/46.jpg",
+            "/static/images/PasswordImages/47.jpg",
+            "/static/images/PasswordImages/48.jpg",
+            "/static/images/PasswordImages/49.jpg",
+            "/static/images/PasswordImages/50.jpg",
+            "/static/images/PasswordImages/51.jpg",
+            "/static/images/PasswordImages/52.jpg",
+            "/static/images/PasswordImages/53.jpg",
+            "/static/images/PasswordImages/54.jpg",
+            "/static/images/PasswordImages/55.jpg",
+            "/static/images/PasswordImages/56.jpg",
+            "/static/images/PasswordImages/57.jpg",
+            "/static/images/PasswordImages/58.jpg",
+            "/static/images/PasswordImages/59.jpg",
+            "/static/images/PasswordImages/60.jpg",
+            "/static/images/PasswordImages/61.jpg",
+            "/static/images/PasswordImages/62.jpg",
+            "/static/images/PasswordImages/63.jpg",
+            "/static/images/PasswordImages/64.jpg",
+            "/static/images/PasswordImages/65.jpg",
 
 
         ];
@@ -136,7 +161,7 @@
             </div>
 
         </div>
-        <div class="row" align="center">
+        <div class="row" align="center" style="padding-top: 10px">
             <div class="col-sm-4">
                 <form action="{% url 'hash' %}" method="POST">
                     {% csrf_token %}
@@ -167,8 +192,8 @@
         </div>
     </div>
     <div align="center">
-        <button id="back_btn" class="button" onclick="">Back to Home</button>
-        <button class="button" onclick="refresh_images()">Refresh</button>
+        <button id="back_btn" class="button" onclick=""><i class="left"></i>Back</button>
+        <button class="button" onclick="refresh_images()">New Images <i class="fa fa-refresh fa-spin"></i></button>
     </div>
 
 
