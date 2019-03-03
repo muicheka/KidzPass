@@ -5,61 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13cc11e5-2e34-466f-975a-041503261870" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/images/Hints/1.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/Hints/2.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/PasswordImages/41.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/PasswordImages/42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/PasswordImages/43.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/PasswordImages/44.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/PasswordImages/45.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/PasswordImages/46.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/PasswordImages/47.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/PasswordImages/48.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/PasswordImages/49.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/PasswordImages/50.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/PasswordImages/51.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/PasswordImages/52.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/PasswordImages/53.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/PasswordImages/54.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/PasswordImages/55.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/PasswordImages/56.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/PasswordImages/57.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/PasswordImages/58.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/PasswordImages/59.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/PasswordImages/60.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/PasswordImages/61.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/PasswordImages/62.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/PasswordImages/63.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/PasswordImages/64.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/PasswordImages/65.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style_home.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/home_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style_reglogin.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/reg_login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/PasswordImages/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/PasswordImages/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/PasswordImages/13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/PasswordImages/13.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/PasswordImages/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/PasswordImages/15.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/PasswordImages/17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/PasswordImages/17.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/PasswordImages/19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/PasswordImages/19.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/PasswordImages/21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/PasswordImages/21.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/PasswordImages/24.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/PasswordImages/24.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/PasswordImages/27.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/PasswordImages/27.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/PasswordImages/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/PasswordImages/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/PasswordImages/32.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/PasswordImages/32.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/PasswordImages/34.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/PasswordImages/34.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/PasswordImages/35.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/PasswordImages/35.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/PasswordImages/36.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/PasswordImages/36.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/PasswordImages/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/PasswordImages/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/PasswordImages/40.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/PasswordImages/40.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/PasswordImages/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/PasswordImages/7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/javascript/ip_info.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/javascript/ip_info.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/graphical_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/graphical_login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/reg_select_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/reg_select_user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/select_graphical_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/select_graphical_password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/username_selection.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/username_selection.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/PasswordImages/38.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/PasswordImages/38.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/PasswordImages/65.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/PasswordImages/65.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -149,21 +98,21 @@
         <counts>
           <entry key="JPG" value="6" />
           <entry key="css" value="32" />
-          <entry key="html" value="236" />
-          <entry key="jpg" value="10" />
-          <entry key="js" value="12" />
+          <entry key="html" value="240" />
+          <entry key="jpg" value="12" />
+          <entry key="js" value="13" />
           <entry key="multilingual-hello" value="1" />
           <entry key="png" value="1" />
-          <entry key="py" value="221" />
+          <entry key="py" value="222" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="32" />
-          <entry key="HTML" value="236" />
-          <entry key="Image" value="17" />
-          <entry key="JavaScript" value="12" />
-          <entry key="Python" value="221" />
+          <entry key="HTML" value="240" />
+          <entry key="Image" value="19" />
+          <entry key="JavaScript" value="13" />
+          <entry key="Python" value="222" />
           <entry key="UNKNOWN" value="1" />
         </counts>
       </usages-collector>
@@ -176,33 +125,33 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Django Console" value="45" />
-          <entry key="css" value="485" />
+          <entry key="css" value="491" />
           <entry key="html" value="18081" />
           <entry key="js" value="4163" />
           <entry key="py" value="10604" />
-          <entry key="py@Django_GraphicalPasswords" value="1046" />
-          <entry key="txt" value="2428" />
+          <entry key="py@Django_GraphicalPasswords" value="1049" />
+          <entry key="txt" value="2460" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="39" />
+          <entry key="project.closed" value="43" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.5" value="19" />
-          <entry key="project.open.time.6" value="18" />
+          <entry key="project.open.time.5" value="20" />
+          <entry key="project.open.time.6" value="21" />
           <entry key="project.open.time.7" value="3" />
-          <entry key="project.opened" value="45" />
+          <entry key="project.opened" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="485" />
-          <entry key="CommandLine" value="949" />
+          <entry key="CSS" value="491" />
+          <entry key="CommandLine" value="952" />
           <entry key="HTML" value="18081" />
           <entry key="JavaScript" value="4163" />
-          <entry key="PLAIN_TEXT" value="2525" />
+          <entry key="PLAIN_TEXT" value="2557" />
           <entry key="Python" value="10649" />
         </counts>
       </usages-collector>
@@ -211,28 +160,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/username_selection.html">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="39" column="46" lean-forward="true" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/css/home_style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+            <state relative-caret-position="561">
+              <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/reg_select_user.html">
+        <entry file="file://$PROJECT_DIR$/templates/graphical_login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="64" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="64" />
+            <state relative-caret-position="3026">
+              <caret line="199" column="12" selection-start-line="199" selection-start-column="12" selection-end-line="199" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/javascript/ip_info.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="24" selection-start-column="24" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -336,7 +285,6 @@
         <option value="$PROJECT_DIR$/Django_GraphicalPasswords/settings.py" />
         <option value="$PROJECT_DIR$/static/javascript/ip_info.js" />
         <option value="$PROJECT_DIR$/static/css/style_reglogin.css" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/templates/username_selection.html" />
         <option value="$PROJECT_DIR$/templates/graphical_login.html" />
         <option value="$PROJECT_DIR$/templates/reg_select_user.html" />
@@ -347,6 +295,7 @@
         <option value="$PROJECT_DIR$/static/javascript/help_message.js" />
         <option value="$PROJECT_DIR$/templates/home.html" />
         <option value="$PROJECT_DIR$/static/css/home_style.css" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
       </list>
     </option>
   </component>
@@ -361,8 +310,8 @@
       <scroll-view-position x="0" y="0" />
     </layout>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1057" />
   </component>
@@ -399,29 +348,6 @@
               <item name="Django_GP" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="static" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Django_GP" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="static" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Django_GP" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="static" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="images" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Django_GP" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="static" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="javascript" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Django_GP" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -553,13 +479,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540053338407</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Worked on forms, altered the form to show dates correctly for the DOB field.">
-      <created>1542065134881</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1542065134881</updated>
     </task>
     <task id="LOCAL-00007" summary="Worked on forms, altered the form to show dates correctly for the DOB field.">
       <created>1542155273251</created>
@@ -897,7 +816,14 @@
       <option name="project" value="LOCAL" />
       <updated>1550760086384</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="- added hint button might remove">
+      <created>1550876327105</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1550876327107</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TodoView">
@@ -910,10 +836,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1057" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23413567" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.124200426" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -929,7 +854,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.3969957" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32618025" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.37231758" />
-      <window_info anchor="bottom" id="manage.py@Django_GraphicalPasswords" order="13" sideWeight="0.49946696" weight="0.31852654" />
+      <window_info active="true" anchor="bottom" id="manage.py@Django_GraphicalPasswords" order="13" sideWeight="0.49946696" visible="true" weight="0.31759655" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32936078" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="15" weight="0.32936078" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -976,7 +901,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="altering image selection - moving away from buttons" />
     <MESSAGE value="Passed Base64 hash to home page with username - needs to go to Login but progress is progress." />
     <MESSAGE value="Attempting to post login creds in login form - response is 403 Forbidden" />
     <MESSAGE value="Have creds on Login page but no form ??? &#10;Attempting to use the Django authenticate method to login user&#10;Need to move creds to a view function ???" />
@@ -1001,7 +925,8 @@
     <MESSAGE value="- altered some div and removed the nav bar as it was no longer needed and just thought it was taking up unnecessary space (and was a distraction)&#10;- added game links since the embedded game only works on pc" />
     <MESSAGE value="- added 'start login' logging&#10;- testing with nexus tablet" />
     <MESSAGE value="- altered divs and buttons on all pages to accommodate little fingers&#10;- still testing with nexus tablet..." />
-    <option name="LAST_COMMIT_MESSAGE" value="- altered divs and buttons on all pages to accommodate little fingers&#10;- still testing with nexus tablet..." />
+    <MESSAGE value="- added hint button might remove" />
+    <option name="LAST_COMMIT_MESSAGE" value="- added hint button might remove" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1015,9 +940,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/accounts/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Django_GraphicalPasswords/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1144,16 +1066,6 @@
     <entry file="file://$PROJECT_DIR$/static/images/PasswordImages/40.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1076">
-          <caret line="187" column="29" selection-start-line="187" selection-start-column="29" selection-end-line="187" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/javascript/password_image_class.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1632">
@@ -1175,20 +1087,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/javascript/ip_info.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/images/PasswordImages/26.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/static/images/PasswordImages/41.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/PasswordImages/38.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/static/images/PasswordImages/37.jpg">
@@ -1203,24 +1105,10 @@
     <entry file="file://$PROJECT_DIR$/static/images/PasswordImages/1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/graphical_login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="195" column="115" selection-start-line="195" selection-start-column="115" selection-end-line="195" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
           <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1238,25 +1126,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/javascript/help.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="118" column="56" selection-start-line="118" selection-start-column="56" selection-end-line="118" selection-end-column="56" />
-          <folding>
-            <element signature="n#style#0;n#p#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/javascript/help.js" />
     <entry file="file://$PROJECT_DIR$/templates/username_selection.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1274,7 +1144,54 @@
     <entry file="file://$PROJECT_DIR$/static/css/home_style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
-          <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3179">
+          <caret line="187" column="29" selection-start-line="187" selection-start-column="29" selection-end-line="187" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/PasswordImages/65.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/PasswordImages/65.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/graphical_login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3026">
+          <caret line="199" column="12" selection-start-line="199" selection-start-column="12" selection-end-line="199" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/javascript/ip_info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
         </state>
       </provider>
     </entry>
