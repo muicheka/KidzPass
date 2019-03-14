@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/Django_GraphicalPasswords/settings.py" line="41" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/Django_GraphicalPasswords/settings.py" line="42" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13cc11e5-2e34-466f-975a-041503261870" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/images/PasswordImages/66.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_GraphicalPasswords/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_GraphicalPasswords/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/javascript/ip_info.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/javascript/ip_info.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/graphical_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/graphical_login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/select_graphical_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/select_graphical_password.html" afterDir="false" />
-    </list>
+    <list default="true" id="13cc11e5-2e34-466f-975a-041503261870" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +41,7 @@
     <session id="1970897744">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
@@ -169,7 +161,7 @@
         <entry file="file://$PROJECT_DIR$/Django_GraphicalPasswords/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="572">
-              <caret line="55" column="2" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="2" />
+              <caret line="56" column="2" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -177,8 +169,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/reg_select_user.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="196" lean-forward="true" selection-start-line="196" selection-end-line="196" />
+            <state relative-caret-position="348">
+              <caret line="188" column="42" lean-forward="true" selection-start-line="188" selection-start-column="42" selection-end-line="188" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -485,13 +477,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540053338407</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Worked on forms, altered the form to show dates correctly for the DOB field.">
-      <created>1542155273251</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1542155273251</updated>
     </task>
     <task id="LOCAL-00008" summary="Added CSS to templates&#10;Altered model and improved register&#10;attempted to do login but stopped due to questions:-&#10;do I implement a new form for login?&#10;Do I reuse the Profiles form?&#10;How does Users fit into that?&#10;Do templates receive their own CSS or inherit it from the base.html? Online searching would say no but I couldn't get it working.">
       <created>1542223871759</created>
@@ -829,7 +814,14 @@
       <option name="project" value="LOCAL" />
       <updated>1550876327107</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="- added hint button might remove">
+      <created>1552409697695</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1552409697697</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1147,7 +1139,7 @@
     <entry file="file://$PROJECT_DIR$/Django_GraphicalPasswords/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
-          <caret line="55" column="2" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="2" />
+          <caret line="56" column="2" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -1197,8 +1189,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/reg_select_user.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="196" lean-forward="true" selection-start-line="196" selection-end-line="196" />
+        <state relative-caret-position="348">
+          <caret line="188" column="42" lean-forward="true" selection-start-line="188" selection-start-column="42" selection-end-line="188" selection-end-column="42" />
         </state>
       </provider>
     </entry>
