@@ -1,9 +1,11 @@
 {% extends 'base.html' %}
+{% load static %}
 {% load static from staticfiles %}
 
 {% block title %}Signing you up...{% endblock %}
 
 {% block content %}
+    <script src="{% static 'javascript/ip_info.js' %}"></script>
     <h1 align="center" id="greeting">Signing you up...</h1>
     <h1 align="center" id="error_message" style="display: none; color: red">Error completing Signup.</h1>
     <div style="display: none">
@@ -31,7 +33,7 @@
                 document.getElementById("greeting").style.display = "none";
                 document.getElementById("error_message").style.display = "block";
                 window.setTimeout(function () {
-                    window.location.replace('http://127.0.0.1:8000/reguser/');
+                    window.location.replace('http://' + ip_port + '/reguser/');
                 }, 1000);
             }
             else {
