@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13cc11e5-2e34-466f-975a-041503261870" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/javascript/ip_info.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/javascript/ip_info.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,41 +44,42 @@
     <session id="1970897744">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="17" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.8" value="4" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="5" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Django Console" value="283" />
           <entry key="html" value="328" />
-          <entry key="js" value="56" />
+          <entry key="js" value="71" />
           <entry key="py" value="2414" />
-          <entry key="py@Django_GraphicalPasswords" value="517" />
-          <entry key="txt" value="547" />
+          <entry key="py@Django_GraphicalPasswords" value="565" />
+          <entry key="txt" value="579" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CommandLine" value="409" />
+          <entry key="CommandLine" value="457" />
           <entry key="HTML" value="328" />
-          <entry key="JavaScript" value="56" />
-          <entry key="PLAIN_TEXT" value="655" />
+          <entry key="JavaScript" value="71" />
+          <entry key="PLAIN_TEXT" value="687" />
           <entry key="Python" value="2697" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="20" />
-          <entry key="jpg" value="4" />
+          <entry key="jpg" value="5" />
           <entry key="js" value="1" />
           <entry key="py" value="77" />
         </counts>
@@ -86,7 +87,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="20" />
-          <entry key="Image" value="4" />
+          <entry key="Image" value="5" />
           <entry key="JavaScript" value="1" />
           <entry key="Python" value="77" />
         </counts>
@@ -160,20 +161,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Django_GraphicalPasswords/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="480">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/javascript/ip_info.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="28" selection-start-column="28" selection-end-column="28" />
+              <caret column="31" selection-start-column="31" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -187,6 +188,7 @@
         <option value="Python Script" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="Setup Script" />
       </list>
     </option>
   </component>
@@ -330,17 +332,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Django_GraphicalPasswords" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Django_GraphicalPasswords" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -368,7 +359,25 @@
               <item name="Django_GraphicalPasswords" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="static" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="images" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="PasswordImages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Django_GraphicalPasswords" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="static" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="javascript" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Django_GraphicalPasswords" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django_GraphicalPasswords" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -489,20 +498,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540053338407</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Added title image and altered css for demo">
-      <created>1542635960075</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1542635960075</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Added title image and altered css for demo&#10;Added Login page form - finally got it working.">
-      <created>1542642822565</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1542642822565</updated>
     </task>
     <task id="LOCAL-00012" summary="Working login system">
       <created>1546962584175</created>
@@ -833,7 +828,21 @@
       <option name="project" value="LOCAL" />
       <updated>1552584427168</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="- added new accounts from study">
+      <created>1553091992680</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1553091992683</updated>
+    </task>
+    <task id="LOCAL-00060" summary="- added new accounts from study">
+      <created>1553116722751</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1553116722751</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TodoView">
@@ -847,8 +856,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="466" y="23" width="974" height="830" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23283261" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2414163" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -864,7 +874,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50214595" side_tool="true" weight="0.31707317" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49928468" weight="0.32520324" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.37231758" />
-      <window_info active="true" anchor="bottom" id="manage.py@Django_GraphicalPasswords" order="13" sideWeight="0.49785408" visible="true" weight="0.7506775" />
+      <window_info active="true" anchor="bottom" id="manage.py@Django_GraphicalPasswords" order="13" sideWeight="0.49785408" visible="true" weight="0.10569106" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32936078" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="15" weight="0.32936078" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -911,7 +921,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Attempting to post login creds in login form - response is 403 Forbidden" />
     <MESSAGE value="Have creds on Login page but no form ??? &#10;Attempting to use the Django authenticate method to login user&#10;Need to move creds to a view function ???" />
     <MESSAGE value="PyCharm is being awful and causing error - No module named GraphicalPasswords." />
     <MESSAGE value="Authenticating user and user is ALWAYS none. I have no idea why." />
@@ -936,7 +945,8 @@
     <MESSAGE value="- altered divs and buttons on all pages to accommodate little fingers&#10;- still testing with nexus tablet..." />
     <MESSAGE value="- added hint button might remove" />
     <MESSAGE value="- added new accounts&#10;- fixed IP issue" />
-    <option name="LAST_COMMIT_MESSAGE" value="- added new accounts&#10;- fixed IP issue" />
+    <MESSAGE value="- added new accounts from study" />
+    <option name="LAST_COMMIT_MESSAGE" value="- added new accounts from study" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1145,9 +1155,6 @@
     <entry file="file://$PROJECT_DIR$/static/images/UserImages/12.JPG">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/PasswordImages/12.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -1182,17 +1189,20 @@
     <entry file="file://$PROJECT_DIR$/templates/user.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/javascript/ip_info.js">
+    <entry file="file://$PROJECT_DIR$/Django_GraphicalPasswords/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        <state relative-caret-position="480">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Django_GraphicalPasswords/settings.py">
+    <entry file="file://$PROJECT_DIR$/static/images/PasswordImages/12.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/javascript/ip_info.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
         </state>
       </provider>
     </entry>
