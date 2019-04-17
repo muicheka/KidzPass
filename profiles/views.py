@@ -1,8 +1,5 @@
 from django.shortcuts import render
 from django.contrib import messages
-
-# Create your views here.
-
 from .forms import ProfileCreateForm, RawProfileForm
 from .models import Profile
 
@@ -13,8 +10,6 @@ def dynamic_lookup_view(request, profile_id):
         "object": obj
     }
     return render(request, "profile_detail.html", context)
-
-
 
 
 def login_form_view(request):

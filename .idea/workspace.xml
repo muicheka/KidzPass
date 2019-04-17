@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/Django_GraphicalPasswords/settings.py" line="41" mnemonic="3" />
-    <bookmark url="file://$PROJECT_DIR$/templates/base.html" line="3" />
+    <bookmark url="file://$PROJECT_DIR$/Django_GraphicalPasswords/settings.py" line="42" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13cc11e5-2e34-466f-975a-041503261870" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/accounts/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/signup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_GraphicalPasswords/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_GraphicalPasswords/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_GraphicalPasswords/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_GraphicalPasswords/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/PasswordImages/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/PasswordImages/1.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +16,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Django_GraphicalPasswords$manage.coverage" NAME="manage Coverage Results" MODIFIED="1540067509868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Django_GP$manage.coverage" NAME="manage Coverage Results" MODIFIED="1540731590217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Django_GraphicalPasswords$manage.coverage" NAME="manage Coverage Results" MODIFIED="1549228199285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Django_GP$manage.coverage" NAME="manage Coverage Results" MODIFIED="1549737976550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -51,36 +45,53 @@
     <session id="1970897744">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.closed" value="19" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="6" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Django Console" value="283" />
-          <entry key="py" value="508" />
-          <entry key="py@Django_GraphicalPasswords" value="198" />
-          <entry key="txt" value="59" />
+          <entry key="html" value="328" />
+          <entry key="js" value="82" />
+          <entry key="py" value="2414" />
+          <entry key="py@Django_GraphicalPasswords" value="627" />
+          <entry key="txt" value="579" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CommandLine" value="93" />
-          <entry key="PLAIN_TEXT" value="164" />
-          <entry key="Python" value="791" />
+          <entry key="CommandLine" value="519" />
+          <entry key="HTML" value="328" />
+          <entry key="JavaScript" value="82" />
+          <entry key="PLAIN_TEXT" value="687" />
+          <entry key="Python" value="2697" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="12" />
+          <entry key="JPG" value="1" />
+          <entry key="html" value="28" />
+          <entry key="jpg" value="10" />
+          <entry key="js" value="1" />
+          <entry key="py" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="12" />
+          <entry key="HTML" value="28" />
+          <entry key="Image" value="11" />
+          <entry key="JavaScript" value="1" />
+          <entry key="Python" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -89,138 +100,104 @@
     <session id="-1135527428">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="7" />
-          <entry key="html" value="47" />
-          <entry key="py" value="58" />
+          <entry key="JPG" value="7" />
+          <entry key="css" value="32" />
+          <entry key="html" value="244" />
+          <entry key="jpg" value="14" />
+          <entry key="js" value="14" />
+          <entry key="multilingual-hello" value="1" />
+          <entry key="png" value="1" />
+          <entry key="py" value="224" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="7" />
-          <entry key="HTML" value="47" />
-          <entry key="Python" value="58" />
+          <entry key="CSS" value="32" />
+          <entry key="HTML" value="244" />
+          <entry key="Image" value="22" />
+          <entry key="JavaScript" value="14" />
+          <entry key="Python" value="224" />
+          <entry key="UNKNOWN" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
-      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.create.new" value="1" />
+        </counts>
+      </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="105" />
-          <entry key="html" value="1839" />
-          <entry key="py" value="4015" />
-          <entry key="py@Django_GraphicalPasswords" value="307" />
-          <entry key="txt" value="793" />
+          <entry key="Django Console" value="45" />
+          <entry key="css" value="491" />
+          <entry key="html" value="18098" />
+          <entry key="js" value="4172" />
+          <entry key="py" value="10604" />
+          <entry key="py@Django_GraphicalPasswords" value="1061" />
+          <entry key="txt" value="2499" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.5" value="4" />
-          <entry key="project.open.time.6" value="5" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.closed" value="44" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.5" value="21" />
+          <entry key="project.open.time.6" value="21" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.opened" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="105" />
-          <entry key="CommandLine" value="251" />
-          <entry key="HTML" value="1839" />
-          <entry key="PLAIN_TEXT" value="849" />
-          <entry key="Python" value="4015" />
+          <entry key="CSS" value="491" />
+          <entry key="CommandLine" value="964" />
+          <entry key="HTML" value="18098" />
+          <entry key="JavaScript" value="4172" />
+          <entry key="PLAIN_TEXT" value="2596" />
+          <entry key="Python" value="10649" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Django_GraphicalPasswords/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="34" column="56" lean-forward="true" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
-              <folding>
-                <element signature="e#649#681#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/accounts/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/accounts/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/signup.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Django_GraphicalPasswords/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="264">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/registration/logged_out.html">
+        <entry file="file://$PROJECT_DIR$/pages/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            <state relative-caret-position="663">
+              <caret line="187" column="29" selection-start-line="187" selection-start-column="29" selection-end-line="187" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/home.html">
+        <entry file="file://$PROJECT_DIR$/templates/graphical_login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+            <state relative-caret-position="700">
+              <caret line="71" column="51" selection-start-line="71" selection-start-column="51" selection-end-line="71" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/select_graphical_password.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1197">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -233,6 +210,8 @@
         <option value="CSS File" />
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Setup Script" />
       </list>
     </option>
   </component>
@@ -243,42 +222,97 @@
       <find>DEBUG</find>
       <find>staticfil</find>
       <find>static</find>
+      <find>auth.us</find>
+      <find>auth.u</find>
+      <find>print</find>
+      <find>console.log</find>
+      <find>authentication_ba</find>
+      <find>GraphicalPasswords</find>
+      <find>User%20Images</find>
+      <find>image_id</find>
+      <find>UserImages</find>
+      <find>username</find>
+      <find>records</find>
+      <find>time</find>
+      <find>css</find>
+      <find>style</find>
+      <find>false),</find>
+      <find>alert</find>
     </findStrings>
+    <replaceStrings>
+      <replace>console.log</replace>
+      <replace>alert</replace>
+      <replace>UserImages</replace>
+      <replace>user_image_id</replace>
+      <replace>PasswordImages</replace>
+      <replace>password</replace>
+      <replace>false, 5),</replace>
+      <replace>//alert</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/profiles/admin.py" />
-        <option value="$PROJECT_DIR$/pages/tests.py" />
-        <option value="$PROJECT_DIR$/templates/admin.html" />
-        <option value="$PROJECT_DIR$/templates/user.html" />
-        <option value="$PROJECT_DIR$/profiles/templates/profile_detail.html" />
-        <option value="$PROJECT_DIR$/static/css/test.html" />
-        <option value="$PROJECT_DIR$/Django_GraphicalPasswords/test.html" />
-        <option value="$PROJECT_DIR$/pages/templates/extracode.html" />
-        <option value="$PROJECT_DIR$/templates/about.html" />
-        <option value="$PROJECT_DIR$/templates/contact.html" />
-        <option value="$PROJECT_DIR$/static/css/profile.css" />
-        <option value="$PROJECT_DIR$/profiles/static/css/profile.css" />
         <option value="$PROJECT_DIR$/profiles/templates/profile_create.html" />
-        <option value="$PROJECT_DIR$/profiles/models.py" />
-        <option value="$PROJECT_DIR$/static/css/base.css" />
-        <option value="$PROJECT_DIR$/pages/views.py" />
         <option value="$PROJECT_DIR$/profiles/forms.py" />
-        <option value="$PROJECT_DIR$/profiles/views.py" />
         <option value="$PROJECT_DIR$/profiles/templates/login_form.html" />
         <option value="$PROJECT_DIR$/templates/registration/logout.html" />
-        <option value="$PROJECT_DIR$/templates/home.html" />
-        <option value="$PROJECT_DIR$/templates/registration/logged_out.html" />
-        <option value="$PROJECT_DIR$/Django_GraphicalPasswords/settings.py" />
         <option value="$PROJECT_DIR$/templates/signup.html" />
+        <option value="$PROJECT_DIR$/templates/testing_gp.html" />
+        <option value="$PROJECT_DIR$/profiles/models.py" />
+        <option value="$PROJECT_DIR$/images/admin.py" />
+        <option value="$PROJECT_DIR$/images/models.py" />
+        <option value="$PROJECT_DIR$/images/templates/image_page.html" />
+        <option value="$PROJECT_DIR$/images/views.py" />
+        <option value="$PROJECT_DIR$/templates/registration/hash_test.py" />
+        <option value="$PROJECT_DIR$/templates/hash_test.py" />
+        <option value="$PROJECT_DIR$/users/models.py" />
+        <option value="$PROJECT_DIR$/users/migrations/forms.py" />
+        <option value="$PROJECT_DIR$/users/forms.py" />
+        <option value="$PROJECT_DIR$/users/admin.py" />
+        <option value="$PROJECT_DIR$/users/urls.py" />
+        <option value="$PROJECT_DIR$/users/views.py" />
+        <option value="$PROJECT_DIR$/templates/contact.html" />
+        <option value="$PROJECT_DIR$/pages/serializers.py" />
+        <option value="$PROJECT_DIR$/profiles/views.py" />
+        <option value="$PROJECT_DIR$/templates/about.html" />
+        <option value="$PROJECT_DIR$/templates/registration/reg_select_user.html" />
         <option value="$PROJECT_DIR$/accounts/urls.py" />
-        <option value="$PROJECT_DIR$/Django_GraphicalPasswords/urls.py" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/registration/logged_out.html" />
+        <option value="$PROJECT_DIR$/templates/game.html" />
         <option value="$PROJECT_DIR$/accounts/views.py" />
+        <option value="$PROJECT_DIR$/static/javascript/records.js" />
+        <option value="$PROJECT_DIR$/Django_GraphicalPasswords/urls.py" />
+        <option value="$PROJECT_DIR$/pages/views.py" />
+        <option value="$PROJECT_DIR$/static/css/home.css" />
+        <option value="$PROJECT_DIR$/static/css/test.css" />
+        <option value="$PROJECT_DIR$/static/css/reglogin.css" />
+        <option value="$PROJECT_DIR$/static/javascript/password_image_class.js" />
+        <option value="$PROJECT_DIR$/static/css/style_reglogin.css" />
+        <option value="$PROJECT_DIR$/templates/username_selection.html" />
+        <option value="$PROJECT_DIR$/static/css/reg_login.css" />
+        <option value="$PROJECT_DIR$/static/css/base.css" />
+        <option value="$PROJECT_DIR$/static/css/style_home.css" />
+        <option value="$PROJECT_DIR$/static/javascript/help_message.js" />
+        <option value="$PROJECT_DIR$/templates/home.html" />
+        <option value="$PROJECT_DIR$/static/css/home_style.css" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/select_graphical_password.html" />
+        <option value="$PROJECT_DIR$/templates/graphical_login.html" />
+        <option value="$PROJECT_DIR$/Django_GraphicalPasswords/settings.py" />
+        <option value="$PROJECT_DIR$/templates/reg_select_user.html" />
+        <option value="$PROJECT_DIR$/templates/registration/login.html" />
+        <option value="$PROJECT_DIR$/templates/registration/signup.html" />
+        <option value="$PROJECT_DIR$/static/javascript/ip_info.js" />
       </list>
     </option>
   </component>
@@ -288,11 +322,16 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1273" />
-    <option name="height" value="1057" />
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="466" />
+    <option name="y" value="23" />
+    <option name="width" value="974" />
+    <option name="height" value="830" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -312,36 +351,47 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Django_GraphicalPasswords" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="Django_GraphicalPasswords" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="Django_GraphicalPasswords" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Django_GP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Django_GP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Django_GP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Django_GP" type="462c0819:PsiDirectoryNode" />
+              <item name="Django_GraphicalPasswords" type="b2602c69:ProjectViewProjectNode" />
               <item name="Django_GraphicalPasswords" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHubDesktop/app-1.5.1/resources/app/git/cmd/git.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="Console" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -351,12 +401,21 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="OPEN_URL_DIALOG">
+      <recent name="https://github.com/klutz/multilingual-hello" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\micha\PycharmProjects\Django_GP\static\images\PasswordImages" />
+      <recent name="C:\Users\micha\PycharmProjects\Django_GP\static\images\Hints" />
       <recent name="C:\Users\micha\PycharmProjects\Django_GP\static\images" />
-      <recent name="C:\Users\micha\PycharmProjects\Django_GP\static" />
-      <recent name="C:\Users\micha\PycharmProjects\Django_GP\profiles\static\css" />
-      <recent name="C:\Users\micha\PycharmProjects\Django_GP\profiles\static" />
-      <recent name="C:\Users\micha\PycharmProjects\Django_GP\static\css" />
+      <recent name="C:\Users\micha\PycharmProjects\Django_GP\static\images\UserImages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/images/PasswordImages" />
+      <recent name="$PROJECT_DIR$/static/images/66.jpg" />
+      <recent name="C:\Users\micha\PycharmProjects\Django_GP\templates\registration" />
+      <recent name="C:\Users\micha\PycharmProjects\Django_GP\static\images" />
+      <recent name="C:\Users\micha\PycharmProjects\Django_GP\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -439,91 +498,350 @@
       <option name="presentableId" value="Default" />
       <updated>1540053338407</updated>
     </task>
-    <task id="LOCAL-00001" summary="Started profile app for users">
-      <created>1540067207105</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
+    <task id="LOCAL-00013" summary="Attempting to implement basic hashing library">
+      <created>1547551124647</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
       <option name="project" value="LOCAL" />
-      <updated>1540067207105</updated>
+      <updated>1547551124647</updated>
     </task>
-    <task id="LOCAL-00002" summary="Started profile app for users">
-      <created>1540128573326</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
+    <task id="LOCAL-00014" summary="altering image selection - moving away from buttons">
+      <created>1547940228585</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
       <option name="project" value="LOCAL" />
-      <updated>1540128573326</updated>
+      <updated>1547940228585</updated>
     </task>
-    <task id="LOCAL-00003" summary="Started profile app for users">
-      <created>1540740961379</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
+    <task id="LOCAL-00015" summary="altering image selection - moving away from buttons">
+      <created>1548361583307</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
       <option name="project" value="LOCAL" />
-      <updated>1540740961379</updated>
+      <updated>1548361583307</updated>
     </task>
-    <task id="LOCAL-00004" summary="Working on templates for Profiles app">
-      <created>1541725367417</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
+    <task id="LOCAL-00016" summary="altering image selection - moving away from buttons">
+      <created>1548437175836</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
       <option name="project" value="LOCAL" />
-      <updated>1541725367418</updated>
+      <updated>1548437175836</updated>
     </task>
-    <task id="LOCAL-00005" summary="Working to improve forms using Django's built in error handling">
-      <created>1541981342508</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
+    <task id="LOCAL-00017" summary="altering image selection - moving away from buttons">
+      <created>1548754349232</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
       <option name="project" value="LOCAL" />
-      <updated>1541981342508</updated>
+      <updated>1548754349232</updated>
     </task>
-    <task id="LOCAL-00006" summary="Worked on forms, altered the form to show dates correctly for the DOB field.">
-      <created>1542065134881</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
+    <task id="LOCAL-00018" summary="altering image selection - moving away from buttons">
+      <created>1548754449556</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
       <option name="project" value="LOCAL" />
-      <updated>1542065134881</updated>
+      <updated>1548754449556</updated>
     </task>
-    <task id="LOCAL-00007" summary="Worked on forms, altered the form to show dates correctly for the DOB field.">
-      <created>1542155273251</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
+    <task id="LOCAL-00019" summary="Passed Base64 hash to home page with username - needs to go to Login but progress is progress.">
+      <created>1549041205238</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
       <option name="project" value="LOCAL" />
-      <updated>1542155273251</updated>
+      <updated>1549041205238</updated>
     </task>
-    <task id="LOCAL-00008" summary="Added CSS to templates&#10;Altered model and improved register&#10;attempted to do login but stopped due to questions:-&#10;do I implement a new form for login?&#10;Do I reuse the Profiles form?&#10;How does Users fit into that?&#10;Do templates receive their own CSS or inherit it from the base.html? Online searching would say no but I couldn't get it working.">
-      <created>1542223871759</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
+    <task id="LOCAL-00020" summary="Attempting to post login creds in login form - response is 403 Forbidden">
+      <created>1549050965551</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
       <option name="project" value="LOCAL" />
-      <updated>1542223871759</updated>
+      <updated>1549050965551</updated>
     </task>
-    <task id="LOCAL-00009" summary="Added CSS to templates&#10;Altered model and improved register&#10;attempted to do login but stopped due to questions:-&#10;do I implement a new form for login?&#10;Do I reuse the Profiles form?&#10;How does Users fit into that?&#10;Do templates receive their own CSS or inherit it from the base.html? Online searching would say no but I couldn't get it working.&#10;&#10;Tidied up code for demo with Karen">
-      <created>1542273310990</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
+    <task id="LOCAL-00021" summary="Have creds on Login page but no form ??? &#10;Attempting to use the Django authenticate method to login user&#10;Need to move creds to a view function ???">
+      <created>1549122294282</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
       <option name="project" value="LOCAL" />
-      <updated>1542273310990</updated>
+      <updated>1549122294282</updated>
     </task>
-    <task id="LOCAL-00010" summary="Added title image and altered css for demo">
-      <created>1542635960075</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
+    <task id="LOCAL-00022" summary="Have creds on Login page but no form ??? &#10;Attempting to use the Django authenticate method to login user&#10;Need to move creds to a view function ???">
+      <created>1549124109138</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
       <option name="project" value="LOCAL" />
-      <updated>1542635960075</updated>
+      <updated>1549124109138</updated>
     </task>
-    <task id="LOCAL-00011" summary="Added title image and altered css for demo&#10;Added Login page form - finally got it working.">
-      <created>1542642822565</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
+    <task id="LOCAL-00023" summary="PyCharm is being awful and causing error - No module named GraphicalPasswords.">
+      <created>1549227519054</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
       <option name="project" value="LOCAL" />
-      <updated>1542642822565</updated>
+      <updated>1549227519054</updated>
     </task>
-    <task id="LOCAL-00012" summary="Working login system">
-      <created>1546962584175</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
+    <task id="LOCAL-00024" summary="Authenticating user and user is ALWAYS none. I have no idea why.">
+      <created>1549400641740</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
       <option name="project" value="LOCAL" />
-      <updated>1546962584175</updated>
+      <updated>1549400641741</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00025" summary="Able to login in using an Image.">
+      <created>1549402859777</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1549402859777</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Able to login in using an Image. Added Username selection page - still needs work">
+      <created>1549410720275</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1549410720275</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Able to login in using an Image. Added Username selection page - sorted an issue with values - password will have the same bug. Still some dups">
+      <created>1549411722151</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1549411722152</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Able to login in using an Image. Added Username selection page - sorted an issue with values - password will have the same bug. Still some dups">
+      <created>1549545977196</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1549545977196</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Implemented functionality to select user-animal and login with username and password(if the account exists)">
+      <created>1549566178719</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1549566178719</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Implemented functionality to select user-animal and login with username and password(if the account exists)">
+      <created>1549638821150</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1549638821150</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Implemented functionality to select user-animal and login with username and password(if the account exists)">
+      <created>1549643902402</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1549643902402</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Implemented functionality to select user-animal and login with username and password(if the account exists)">
+      <created>1549645204909</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1549645204909</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Implemented functionality to select user-animal and login with username and password(if the account exists)">
+      <created>1549645214974</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1549645214974</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Implemented functionality to select user-animal and login with username and password(if the account exists)">
+      <created>1549746860787</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1549746860787</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Implemented functionality to select user-animal and login with username and password(if the account exists)">
+      <created>1549747960312</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1549747960312</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Implementing Image class using JS for register">
+      <created>1549926699758</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1549926699758</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Implemented image class - about to rework the refresh functionality to factor in allocated images.">
+      <created>1549993073017</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1549993073017</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Implemented image class - about to rework the refresh functionality to factor in allocated images.">
+      <created>1549994879808</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1549994879808</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Reworked refresh functionality">
+      <created>1549998439718</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1549998439718</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Reworked refresh functionality - added more images">
+      <created>1549999080475</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1549999080475</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Got Registration process working.">
+      <created>1550013211387</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1550013211387</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Got Registration process working.">
+      <created>1550017825698</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1550017825698</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Small changes concerning login-logout flow. bigger bolder buttons for little fingers.">
+      <created>1550170682347</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1550170682348</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Changed home page to contain game (only on authenticate)">
+      <created>1550177173342</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1550177173342</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Changed home page to contain game (only on authenticate)">
+      <created>1550179025363</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1550179025363</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Added &quot;Incorrect username or password&quot; messages and redirects">
+      <created>1550183375558</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1550183375558</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Working on recording user information while using application.">
+      <created>1550334618793</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1550334618793</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Working on recording user information while using application.">
+      <created>1550337064382</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1550337064382</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Working on recording user information while using application.&#10;- Fixed bug with IP addresses &#10;- Fixed bug with user information output">
+      <created>1550339241905</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1550339241905</updated>
+    </task>
+    <task id="LOCAL-00050" summary="- edited divs on reg and login">
+      <created>1550612700451</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1550612700452</updated>
+    </task>
+    <task id="LOCAL-00051" summary="- altered some div and removed the nav bar as it was no longer needed and just thought it was taking up unnecessary space (and was a distraction)">
+      <created>1550614076865</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1550614076865</updated>
+    </task>
+    <task id="LOCAL-00052" summary="- altered some div and removed the nav bar as it was no longer needed and just thought it was taking up unnecessary space (and was a distraction)&#10;- added game links since the embedded game only works on pc">
+      <created>1550616227384</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1550616227384</updated>
+    </task>
+    <task id="LOCAL-00053" summary="- added 'start login' logging&#10;- testing with nexus tablet">
+      <created>1550704904811</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1550704904812</updated>
+    </task>
+    <task id="LOCAL-00054" summary="- altered divs and buttons on all pages to accommodate little fingers&#10;- still testing with nexus tablet...">
+      <created>1550760086383</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1550760086384</updated>
+    </task>
+    <task id="LOCAL-00055" summary="- added hint button might remove">
+      <created>1550876327105</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1550876327107</updated>
+    </task>
+    <task id="LOCAL-00056" summary="- added hint button might remove">
+      <created>1552409697695</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1552409697697</updated>
+    </task>
+    <task id="LOCAL-00057" summary="- added new accounts&#10;- fixed IP issue">
+      <created>1552577551697</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1552577551697</updated>
+    </task>
+    <task id="LOCAL-00058" summary="- added new accounts&#10;- fixed IP issue">
+      <created>1552584427167</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1552584427168</updated>
+    </task>
+    <task id="LOCAL-00059" summary="- added new accounts from study">
+      <created>1553091992680</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1553091992683</updated>
+    </task>
+    <task id="LOCAL-00060" summary="- added new accounts from study">
+      <created>1553116722751</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1553116722751</updated>
+    </task>
+    <task id="LOCAL-00061" summary="- added new accounts from study">
+      <created>1553192878217</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1553192878217</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TodoView">
@@ -536,58 +854,60 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="466" y="23" width="974" height="830" extended-state="1" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14658849" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.32725322" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.33044422" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.32655826" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3287483" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49892703" weight="0.32791328" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946696" weight="0.32618025" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4985694" weight="0.32384825" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.3287483" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.4978678" side_tool="true" weight="0.32939914" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32827735" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3741403" />
-      <window_info active="true" anchor="bottom" id="manage.py@Django_GraphicalPasswords" order="13" sideWeight="0.5021322" visible="true" weight="0.32939914" />
-      <window_info anchor="bottom" id="Messages" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50214595" side_tool="true" weight="0.31707317" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49928468" weight="0.32520324" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.37231758" />
+      <window_info anchor="bottom" id="manage.py@Django_GraphicalPasswords" order="13" sideWeight="0.49785408" weight="0.38433734" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32936078" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="15" weight="0.32936078" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32713348" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32615384" />
       <window_info anchor="right" id="R Graphics" order="5" />
       <window_info anchor="right" id="R Packages" order="6" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13448845" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16666667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.32725322" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.33044422" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.32655826" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3287483" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49892703" weight="0.32791328" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946696" weight="0.32939914" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4985694" weight="0.32384825" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.3287483" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.49733475" side_tool="true" weight="0.28540772" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3287483" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3741403" />
-      <window_info anchor="bottom" id="manage.py@Django_GraphicalPasswords" order="13" sideWeight="0.5026652" visible="true" weight="0.30985916" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50214595" side_tool="true" weight="0.31707317" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49928468" weight="0.32520324" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.37231758" />
+      <window_info anchor="bottom" id="manage.py@Django_GraphicalPasswords" order="13" sideWeight="0.49785408" visible="true" weight="0.38433734" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32936078" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="15" weight="0.32936078" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32713348" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32615384" />
       <window_info anchor="right" id="R Graphics" order="5" />
       <window_info anchor="right" id="R Packages" order="6" />
     </layout-to-restore>
@@ -599,279 +919,288 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Started profile app for users" />
-    <MESSAGE value="Working on templates for Profiles app" />
-    <MESSAGE value="Working to improve forms using Django's built in error handling" />
-    <MESSAGE value="Worked on forms, altered the form to show dates correctly for the DOB field." />
-    <MESSAGE value="Added CSS to templates&#10;Altered model and improved register&#10;attempted to do login but stopped due to questions:-&#10;do I implement a new form for login?&#10;Do I reuse the Profiles form?&#10;How does Users fit into that?&#10;Do templates receive their own CSS or inherit it from the base.html? Online searching would say no but I couldn't get it working." />
-    <MESSAGE value="Added CSS to templates&#10;Altered model and improved register&#10;attempted to do login but stopped due to questions:-&#10;do I implement a new form for login?&#10;Do I reuse the Profiles form?&#10;How does Users fit into that?&#10;Do templates receive their own CSS or inherit it from the base.html? Online searching would say no but I couldn't get it working.&#10;&#10;Tidied up code for demo with Karen" />
-    <MESSAGE value="Added title image and altered css for demo" />
-    <MESSAGE value="Added title image and altered css for demo&#10;Added Login page form - finally got it working." />
-    <MESSAGE value="Working login system" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working login system" />
+    <MESSAGE value="Have creds on Login page but no form ??? &#10;Attempting to use the Django authenticate method to login user&#10;Need to move creds to a view function ???" />
+    <MESSAGE value="PyCharm is being awful and causing error - No module named GraphicalPasswords." />
+    <MESSAGE value="Authenticating user and user is ALWAYS none. I have no idea why." />
+    <MESSAGE value="Able to login in using an Image." />
+    <MESSAGE value="Able to login in using an Image. Added Username selection page - still needs work" />
+    <MESSAGE value="Able to login in using an Image. Added Username selection page - sorted an issue with values - password will have the same bug. Still some dups" />
+    <MESSAGE value="Implemented functionality to select user-animal and login with username and password(if the account exists)" />
+    <MESSAGE value="Implementing Image class using JS for register" />
+    <MESSAGE value="Implemented image class - about to rework the refresh functionality to factor in allocated images." />
+    <MESSAGE value="Reworked refresh functionality" />
+    <MESSAGE value="Reworked refresh functionality - added more images" />
+    <MESSAGE value="Got Registration process working." />
+    <MESSAGE value="Small changes concerning login-logout flow. bigger bolder buttons for little fingers." />
+    <MESSAGE value="Changed home page to contain game (only on authenticate)" />
+    <MESSAGE value="Added &quot;Incorrect username or password&quot; messages and redirects" />
+    <MESSAGE value="Working on recording user information while using application." />
+    <MESSAGE value="Working on recording user information while using application.&#10;- Fixed bug with IP addresses &#10;- Fixed bug with user information output" />
+    <MESSAGE value="- edited divs on reg and login" />
+    <MESSAGE value="- altered some div and removed the nav bar as it was no longer needed and just thought it was taking up unnecessary space (and was a distraction)" />
+    <MESSAGE value="- altered some div and removed the nav bar as it was no longer needed and just thought it was taking up unnecessary space (and was a distraction)&#10;- added game links since the embedded game only works on pc" />
+    <MESSAGE value="- added 'start login' logging&#10;- testing with nexus tablet" />
+    <MESSAGE value="- altered divs and buttons on all pages to accommodate little fingers&#10;- still testing with nexus tablet..." />
+    <MESSAGE value="- added hint button might remove" />
+    <MESSAGE value="- added new accounts&#10;- fixed IP issue" />
+    <MESSAGE value="- added new accounts from study" />
+    <option name="LAST_COMMIT_MESSAGE" value="- added new accounts from study" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="django-line">
-          <url>file://$PROJECT_DIR$/templates/home.html</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pages/views.py</url>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GraphicalPasswords/migrations/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profiles/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="29" selection-start-line="3" selection-start-column="2" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/user.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profiles/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/django/forms/widgets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5135">
-          <caret line="1025" selection-start-line="1025" selection-end-line="1026" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django_GraphicalPasswords/test.html" />
-    <entry file="file://$PROJECT_DIR$/static/test.html" />
-    <entry file="file://$PROJECT_DIR$/profiles/templates/profile_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/templates/extracode.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GraphicalPasswords/views.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GraphicalPasswords/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GraphicalPasswords/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GraphicalPasswords/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GraphicalPasswords/admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GraphicalPasswords/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profiles/static/css/profile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profiles/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profiles/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profiles/templates/profile_create.html">
-      <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="17" selection-end-column="14" />
+          <caret selection-end-line="26" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/profiles/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1542642617657" expanded="true" signature="377:381" ph="..." />
-          </folding>
+        <state relative-caret-position="799">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profiles/templates/login_form.html">
+    <entry file="file://$PROJECT_DIR$/static/images/UserImages/1.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/UserImages/13.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profiles/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-            <marker date="1542642067773" expanded="true" signature="71:72" ph="..." />
-            <marker date="1542642067773" expanded="true" signature="914:1094" ph="..." />
-            <marker date="1542642067773" expanded="true" signature="1404:1409" ph="..." />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/accounts/forms.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/accounts/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Django_GraphicalPasswords/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/accounts/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/game.html" />
     <entry file="file://$PROJECT_DIR$/templates/registration/logged_out.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        <state relative-caret-position="51">
+          <caret line="3" column="65" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/static/javascript/functions.js" />
+    <entry file="file://$PROJECT_DIR$/static/javascript/records.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/accounts/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/PasswordImages/4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/javascript/password_image_class.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="96" selection-start-line="96" selection-end-line="97" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/PasswordImages/26.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/PasswordImages/37.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/PasswordImages/33.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/reg_login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/javascript/help.js" />
+    <entry file="file://$PROJECT_DIR$/static/css/home_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/PasswordImages/65.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/PasswordImages/38.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/PasswordImages/41.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/PasswordImages/40.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/PasswordImages/66.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django_GraphicalPasswords/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/UserImages/12.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="67" lean-forward="true" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/registration/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="41" column="43" lean-forward="true" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/PasswordImages/12.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/PasswordImages/24.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/PasswordImages/35.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/PasswordImages/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/javascript/ip_info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django_GraphicalPasswords/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/UserImages/6.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/PasswordImages/13.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/reg_select_user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/username_selection.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="39" column="46" lean-forward="true" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="187" column="29" selection-start-line="187" selection-start-column="29" selection-end-line="187" selection-end-column="29" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Django_GraphicalPasswords/urls.py">
+    <entry file="file://$PROJECT_DIR$/templates/graphical_login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="34" column="56" lean-forward="true" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
-          <folding>
-            <element signature="e#649#681#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="700">
+          <caret line="71" column="51" selection-start-line="71" selection-start-column="51" selection-end-line="71" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/select_graphical_password.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1197">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="17" />
         </state>
       </provider>
     </entry>

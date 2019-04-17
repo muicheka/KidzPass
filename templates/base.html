@@ -1,35 +1,35 @@
-{% load static %}
+{% load static from staticfiles %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon">
     <meta charset="UTF-8">
     <title>KidzPass & SeniorPass</title>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
     <link rel="stylesheet" href="{% static 'css/profile.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </head>
-<nav>
+{% comment %}<nav>
     <ul id="nav_bar">
         <li class="nav_options"><a href="{% url 'home' %}">Home</a></li>
-        <li class="nav_options"><a href="{% url 'about' %}">About</a></li>
-        <li class="nav_options"><a href="{% url 'contact' %}">Contact</a></li>
-        <li class="nav_options"><a href="{% url 'signup' %}">Register</a></li>
-        <li class="nav_options"><a href="{% url 'login' %}">Login</a></li>
+        <li class="nav_options"><a href="{% url 'reguser' %}">Register</a></li>
+        <li class="nav_options"><a href="{% url 'username_select' %}">Login</a></li>
     </ul>
-</nav>
+</nav>{% endcomment %}
+
+
 <body>
-<div style="margin-left:25%;padding:1px 16px; display: block; text-align: center">
-    <img id="title_image" src="{% static 'images/title.png' %}" alt="KidzPass & SeniorPass" style="width:80%;height:auto;padding: 10px;min-width: 50%">
+
+<div style="padding:1px 16px; display: block; text-align: center">
+    <img id="title_image" src="{% static 'images/title.png' %}" alt="KidzPass & SeniorPass"
+         style="width:100%;height:auto;padding: 10px;min-width: 50%">
 </div>
-<div style="margin-left:25%;padding:1px 16px;height:1000px;display: block">
+<div style="padding:1px 16px;height:1000px;display: block">
     {% block content %}
         replace me
-    {% endblock %}
-
-    {% block content_contact_info %}
-        <p>Mobile: 0775-6309-036</p>
-        <p>Email: kidzpass.seniorpass@gmail.com</p>
     {% endblock %}
 </div>
 </body>

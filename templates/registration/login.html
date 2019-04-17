@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+    <script src="{% static 'javascript/ip_info.js' %}"></script>
+    <h1 align="center" id="greeting">Logging you in...</h1>
+    <h1 align="center" id="error_message" style="display: none; color: red"> Incorrect Username or Password</h1>
+    <div style="display: none;">
+        <form id="loginform" action="{% url 'Login' %}" method="POST">
+            {% csrf_token %}
+            <input type="hidden" id="username" value={{ username }} name="username">
+            <input type="hidden" id="password" value={{ password }} name="password">
+            <input type="submit" value="Click"/>
+        </form>
+    </div>
+    {% comment %}  <h2>{{ username }} and {{ password }}</h2>
+<div style="border-radius: 5px; background-color: #f2f2f2; padding: 20px;">
+        <form action="" method="POST"> {% csrf_token %}
+            {{ form.as_table }}
+            <input type="submit" value="Login">
+        </form>
+    </div>{% endcomment %}
+
+    <script>
+        window.onload = function submit_form() {
+            let username = document.getElementById("username");
+            let username_value = username.value;
+            if (username_value === 'name="username"') {
+                document.getElementById("greeting").style.display = "none";
+                document.getElementById("error_message").style.display = "block";
+                window.setTimeout(function () {
+                    window.location.replace('http://' + ip_port + '/username/');
+                }, 1000);
+            }
+            else {
+                document.getElementById("loginform").submit();
+            }
+
+        }
+    </script>
+{% endblock %}

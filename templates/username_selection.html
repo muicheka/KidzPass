@@ -1,0 +1,202 @@
+{% extends "base.html" %}
+{% load static from staticfiles %}
+
+{% block content %}
+    <script src="{% static 'javascript/ip_info.js' %}"></script>
+    <link rel="stylesheet" type="text/css" media="all" href="{% static 'css/reg_login.css' %}">
+    <h1 align="center">Login - Find your animal</h1>
+
+    <script>
+
+        var arrayImages = [
+            "static/images/UserImages/7.JPG",
+            "static/images/UserImages/8.JPG",
+            "static/images/UserImages/9.JPG",
+            "static/images/UserImages/10.JPG",
+            "static/images/UserImages/11.JPG",
+            "static/images/UserImages/12.JPG",
+            "static/images/UserImages/13.JPG",
+            "static/images/UserImages/14.JPG",
+            "static/images/UserImages/15.JPG",
+            "static/images/UserImages/16.JPG",
+            "static/images/UserImages/17.JPG",
+            "static/images/UserImages/18.JPG",
+            "static/images/UserImages/19.JPG",
+            "static/images/UserImages/20.JPG",
+            "static/images/UserImages/21.JPG",
+            "static/images/UserImages/22.JPG",
+            "static/images/UserImages/23.JPG",
+            "static/images/UserImages/24.JPG",
+            "static/images/UserImages/25.JPG",
+            "static/images/UserImages/26.JPG",
+            "static/images/UserImages/27.JPG",
+            "static/images/UserImages/28.JPG",
+            "static/images/UserImages/29.JPG",
+            "static/images/UserImages/30.JPG",
+            "static/images/UserImages/31.JPG",
+            "static/images/UserImages/32.JPG",
+            "static/images/UserImages/33.JPG",
+            "static/images/UserImages/34.JPG",
+            "static/images/UserImages/35.JPG",
+        ];
+        var displayed_images = [
+            "static/images/UserImages/1.JPG",
+            "static/images/UserImages/2.JPG",
+            "static/images/UserImages/3.JPG",
+            "static/images/UserImages/4.JPG",
+            "static/images/UserImages/5.JPG",
+            "static/images/UserImages/6.JPG",
+        ];
+
+        function getRandomInt(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        function refresh_images() {
+            var username_image_class = document.getElementsByClassName("username_image");
+            var username_image_value = document.getElementsByClassName("username_image_value");
+            for (var current_image = 0; current_image < username_image_class.length; current_image++) {
+                username_image_class[current_image].src = arrayImages[getRandomInt(0, arrayImages.length - 1)];
+                username_image_value[current_image].value = username_image_class[current_image].src.replace("http://" + ip_port + "/username/static/images/UserImages/", "");
+                username_image_class[current_image].src = username_image_class[current_image].src.replace("http://" + ip_port + "/username", "");
+
+                // http://127.0.0.1:8000
+                displayed_images.push(username_image_class[current_image].src.replace("http://" + ip_port + "/", ""));
+                for (var image = 0; image < arrayImages.length; image++) {
+                    //alert(arrayImages[image]);
+                    //alert(username_image_class[current_image].src.replace("http://127.0.0.1:8000/", ""));
+                    if (arrayImages[image] === username_image_class[current_image].src.replace("http://" + ip_port + "/", "")) {
+                        arrayImages.splice(image, 1);
+                    }
+                }
+            }
+            for (var count = 0; count < 6; count++) {
+                var temp = displayed_images[count];
+                arrayImages.push(temp);
+            }
+            displayed_images.splice(0, 6);
+        }
+
+
+    </script>
+
+    <style>
+        .username_image {
+            border-radius: 4px;
+            border: 2px solid black;
+            width: 135px;
+            height: 126px;
+
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .username_image:hover {
+            opacity: 0.5;
+            filter: alpha(opacity=50); /* For IE8 and earlier */
+        }
+
+        .container {
+            max-width: 450px;
+            padding-bottom: 20px;
+        }
+    </style>
+
+    <div class="container">
+        <div class="row" align="center">
+            <div class="col-sm-4">
+                <form action="{% url 'selected_user_image' %}" method="POST">
+                    {% csrf_token %}
+                    <input class="username_image_value" type="hidden" id="user_image_id" value="1.JPG"
+                           name="user_image_id">
+                    <input class="username_image" type="image" value="1" src="/static/images/UserImages/1.JPG">
+                </form>
+            </div>
+
+            <div class="col-sm-4">
+                <form action="{% url 'selected_user_image' %}" method="POST">
+                    {% csrf_token %}
+                    <input class="username_image_value" type="hidden" id="user_image_id" value="2.JPG"
+                           name="user_image_id">
+                    <input class="username_image" type="image" value="2" src="/static/images/UserImages/2.JPG">
+                </form>
+            </div>
+
+            <div class="col-sm-4">
+                <form action="{% url 'selected_user_image' %}" method="POST">
+                    {% csrf_token %}
+                    <input class="username_image_value" type="hidden" id="user_image_id" value="3.JPG"
+                           name="user_image_id">
+                    <input class="username_image" type="image" value="3" src="/static/images/UserImages/3.JPG">
+                </form>
+            </div>
+
+        </div>
+        <div class="row" align="center" style="padding-top: 10px">
+            <div class="col-sm-4">
+                <form action="{% url 'selected_user_image' %}" method="POST">
+                    {% csrf_token %}
+                    <input class="username_image_value" type="hidden" id="user_image_id" value="4.JPG"
+                           name="user_image_id">
+                    <input class="username_image" type="image" value="4" src="/static/images/UserImages/4.JPG">
+                </form>
+            </div>
+
+            <div class="col-sm-4">
+                <form action="{% url 'selected_user_image' %}" method="POST">
+                    {% csrf_token %}
+                    <input class="username_image_value" type="hidden" id="user_image_id" value="5.JPG"
+                           name="user_image_id">
+                    <input class="username_image" type="image" value="5" src="/static/images/UserImages/5.JPG">
+                </form>
+            </div>
+
+            <div class="col-sm-4">
+                <form action="{% url 'selected_user_image' %}" method="POST">
+                    {% csrf_token %}
+                    <input class="username_image_value" type="hidden" id="user_image_id" value="6.JPG"
+                           name="user_image_id">
+                    <input class="username_image" type="image" value="6" src="/static/images/UserImages/6.JPG">
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <style>
+
+    </style>
+    <div align="center">
+        <button id="back_btn" class="button" onclick=""><i class="left"></i>Back</button>
+        <button class="button" onclick="refresh_images()">New Images <i class="fa fa-refresh fa-spin"></i></button>
+    </div>
+
+
+    <script>
+        window.onload = function check_for_allocated_images() {
+            var currentTime = new Date();
+            var hours = currentTime.getHours();
+            var minutes = currentTime.getMinutes();
+            var seconds = currentTime.getSeconds();
+            var milliseconds = currentTime.getMilliseconds();
+            if (minutes < 10) {
+                minutes = "0" + minutes
+            }
+            if (seconds < 10) {
+                seconds = "0" + seconds
+            }
+            list_users = [];
+            $.ajax({
+                type: "POST",
+                datatype: "json",
+                url: "{{ 'startlogin/' }}",
+                data: {csrfmiddlewaretoken: '{{ csrf_token }}'},
+                success: function callback(response) {
+                }
+            });
+        };
+        document.getElementById("back_btn").onclick = function () {
+            location.href = "{% url 'home' %}";
+        };
+    </script>
+{% endblock %}

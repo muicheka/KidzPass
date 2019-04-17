@@ -1,17 +1,27 @@
-{% extends "base.html"%}
+{% extends "base.html" %}
 
 {% block content %}
+    <style>
+    .testing{
+        padding:5px;
+    border: 2px solid black;
+}
+    .testing:hover{
+        opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+    }
+    </style>
     <h1>Contact Page</h1>
     <p>Contact us using the following:</p>
     <ul>
-    <li>
-        <p>Mobile: 0775-6309-036</p>
-    </li>
-    <li>
-        <p>Email: kidzpass.seniorpass@gmail.com</p>
-    </li>
+        <li>
+            <p>Mobile: 0775-6309-036</p>
+        </li>
+        <li>
+            <p>Email: kidzpass.seniorpass@gmail.com</p>
+        </li>
     </ul>
-{%  endblock %}
+{% endblock %}
 
 {% block content_contact_info %}
-{%  endblock %}
+{% endblock %}
