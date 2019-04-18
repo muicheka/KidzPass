@@ -1,12 +1,11 @@
-# Django_GP
-Dissertation project on graphical passwords
-
+# KidzPass
 
 Welcome to KidzPass, a graphical authentication mechanism for children.
 This application was created to test graphical authentication as a viable alternative to text-based password for young
 children aged 3-5.
 
-SETUP
+<u><b>SETUP</b></u>
+
 If you would like to run KidzPass locally:
 1. simply run the manage.py
 2. command: runserver
@@ -21,7 +20,9 @@ the same network:
 5. command: runserver [ip:port]
 6. Done!
 
-ADDING PICTURES TO KIDZPASS
+
+<u><b>ADDING PICTURES TO KIDZPASS</b></u>
+
 Currently, images for both user(names) and password images are stored locally within the application. I realise this
 isn't the best way to do this but since KidzPass is a prototype system designed to test a concept please be patient.
 
@@ -44,10 +45,12 @@ new Image([imagenumber], "static/images/UserImages/[imagenumber].JPG", "[usernam
 3. Add the file address to the 'arrayImages' array in the following format
 '/static/images/UserImages/[imagenumber].jpg' in /templates/username_selection.html
 
-TO ACCESS ADMIN PANEL - http://[IP:port]/admin_panel/
+TO ACCESS ADMIN PANEL - http://[IP:port]/admin/
+
 CREDS - admin:admin
 
-*** DISCLAIMER ***
+<u><b>*** DISCLAIMER ***</b></u> 
+
 This is a Prototype system and is not ready for commercial release to general public. This application is part of an
 educational project to learn and study the concept of graphical passwords and to test to a theory with study
 participants.

@@ -1,4 +1,7 @@
 {% extends 'base.html' %}
+
+{# Performs sign up function and redirects to homepage#}
+
 {% load static %}
 {% load static from staticfiles %}
 
@@ -18,12 +21,6 @@
             <button type="submit">Sign up</button>
         </form>
     </div>
-
-    {% comment %}    <form method="post">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit">Sign up</button>
-    </form>{% endcomment %}
 
     <script>
         window.onload = function submit_form() {

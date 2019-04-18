@@ -2,6 +2,7 @@
 {% load static %}
 {% load static from staticfiles %}
 
+{# This is the template for graphical password login #}
 
 {% block content %}
     <script src="{% static 'javascript/ip_info.js' %}"></script>
@@ -83,6 +84,7 @@
             return Math.floor(Math.random() * (max - min + 1)) + min;
         }
 
+        {# This is the refresh functionality to change the available images in the set #}
         function refresh_images() {
             var password_image_class = document.getElementsByClassName("password_image");
             var password_image_value = document.getElementsByClassName("password_image_value");

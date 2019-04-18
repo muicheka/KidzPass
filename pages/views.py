@@ -4,6 +4,9 @@ import base64
 import datetime
 
 
+# Views section for templates
+
+
 def get_current_time():
     currentDT = datetime.datetime.now()
     return currentDT
@@ -20,23 +23,7 @@ def home_view(request, *args, **kwargs):
     return render(request, "home.html", my_context)
 
 
-def contact_view(request, *args, **kwargs):
-    # return HttpResponse("<h1>Contact page</h1>")  # string of HTML code
-    return render(request, "contact.html", {})
-
-
-def user_view(request, *args, **kwargs):
-    # return HttpResponse("<h1>User Page</h1>")  # string of HTML code
-    return render(request, "user.html", {})
-
-
-def admin_view(request, *args, **kwargs):
-    # return HttpResponse("<h1>Admin page</h1>")  # string of HTML code
-    return render(request, "admin.html", {})
-
-
 def graphical_login_view(request, *args, **kwargs):
-    # return HttpResponse("<h1>About page</h1>")  # string of HTML code
     return render(request, "graphical_login.html", {})
 
 
@@ -45,6 +32,7 @@ def reguser(request, *args, **kwargs):
 
 
 def hash_test(request):
+    # turns images into base64 and returns it ready for hashing.
     image_id = request.POST.get('password_image_id')
     import base64
     with open("static/images/PasswordImages/" + image_id, "rb") as imageFile:
@@ -165,8 +153,6 @@ def get_user_image(request):
         return string
 
 
-from django.shortcuts import render_to_response
-import json
 from django.core import serializers
 
 
@@ -186,5 +172,3 @@ def startlogin(request):
     print("STARTED LOGIN")
     data = "started login"
     return HttpResponse(data)
-
-from django.contrib import messages

@@ -1,4 +1,7 @@
 {% extends "base.html" %}
+
+{# This is the template for the home page#}
+
 {% load static from staticfiles %}
 {% block content %}
     <link rel="stylesheet" type="text/css" media="all" href="{% static 'css/home_style.css' %}">
@@ -123,6 +126,7 @@
         {% endif %}
 
 
+        {#    If user is authenticatied shows the games. This can be changed out#}
     </script>
     {% if user.is_authenticated %}
         <div align="center" style="padding:10px;">

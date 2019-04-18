@@ -20,8 +20,6 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from accounts.views import login_programmatically, Login, Signup
 from pages.views import (
     home_view,
-    contact_view,
-    admin_view, user_view,
     graphical_login_view,
     hash_test,
     reg_hash,
@@ -34,23 +32,11 @@ from pages.views import (
     selected_user_image_reg_view,
 
 )
-from profiles.views import (
-    profile_detail_view,
-    profile_create_view,
-    dynamic_lookup_view,
-    login_form_view,
-)
 
 urlpatterns = [
     path('', home_view, name='home'),
-    path('contact/', contact_view, name='contact'),
     path('graphical_login/', graphical_login_view, name='graphical_login'),
-    path('admin/', admin_view),
-    path('user/', user_view),
-    path('admin_panel/', admin.site.urls),
-    path('profile/<int:profile_id>/', dynamic_lookup_view, name='profile'),
-    path('create/', profile_create_view, name='create'),
-    # path('login/', login_form_view, name='login'),
+    path('admin/', admin.site.urls),
     path('hash/', hash_test, name='hash'),
     path('reg_hash/', reg_hash, name='reg_hash'),
     path('get_user_image', get_user_image, name='get_user_image'),

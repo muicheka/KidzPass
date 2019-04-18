@@ -1,4 +1,7 @@
 {% load static from staticfiles %}
+
+{# Base template for all pages - provides things like nav bar #}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,13 +15,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </head>
-{% comment %}<nav>
-    <ul id="nav_bar">
-        <li class="nav_options"><a href="{% url 'home' %}">Home</a></li>
-        <li class="nav_options"><a href="{% url 'reguser' %}">Register</a></li>
-        <li class="nav_options"><a href="{% url 'username_select' %}">Login</a></li>
-    </ul>
-</nav>{% endcomment %}
 
 
 <body>
